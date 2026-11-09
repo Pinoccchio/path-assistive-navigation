@@ -7,7 +7,7 @@ enum AlertDelivery { voiceAndHaptic, voiceOnly, hapticOnly }
 
 enum DirectionFormat { clockHand, threeZone }
 
-/// Saved UI preferences. Alert output is not enabled by these selections yet.
+/// Saved preferences for detection speech and neutral haptic update cues.
 class PathPreferences extends ChangeNotifier {
   PathPreferences({Future<SharedPreferences> Function()? loadStorage})
     : _loadStorage = loadStorage ?? SharedPreferences.getInstance;
@@ -21,6 +21,7 @@ class PathPreferences extends ChangeNotifier {
   bool stairs = true;
   bool vehicles = true;
   bool pedestrians = true;
+  bool hapticsEnabled = true;
   bool ready = false;
   String? error;
   bool _disposed = false;
@@ -51,6 +52,9 @@ class PathPreferences extends ChangeNotifier {
         pedestrians = data['pedestrians'] is bool
             ? data['pedestrians'] as bool
             : true;
+        hapticsEnabled = data['hapticsEnabled'] is bool
+            ? data['hapticsEnabled'] as bool
+            : true;
       }
       error = null;
       ready = true;
@@ -69,6 +73,7 @@ class PathPreferences extends ChangeNotifier {
     bool? stairs,
     bool? vehicles,
     bool? pedestrians,
+    bool? hapticsEnabled,
   }) {
     if (!ready) return;
     this.delivery = delivery ?? this.delivery;
@@ -78,6 +83,7 @@ class PathPreferences extends ChangeNotifier {
     this.stairs = stairs ?? this.stairs;
     this.vehicles = vehicles ?? this.vehicles;
     this.pedestrians = pedestrians ?? this.pedestrians;
+    this.hapticsEnabled = hapticsEnabled ?? this.hapticsEnabled;
     _notify();
     save();
   }
@@ -91,6 +97,7 @@ class PathPreferences extends ChangeNotifier {
       'stairs': stairs,
       'vehicles': vehicles,
       'pedestrians': pedestrians,
+      'hapticsEnabled': hapticsEnabled,
     });
     _writes = _writes.then((_) async {
       try {
@@ -114,6 +121,7 @@ class PathPreferences extends ChangeNotifier {
       speechRate = 1.5;
       cooldown = 1;
       stairs = vehicles = pedestrians = true;
+      hapticsEnabled = true;
       ready = true;
       _notify();
       await save();

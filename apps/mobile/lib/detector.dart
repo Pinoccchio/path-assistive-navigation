@@ -73,19 +73,12 @@ class Detector {
     final output = Uint8List(12 * 5376 * 4);
     await _worker.run(input.buffer.asUint8List(), output);
     final values = output.buffer.asFloat32List();
-    final detections = _decode(values).map((detection) {
-      return Detection(
-        detection.label,
-        detection.score,
-        detection.direction,
-        modelBoxToPreview(
-          detection.box,
-          frame.width,
-          frame.height,
-          sensorRotation,
-        ),
-      );
-    }).toList();
+    final detections = decodeDetections(
+      values,
+      frame.width,
+      frame.height,
+      sensorRotation,
+    );
     timer.stop();
     return DetectionResult(detections, timer.elapsedMilliseconds);
   }
@@ -182,9 +175,43 @@ Float32List _prepareFrame(Map<String, Object> data) {
   return input;
 }
 
-List<Detection> _decode(Float32List output) {
+typedef _ModelDetection = ({String label, double score, List<double> box});
+
+/// Decode and suppress in model space, then derive direction in preview space.
+/// The rear camera preview is not mirrored. 'ahead' is the center third.
+List<Detection> decodeDetections(
+  Float32List output,
+  int frameWidth,
+  int frameHeight,
+  int sensorRotation,
+) {
+  if (output.length != 12 * 5376 || frameWidth <= 0 || frameHeight <= 0) {
+    throw ArgumentError('Invalid detector output or frame dimensions.');
+  }
+  return _decode(output).map((detection) {
+    final box = modelBoxToPreview(
+      detection.box,
+      frameWidth,
+      frameHeight,
+      sensorRotation,
+    );
+    final center = (box[0] + box[2]) / 2;
+    return Detection(
+      detection.label,
+      detection.score,
+      center < 1 / 3
+          ? 'left'
+          : center < 2 / 3
+          ? 'ahead'
+          : 'right',
+      box,
+    );
+  }).toList();
+}
+
+List<_ModelDetection> _decode(Float32List output) {
   const count = 5376;
-  final candidates = <Detection>[];
+  final candidates = <_ModelDetection>[];
   for (var i = 0; i < count; i++) {
     var bestClass = 0;
     var bestScore = 0.25;
@@ -209,21 +236,10 @@ List<Detection> _decode(Float32List output) {
       continue;
     }
     final box = [x - w / 2, y - h / 2, x + w / 2, y + h / 2];
-    candidates.add(
-      Detection(
-        classNames[bestClass],
-        bestScore,
-        x < 512 / 3
-            ? 'left'
-            : x > 512 * 2 / 3
-            ? 'right'
-            : 'ahead',
-        box,
-      ),
-    );
+    candidates.add((label: classNames[bestClass], score: bestScore, box: box));
   }
   candidates.sort((a, b) => b.score.compareTo(a.score));
-  final accepted = <Detection>[];
+  final accepted = <_ModelDetection>[];
   for (final candidate in candidates) {
     if (accepted.length >= 12) break;
     if (accepted.any(

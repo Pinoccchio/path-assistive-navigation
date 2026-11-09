@@ -464,7 +464,7 @@ void main() {
       );
       await tester.tap(find.text('Back'));
       await tester.pumpAndSettle();
-      expect(find.text('PATH / IDLE'), findsOneWidget);
+      expect(find.text('IDLE'), findsOneWidget);
     }
     expect(tester.takeException(), isNull);
   });

@@ -12,12 +12,12 @@ void main() {
     addTearDown(tester.view.resetDevicePixelRatio);
     await tester.pumpWidget(const ResearchApp());
     expect(find.text('Camera is off'), findsOneWidget);
-    expect(find.text('PATH / IDLE'), findsOneWidget);
+    expect(find.text('IDLE'), findsOneWidget);
     expect(find.text('Start camera session'), findsOneWidget);
     expect(find.textContaining('Research test only.'), findsNothing);
-    expect(find.text('MUTE AUDIO'), findsOneWidget);
-    expect(find.text('HAPTICS ON'), findsOneWidget);
-    expect(find.text('REPEAT LAST ALERT'), findsOneWidget);
+    expect(find.text('Mute audio'), findsOneWidget);
+    expect(find.text('HAPTICS ON'), findsNothing);
+    expect(find.text('Repeat'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 

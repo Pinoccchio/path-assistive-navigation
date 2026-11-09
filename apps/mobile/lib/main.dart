@@ -8,6 +8,11 @@ import 'session_view.dart';
 import 'path_preferences.dart';
 import 'settings_screen.dart';
 import 'hazard_log_screen.dart';
+import 'detection_speech.dart';
+import 'flutter_speech_output.dart';
+import 'detection_haptics.dart';
+import 'android_haptic_output.dart';
+import 'feedback_clock.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -56,23 +61,43 @@ class _SessionScreenState extends State<SessionScreen>
   bool _starting = false;
   String? _error;
   final _preferences = PathPreferences();
+  late final DetectionSpeech _speech;
+  late final DetectionHaptics _haptics;
+  int _sessionGeneration = 0;
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
+    final clock = createFeedbackClock();
+    _haptics = DetectionHaptics(
+      output: AndroidHapticOutput(),
+      preferences: _preferences,
+      now: clock,
+    )..addListener(_speechChanged);
+    _speech = DetectionSpeech(
+      output: FlutterSpeechOutput(),
+      preferences: _preferences,
+      now: clock,
+      onStableScene: _haptics.consider,
+    )..addListener(_speechChanged);
     _preferences.load();
+  }
+
+  void _speechChanged() {
+    if (mounted) setState(() {});
   }
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
-    if (state != AppLifecycleState.resumed && _camera != null) {
+    if (state != AppLifecycleState.resumed && (_camera != null || _starting)) {
       _stopSession();
     }
   }
 
   Future<void> _startSession() async {
     if (_starting || _stopping || _camera != null) return;
+    final generation = ++_sessionGeneration;
     setState(() {
       _starting = true;
       _error = null;
@@ -96,14 +121,19 @@ class _SessionScreenState extends State<SessionScreen>
         enableAudio: false,
       );
       await next.initialize();
-      if (!mounted) {
+      if (!mounted || generation != _sessionGeneration) {
         await next.dispose();
         await detector.close();
+        if (mounted) setState(() => _starting = false);
         return;
       }
       _detector = detector;
       await next.startImageStream((frame) {
-        if (_stopping || _pendingFrame != null) return;
+        if (_stopping ||
+            generation != _sessionGeneration ||
+            _pendingFrame != null) {
+          return;
+        }
         final now = DateTime.now();
         if (_lastFrame != null &&
             now.difference(_lastFrame!).inMilliseconds < 500) {
@@ -113,19 +143,31 @@ class _SessionScreenState extends State<SessionScreen>
         final pending = _processFrame(
           frame,
           next!.description.sensorOrientation,
+          _speech.markFrameReceived(),
         );
         _pendingFrame = pending;
         pending.whenComplete(() => _pendingFrame = null);
       });
+      if (!mounted || generation != _sessionGeneration) {
+        await next.stopImageStream();
+        await _pendingFrame;
+        await next.dispose();
+        await detector.close();
+        _detector = null;
+        if (mounted) setState(() => _starting = false);
+        return;
+      }
       setState(() {
         _camera = next;
         _starting = false;
       });
+      _speech.start();
+      _haptics.start();
     } on CameraException catch (error) {
       await next?.dispose();
       await detector?.close();
       _detector = null;
-      if (mounted) {
+      if (mounted && generation == _sessionGeneration) {
         setState(() {
           _starting = false;
           _error = error.code == 'CameraAccessDenied'
@@ -137,16 +179,22 @@ class _SessionScreenState extends State<SessionScreen>
       await next?.dispose();
       await detector?.close();
       _detector = null;
-      if (mounted) {
+      if (mounted && generation == _sessionGeneration) {
         setState(() {
           _starting = false;
           _error = 'Could not start detection: $error';
         });
       }
+    } finally {
+      if (mounted && _camera == null) setState(() => _starting = false);
     }
   }
 
-  Future<void> _processFrame(CameraImage frame, int rotation) async {
+  Future<void> _processFrame(
+    CameraImage frame,
+    int rotation,
+    DateTime receivedAt,
+  ) async {
     try {
       final result = await _detector!.detect(frame, rotation);
       if (mounted && !_stopping && _camera != null) {
@@ -155,6 +203,7 @@ class _SessionScreenState extends State<SessionScreen>
           _elapsedMs = result.elapsedMs;
           _processedFrames++;
         });
+        _speech.consider(result.detections, observedAt: receivedAt);
       }
     } catch (error) {
       if (mounted && !_stopping) {
@@ -165,14 +214,20 @@ class _SessionScreenState extends State<SessionScreen>
   }
 
   Future<void> _stopSession() async {
+    ++_sessionGeneration;
+    final stoppedSpeech = Future.wait<void>([_speech.stop(), _haptics.stop()]);
     final camera = _camera;
-    if (camera == null) return;
+    if (camera == null) {
+      await stoppedSpeech;
+      return;
+    }
     _stopping = true;
     if (mounted) setState(() => _camera = null);
     if (camera.value.isStreamingImages) await camera.stopImageStream();
     await _pendingFrame;
     await camera.dispose();
     await _detector?.close();
+    await stoppedSpeech;
     _detector = null;
     _stopping = false;
     if (mounted) {
@@ -186,6 +241,11 @@ class _SessionScreenState extends State<SessionScreen>
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
+    ++_sessionGeneration;
+    _speech.removeListener(_speechChanged);
+    _speech.dispose();
+    _haptics.removeListener(_speechChanged);
+    _haptics.dispose();
     _camera?.dispose();
     _detector?.close();
     _preferences.dispose();
@@ -225,6 +285,32 @@ class _SessionScreenState extends State<SessionScreen>
       elapsedMs: _elapsedMs,
       processedFrames: _processedFrames,
       error: _error,
+      voiceStatus:
+          _speech.error ??
+          (_haptics.enabled ? _haptics.error : null) ??
+          (_speech.muted
+              ? (_haptics.enabled
+                    ? 'Audio muted. ${_haptics.status}'
+                    : 'Audio muted')
+              : !_speech.voiceEnabled
+              ? _haptics.status
+              : _speech.active && !_speech.ready
+              ? 'Preparing voice'
+              : (_speech.lastMessage == null
+                        ? null
+                        : 'Last spoken: ${_speech.lastMessage}') ??
+                    (camera != null
+                        ? 'Listening for detections'
+                        : 'Voice ready for session')),
+      audioMuted: _speech.muted,
+      hapticsOn: _haptics.enabled,
+      hapticStatus: _haptics.status,
+      onToggleHaptics: _haptics.canToggle ? _haptics.toggle : null,
+      onToggleAudio: _speech.toggleMute,
+      onRepeat: _speech.canRepeat ? _speech.repeat : null,
+      onDescribeScene: _speech.canDescribe ? _speech.describeScene : null,
+      onMoreDetails: _speech.canReadMore ? _speech.moreDetails : null,
+      hasMoreDetails: _speech.hasMoreDetails,
       onOpenSettings: () =>
           _openPage(SettingsScreen(preferences: _preferences)),
       onOpenLog: () => _openPage(const HazardLogScreen(previewMode: true)),
@@ -241,18 +327,10 @@ class _CameraViewport extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final preview = camera.value.previewSize!;
-    return SizedBox.expand(
-      child: FittedBox(
-        fit: BoxFit.contain,
-        child: SizedBox(
-          width: preview.height,
-          height: preview.width,
-          child: CameraPreview(
-            camera,
-            child: DetectionOverlay(detections: detections),
-          ),
-        ),
-      ),
+    return ProportionalDetectionPreview(
+      imageSize: Size(preview.height, preview.width),
+      image: CameraPreview(camera),
+      detections: detections,
     );
   }
 }
