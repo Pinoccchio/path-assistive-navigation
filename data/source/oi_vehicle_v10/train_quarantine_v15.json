@@ -1,0 +1,14 @@
+{
+  "scope": "Quarantine seven visually confirmed incomplete bicycle-label images from v14 training only; preserve source files and all validation/test samples.",
+  "review_method": "Full-resolution original-image review against current v14 bicycle boxes and whole-image audit sheets. Exclusion is reversible pending exhaustive instance annotation.",
+  "excluded": {
+    "ca17abd7809bdd0c": {"image_sha256": "90534a8d27dc70253fd772924fd625df23c7e47e865327ef2b49119bd0ea0ceb", "reason": "Crowded cycling start line with many visible bicycles and only one bicycle box; unflagged by v11 proposals."},
+    "29e6d25056a05f4d": {"image_sha256": "137dea99343d5f6012bfddc864297d239e7754bf61f01571d957f2ef730eb1ae", "reason": "Cycling crowd with many visible bicycles and only one bicycle box."},
+    "dfc7fb40f5632b45": {"image_sha256": "01aa2f7a40532eb5f6945081ff98bc4a271770cd67148bb76ce95a9c1dc2d877", "reason": "Dense race lineup with many visible bicycles and only one bicycle box."},
+    "b96a89e8d5b34184": {"image_sha256": "ceb1f2cc83877a6206b6521242652cdfd2644871680837990791bfc33d06bd61", "reason": "Cycling group with more visible bicycles than four source boxes; overlapping instances need exhaustive review."},
+    "2097b2c1aaf55688": {"image_sha256": "71eb3475575a70dcff2656163a24737ed0e529d0288699cf0632ebc9dc02a7bc", "reason": "Dense bicycle parking scene with many visible bicycles and only four bicycle boxes."},
+    "1f0413949f0d0e90": {"image_sha256": "1da38cb1eae48877c4a80f71b843457648b6a87716907148b838384ca90d8817", "reason": "Bike-rack scene with many visible bicycles and only three bicycle boxes."},
+    "ceff3e6b06f665a5": {"image_sha256": "f55fa5bcf7ec7a9f5b5e3d58ede5db7d0084aaf1d6ae5b582edfc5365ba80e5c", "reason": "Bike-rack scene with many visible bicycles and only two bicycle boxes."}
+  },
+  "remaining_work": "Quarantine does not establish completeness of the retained training set. Re-include only after exhaustive human annotation and QA."
+}

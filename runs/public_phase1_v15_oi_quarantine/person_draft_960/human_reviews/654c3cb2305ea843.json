@@ -1,0 +1,20 @@
+{
+  "image_id": "654c3cb2305ea843",
+  "image_sha256": "bfb7fcf96e098fe510df274a279d978ccfdcc40a69a95123e13b61f96652acea",
+  "width": 1024,
+  "height": 768,
+  "status": "in_progress",
+  "reviewer": "Codex AI visual triage",
+  "second_reviewer": "",
+  "all_visible_people_checked": false,
+  "vehicle_completeness_checked": false,
+  "notes": "AI triage: one person; extended box toward visible hand/leg. Two motorcycles appear visible but source has one motorcycle box; vehicle completeness unresolved.",
+  "boxes": [
+    [
+      340.0,
+      136.4,
+      660.1,
+      455.0
+    ]
+  ]
+}

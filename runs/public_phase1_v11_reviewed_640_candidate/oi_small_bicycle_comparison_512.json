@@ -1,0 +1,989 @@
+{
+  "kind": "small_bicycle",
+  "source": "Open Images V7 test",
+  "imgsz": 512,
+  "conf": 0.25,
+  "matching_iou": 0.5,
+  "images": 31,
+  "groups": {
+    "small_bicycle": 31
+  },
+  "selection_seed": 20261005,
+  "selection_sha256": "79bfe7d89ed453f6404ff708d221a55161b291679256924a90319dae18cbd051",
+  "review_sha256": "8cb4850308b9e8b1e6a036be1d5306d87b70c0b193bd588f6da8c80701a01f7a",
+  "limitations": "Development comparison on public images already used to choose this experiment; not independent or phone-domain validation.",
+  "models": {
+    "v9": {
+      "weights_sha256": "3d54bba95e535db378eeb67496e2324f219d7991eaedfcc5291a3dc4e3da0099",
+      "counts": {
+        "bicycle_gt": 48,
+        "bicycle_matched": 11,
+        "bicycle_pred": 76,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 11,
+        "bike_only_images_with_motorcycle_prediction": 10
+      },
+      "rows": [
+        {
+          "image_id": "97948408f6a3a476",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 0,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "126f9b413309aa4c",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "04ef633c41462641",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 7,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "7f67f6051d99b447",
+          "group": "small_bicycle",
+          "bicycle_gt": 8,
+          "bicycle_matched": 1,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "0c72c95ee8e4c6e6",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 0,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "f7210d60b00102a2",
+          "group": "small_bicycle",
+          "bicycle_gt": 3,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "e73e9c6111a9f7d4",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "0d1902a8a0ccab84",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 12,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 2
+        },
+        {
+          "image_id": "637bd7e807a742a8",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "711012ff91bddbe5",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 5,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "4b76b35cd4d63ce3",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 6,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "1c75e5e7104da318",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "5dc9465b0bad69fc",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "f2a6c70eeb66e2a5",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 0,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "410495487da9771a",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "370afdfc46eaa248",
+          "group": "small_bicycle",
+          "bicycle_gt": 4,
+          "bicycle_matched": 1,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "361ce18d9489c7ab",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "5ecff14d4085663c",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 0,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "0e0625e9e1bd200d",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "9183e29974bac45c",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "8b6fab32f099cf50",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 9,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "586e7f5bf13412b3",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "d97ab9ae3d902fa0",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 4,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "d0e1433d9fe813e6",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "118de39bd14b87b4",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "0caafe50e3258dd3",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "07a23b4ca59c2c26",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "91fce09c6ffabb56",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "dffaf8a4d9fc6c82",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "dbed91844d434b7d",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "5a7c753c0e06099d",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        }
+      ]
+    },
+    "v10": {
+      "weights_sha256": "9911602a5a61506dc2c38fdc56f4125bb87e38e5a0cc9911db5bae6b8bcdfa21",
+      "counts": {
+        "bicycle_gt": 48,
+        "bicycle_matched": 11,
+        "bicycle_pred": 87,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 9,
+        "bike_only_images_with_motorcycle_prediction": 8
+      },
+      "rows": [
+        {
+          "image_id": "97948408f6a3a476",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 0,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "126f9b413309aa4c",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "04ef633c41462641",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "7f67f6051d99b447",
+          "group": "small_bicycle",
+          "bicycle_gt": 8,
+          "bicycle_matched": 1,
+          "bicycle_pred": 4,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "0c72c95ee8e4c6e6",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 0,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "f7210d60b00102a2",
+          "group": "small_bicycle",
+          "bicycle_gt": 3,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "e73e9c6111a9f7d4",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "0d1902a8a0ccab84",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 11,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 2
+        },
+        {
+          "image_id": "637bd7e807a742a8",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "711012ff91bddbe5",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 4,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "4b76b35cd4d63ce3",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 8,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "1c75e5e7104da318",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "5dc9465b0bad69fc",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 6,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "f2a6c70eeb66e2a5",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 0,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "410495487da9771a",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "370afdfc46eaa248",
+          "group": "small_bicycle",
+          "bicycle_gt": 4,
+          "bicycle_matched": 1,
+          "bicycle_pred": 4,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "361ce18d9489c7ab",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "5ecff14d4085663c",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 0,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "0e0625e9e1bd200d",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "9183e29974bac45c",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "8b6fab32f099cf50",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 10,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "586e7f5bf13412b3",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "d97ab9ae3d902fa0",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "d0e1433d9fe813e6",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 4,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "118de39bd14b87b4",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "0caafe50e3258dd3",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "07a23b4ca59c2c26",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "91fce09c6ffabb56",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "dffaf8a4d9fc6c82",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "dbed91844d434b7d",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "5a7c753c0e06099d",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        }
+      ]
+    },
+    "v11": {
+      "weights_sha256": "07bc158b8bf4281bf22ed8f235ebbb1e4d507e104f9ce78dac8410f439940a74",
+      "counts": {
+        "bicycle_gt": 48,
+        "bicycle_matched": 10,
+        "bicycle_pred": 101,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 4,
+        "bike_only_images_with_motorcycle_prediction": 3
+      },
+      "rows": [
+        {
+          "image_id": "97948408f6a3a476",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 0,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "126f9b413309aa4c",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "04ef633c41462641",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 6,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "7f67f6051d99b447",
+          "group": "small_bicycle",
+          "bicycle_gt": 8,
+          "bicycle_matched": 1,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "0c72c95ee8e4c6e6",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "f7210d60b00102a2",
+          "group": "small_bicycle",
+          "bicycle_gt": 3,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "e73e9c6111a9f7d4",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "0d1902a8a0ccab84",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 11,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 2
+        },
+        {
+          "image_id": "637bd7e807a742a8",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "711012ff91bddbe5",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 7,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "4b76b35cd4d63ce3",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 14,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "1c75e5e7104da318",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "5dc9465b0bad69fc",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 5,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "f2a6c70eeb66e2a5",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 0,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "410495487da9771a",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "370afdfc46eaa248",
+          "group": "small_bicycle",
+          "bicycle_gt": 4,
+          "bicycle_matched": 1,
+          "bicycle_pred": 6,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "361ce18d9489c7ab",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "5ecff14d4085663c",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 0,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "0e0625e9e1bd200d",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "9183e29974bac45c",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "8b6fab32f099cf50",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 10,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "586e7f5bf13412b3",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "d97ab9ae3d902fa0",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 4,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 1
+        },
+        {
+          "image_id": "d0e1433d9fe813e6",
+          "group": "small_bicycle",
+          "bicycle_gt": 2,
+          "bicycle_matched": 0,
+          "bicycle_pred": 5,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "118de39bd14b87b4",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 2,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "0caafe50e3258dd3",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "07a23b4ca59c2c26",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "91fce09c6ffabb56",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "dffaf8a4d9fc6c82",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 3,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "dbed91844d434b7d",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 1,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        },
+        {
+          "image_id": "5a7c753c0e06099d",
+          "group": "small_bicycle",
+          "bicycle_gt": 1,
+          "bicycle_matched": 0,
+          "bicycle_pred": 1,
+          "motorcycle_gt": 0,
+          "motorcycle_matched": 0,
+          "motorcycle_pred": 0
+        }
+      ]
+    }
+  }
+}

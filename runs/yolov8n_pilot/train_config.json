@@ -1,0 +1,16 @@
+{
+  "data": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\rod_pilot_7class\\dataset.yaml",
+  "epochs": 5,
+  "imgsz": 512,
+  "batch": 4,
+  "device": 0,
+  "workers": 2,
+  "seed": 42,
+  "deterministic": true,
+  "project": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\runs\\yolov8n_pilot",
+  "name": "finetune_7class_5epoch",
+  "exist_ok": true,
+  "plots": true,
+  "verbose": true,
+  "cache": false
+}

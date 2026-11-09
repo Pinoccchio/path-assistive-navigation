@@ -1,0 +1,20 @@
+{
+  "image_id": "5da1151716ece103",
+  "image_sha256": "97b10d89547790677c5e6a43c62144356da86079961267effe3db795a9d48bea",
+  "width": 1024,
+  "height": 772,
+  "status": "in_progress",
+  "reviewer": "Codex AI visual triage",
+  "second_reviewer": "",
+  "all_visible_people_checked": false,
+  "vehicle_completeness_checked": false,
+  "notes": "AI triage: one person beside motorcycle; widened right edge to include visible hand. Human full-image and motorcycle-box review required.",
+  "boxes": [
+    [
+      425.8,
+      186.7,
+      770.0,
+      452.3
+    ]
+  ]
+}

@@ -1,0 +1,2749 @@
+{
+  "source": "Open Images V7",
+  "source_split": "test",
+  "seed": 20261003,
+  "bike_count": 40,
+  "moto_count": 40,
+  "box_policy": "non-group, non-depiction target-class boxes",
+  "rows": [
+    {
+      "group": "small_bicycle",
+      "image_id": "50152080c0ecfb56",
+      "OriginalURL": "https://farm7.staticflickr.com/3133/2730999404_4d09261bd7_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/charkes/2730999404",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Charles Willgren",
+      "boxes": [
+        [
+          4,
+          0.3572916665,
+          0.59765625,
+          0.6854166669999999,
+          0.4765625
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "8281debfdd5b4889",
+      "OriginalURL": "https://c2.staticflickr.com/4/3337/3639622552_6d56625769_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/wirralwater/3639622552",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "pete",
+      "boxes": [
+        [
+          4,
+          0.17265625,
+          0.184375,
+          0.3453125,
+          0.36875
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "bda095274738b159",
+      "OriginalURL": "https://c2.staticflickr.com/5/4069/4694531970_735a22bd9f_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/helmut_rec/4694531970",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Helmut Rec",
+      "boxes": [
+        [
+          4,
+          0.35988201200000003,
+          0.5,
+          0.48082597600000004,
+          1.0
+        ],
+        [
+          4,
+          0.358407095,
+          0.68915929,
+          0.39233041,
+          0.62168142
+        ],
+        [
+          0,
+          0.55014749,
+          0.3595132747,
+          0.7138643,
+          0.7146017706
+        ],
+        [
+          0,
+          0.60619467,
+          0.8484513149999999,
+          0.5663716599999999,
+          0.30309737000000003
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "861bf98f625154e2",
+      "OriginalURL": "https://farm3.staticflickr.com/675/21165175755_3086e90290_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/26473912@N04/21165175755/",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "se7en",
+      "boxes": [
+        [
+          4,
+          0.473826725,
+          0.803249125,
+          0.26895304999999997,
+          0.19855595000000004
+        ],
+        [
+          4,
+          0.504512635,
+          0.34296028500000003,
+          0.30505413,
+          0.25270757
+        ],
+        [
+          4,
+          0.6642599,
+          0.26083032,
+          0.2527075999999999,
+          0.22563176
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "684b5fbfedae9a42",
+      "OriginalURL": "https://farm3.staticflickr.com/6153/6175691799_7f3bbca698_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/martin_nikolaj/6175691799",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Martin Nikolaj Christensen",
+      "boxes": [
+        [
+          4,
+          0.3731563375,
+          0.73561947,
+          0.513274325,
+          0.52876106
+        ],
+        [
+          0,
+          0.050884955,
+          0.318584085,
+          0.10176991,
+          0.63716817
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "714e24decce5aeac",
+      "OriginalURL": "https://c5.staticflickr.com/4/3317/3479009355_aa0f52b33d_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/alexerde/3479009355/",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Alex Erde",
+      "boxes": [
+        [
+          4,
+          0.47935105,
+          0.46238938,
+          0.9587021,
+          0.92477876
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "530b0c8cea862dbc",
+      "OriginalURL": "https://c5.staticflickr.com/3/2706/4394896831_552ee340a7_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/lets_dothat/4394896831",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Joel",
+      "boxes": [
+        [
+          4,
+          0.64140625,
+          0.6291666650000001,
+          0.7171875,
+          0.74166667
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "7c3fcc3b6d06cfd3",
+      "OriginalURL": "https://farm4.staticflickr.com/5263/5694160767_a5ed516fd4_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/ibikefresno/5694160767/",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "I Bike Fresno",
+      "boxes": [
+        [
+          4,
+          0.229329177,
+          0.56784969,
+          0.28705148599999997,
+          0.86430062
+        ],
+        [
+          4,
+          0.28549142,
+          0.5031315199999999,
+          0.25585022,
+          0.72651356
+        ],
+        [
+          4,
+          0.6045242,
+          0.475991657,
+          0.4196568,
+          0.772442606
+        ],
+        [
+          4,
+          0.750390035,
+          0.48016702,
+          0.46801873000000005,
+          0.68058456
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "7a3d6af7f97fa846",
+      "OriginalURL": "https://farm7.staticflickr.com/3278/3282943169_f7531371d2_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/xtinamilan/3282943169",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Christina Andrada",
+      "boxes": [
+        [
+          4,
+          0.33727811500000004,
+          0.524229065,
+          0.51775149,
+          0.55947133
+        ],
+        [
+          0,
+          0.08357988499999999,
+          0.22026431,
+          0.13461539,
+          0.27312774
+        ],
+        [
+          0,
+          0.492603555,
+          0.2400881025,
+          0.15680477000000004,
+          0.41850219499999997
+        ],
+        [
+          0,
+          0.579142,
+          0.30066080500000003,
+          0.1405326,
+          0.41189429
+        ],
+        [
+          0,
+          0.6856509,
+          0.36233481,
+          0.07840239999999998,
+          0.27092512
+        ],
+        [
+          0,
+          0.9430473500000001,
+          0.31497798,
+          0.11390529999999999,
+          0.40528636
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "08360cb5ad873a7d",
+      "OriginalURL": "https://c6.staticflickr.com/8/7360/9444094315_1ca332e94b_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/danielhargrave/9444094315",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Daniel Hargrave",
+      "boxes": [
+        [
+          4,
+          0.608695635,
+          0.58245876,
+          0.39565213,
+          0.50824588
+        ],
+        [
+          0,
+          0.4021739,
+          0.475262375,
+          0.5695652,
+          0.5277361300000001
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "868472ae4b8accbe",
+      "OriginalURL": "https://c7.staticflickr.com/4/3106/3578336464_8a5864cb9a_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/32048268@N00/3578336464",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Julia O",
+      "boxes": [
+        [
+          4,
+          0.5,
+          0.4680851,
+          1.0,
+          0.9361702
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "4d4f078ba13f45f2",
+      "OriginalURL": "https://farm3.staticflickr.com/5047/5296250450_033c8b5837_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/baudman/5296250450",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "baudman \uf8ff",
+      "boxes": [
+        [
+          4,
+          0.5502793225,
+          0.48014018,
+          0.882681555,
+          0.96028036
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "0c7ba550abe68e59",
+      "OriginalURL": "https://c2.staticflickr.com/4/3945/14987699584_5f413c792a_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/roland/14987699584",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Roland Tanglao",
+      "boxes": [
+        [
+          4,
+          0.5,
+          0.592771085,
+          1.0,
+          0.81445783
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "b4fb5fc189c9e45b",
+      "OriginalURL": "https://c4.staticflickr.com/3/2327/2165542506_857833fc98_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/martinalvarez/2165542506",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Martin Alvarez Espinar",
+      "boxes": [
+        [
+          4,
+          0.55703125,
+          0.46458334,
+          0.29531250000000003,
+          0.27083332
+        ],
+        [
+          4,
+          0.58125,
+          0.746875025,
+          0.31562499999999993,
+          0.27708334999999995
+        ],
+        [
+          0,
+          0.17109375,
+          0.521874995,
+          0.045312500000000006,
+          0.08958332999999996
+        ],
+        [
+          0,
+          0.23828125,
+          0.5135416899999999,
+          0.07656249999999998,
+          0.11875001999999996
+        ],
+        [
+          0,
+          0.334375,
+          0.58958332,
+          0.11249999999999999,
+          0.25416664
+        ],
+        [
+          0,
+          0.46171875,
+          0.63854167,
+          0.08281250000000007,
+          0.40208334
+        ],
+        [
+          0,
+          0.7320312499999999,
+          0.796875,
+          0.2640625,
+          0.2604166000000001
+        ],
+        [
+          0,
+          0.953125,
+          0.640625015,
+          0.09375,
+          0.51458337
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "a8b1b9dbb5cf0eab",
+      "OriginalURL": "https://c4.staticflickr.com/6/5341/9596129393_5232af7ab1_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/shht/9596129393",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Miquel C.",
+      "boxes": [
+        [
+          4,
+          0.48375452500000005,
+          0.71660652,
+          0.43682315,
+          0.5379061599999999
+        ],
+        [
+          4,
+          0.73555957,
+          0.69584836,
+          0.47833934000000006,
+          0.48555956000000006
+        ],
+        [
+          0,
+          0.47111911500000003,
+          0.47743682,
+          0.36823103,
+          0.74187724
+        ],
+        [
+          0,
+          0.718411535,
+          0.480144405,
+          0.37545127,
+          0.7328519899999999
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "ab0cb49d328f4c62",
+      "OriginalURL": "https://farm3.staticflickr.com/2613/4110824934_fe4a79bc69_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/snaks/4110824934",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "k.steudel",
+      "boxes": [
+        [
+          4,
+          0.2796875,
+          0.96875,
+          0.325,
+          0.0625
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "173d6fa712870904",
+      "OriginalURL": "https://farm5.staticflickr.com/179/484013890_e414c500a9_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/warrenlong/484013890",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Warren Long",
+      "boxes": [
+        [
+          4,
+          0.60078125,
+          0.76354168,
+          0.24531249999999993,
+          0.39791664000000004
+        ],
+        [
+          4,
+          0.85390625,
+          0.74270834,
+          0.29218750000000004,
+          0.5145833200000001
+        ],
+        [
+          0,
+          0.584375,
+          0.59791667,
+          0.21562499999999996,
+          0.67083334
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "a1204ef36a38e5e0",
+      "OriginalURL": "https://farm1.staticflickr.com/1359/763204759_b584e5a05c_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/chantrybee/763204759",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "chantrybee",
+      "boxes": [
+        [
+          4,
+          0.62241888,
+          0.57079646,
+          0.55162244,
+          0.52654868
+        ],
+        [
+          0,
+          0.21976401,
+          0.081858405,
+          0.19469026,
+          0.16371681
+        ],
+        [
+          0,
+          0.39528024,
+          0.084070795,
+          0.12979352,
+          0.16814159
+        ],
+        [
+          0,
+          0.97640118,
+          0.102876105,
+          0.04719764000000004,
+          0.20575221
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "355bc1ce582f0e96",
+      "OriginalURL": "https://farm7.staticflickr.com/5556/14631704107_f218b36160_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/126519079@N08/14631704107",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "matthias foag",
+      "boxes": [
+        [
+          4,
+          0.513274325,
+          0.6980088499999999,
+          0.39528020999999997,
+          0.3606195
+        ],
+        [
+          0,
+          0.48156343,
+          0.42920355250000003,
+          0.34955754,
+          0.747787635
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "cd004f60ce9c3ab7",
+      "OriginalURL": "https://farm8.staticflickr.com/3424/3404712724_aedab65669_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/garryknight/3404712724",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Garry Knight",
+      "boxes": [
+        [
+          4,
+          0.5453539825,
+          0.57743364,
+          0.909292035,
+          0.56194692
+        ],
+        [
+          0,
+          0.335177,
+          0.42182891,
+          0.670354,
+          0.5722713800000001
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "88859419055de2c5",
+      "OriginalURL": "https://farm6.staticflickr.com/3221/2822315635_d1f316e885_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/london/2822315635",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Jon Rawlinson",
+      "boxes": [
+        [
+          4,
+          0.0367647075,
+          0.645232815,
+          0.073529415,
+          0.08425716999999999
+        ],
+        [
+          4,
+          0.44779410000000003,
+          0.617516625,
+          0.1514706,
+          0.41019955
+        ],
+        [
+          0,
+          0.03382353,
+          0.60864743,
+          0.06764706,
+          0.19290465999999995
+        ],
+        [
+          0,
+          0.033088237150000005,
+          0.8813747000000001,
+          0.0632352977,
+          0.23281600000000002
+        ],
+        [
+          0,
+          0.44338235000000004,
+          0.455654105,
+          0.1661765,
+          0.55210645
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "b87e74743a07bacf",
+      "OriginalURL": "https://c8.staticflickr.com/1/71/221110425_58140becf8_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/swruler/221110425",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Austen Squarepants",
+      "boxes": [
+        [
+          4,
+          0.440625,
+          0.765625,
+          0.44062499999999993,
+          0.46875
+        ],
+        [
+          0,
+          0.53828125,
+          0.514583318,
+          0.4734375,
+          0.799999964
+        ],
+        [
+          0,
+          0.43671875000000004,
+          0.64270834,
+          0.2546875,
+          0.5645833200000001
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "21d7d2d92f813eb4",
+      "OriginalURL": "https://farm5.staticflickr.com/8058/8246150916_2ab54d2794_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/carlosfpardo/8246150916",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Carlos Felipe Pardo",
+      "boxes": [
+        [
+          4,
+          0.38681100999999996,
+          0.677152305,
+          0.59251966,
+          0.35761589
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "1481ab26f82cbfa7",
+      "OriginalURL": "https://farm8.staticflickr.com/7159/6816985831_dde168335f_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/sandro87v/6816985831",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "sandro visintin",
+      "boxes": [
+        [
+          4,
+          0.511764706,
+          0.548780485,
+          0.976470588,
+          0.90243903
+        ],
+        [
+          0,
+          0.46323528999999997,
+          0.483370275,
+          0.80882352,
+          0.96674055
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "61b8a57a28449a0e",
+      "OriginalURL": "https://c7.staticflickr.com/6/5503/9265154807_772397daf5_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/funkdooby/9265154807",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Funk Dooby",
+      "boxes": [
+        [
+          4,
+          0.48763526500000004,
+          0.63185653,
+          0.61978367,
+          0.52531642
+        ],
+        [
+          0,
+          0.54559505,
+          0.46202531,
+          0.43894898000000004,
+          0.6329113799999999
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "c19708ae1a4b7ba1",
+      "OriginalURL": "https://farm2.staticflickr.com/2303/2494856597_20e9391b38_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/mjmonty/2494856597",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "mjmonty",
+      "boxes": [
+        [
+          4,
+          0.41979165500000004,
+          0.515625,
+          0.40624997,
+          0.41874999999999996
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "34fb027d7093fa48",
+      "OriginalURL": "https://c1.staticflickr.com/1/59/158021294_3a10b6be7a_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/tasitch/158021294",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Steve Drolet",
+      "boxes": [
+        [
+          4,
+          0.5,
+          0.5,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "24b1a4b0c565c1d2",
+      "OriginalURL": "https://farm3.staticflickr.com/4053/4717225248_c241764c55_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/digitoxin/4717225248",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Digitoxin",
+      "boxes": [
+        [
+          1,
+          0.436813175,
+          0.449197845,
+          0.37545785,
+          0.44206771
+        ],
+        [
+          4,
+          0.358974365,
+          0.4278075,
+          0.71794873,
+          0.4670232000000001
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "9d657c89fc6091b5",
+      "OriginalURL": "https://farm6.staticflickr.com/8025/7469184770_030b385336_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/futureshape/7469184770",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Alexander Baxevanis",
+      "boxes": [
+        [
+          4,
+          0.458702065,
+          0.67809735,
+          0.62241887,
+          0.6438053
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "557dcec8f1c98642",
+      "OriginalURL": "https://farm3.staticflickr.com/202/509802143_5f820b6ab3_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/celineo/509802143",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Celine O&#x27;Neill",
+      "boxes": [
+        [
+          4,
+          0.60859375,
+          0.50624998,
+          0.0234375,
+          0.10833332000000001
+        ],
+        [
+          0,
+          0.6140625,
+          0.45520835,
+          0.05937500000000007,
+          0.17291669999999992
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "9b0188bdae0f5b07",
+      "OriginalURL": "https://farm8.staticflickr.com/3583/3843866962_697128fb5c_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/indyplanets/3843866962",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Jason Weaver",
+      "boxes": [
+        [
+          4,
+          0.4304245,
+          0.544484,
+          0.2146226,
+          0.33451960000000003
+        ],
+        [
+          0,
+          0.389150945,
+          0.39145906999999996,
+          0.15566039000000004,
+          0.39145905999999997
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "73bf01ae5d9aea95",
+      "OriginalURL": "https://farm6.staticflickr.com/7107/7635332578_bba0885228_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/salvolg/7635332578",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Salvatore",
+      "boxes": [
+        [
+          4,
+          0.18759231999999998,
+          0.50110374,
+          0.18611522,
+          0.47240617999999995
+        ],
+        [
+          4,
+          0.3353028,
+          0.245033107,
+          0.23633675999999998,
+          0.366445906
+        ],
+        [
+          4,
+          0.8094534499999999,
+          0.58278146,
+          0.20974890000000002,
+          0.58278148
+        ],
+        [
+          4,
+          0.8212703,
+          0.59602648,
+          0.13293939999999993,
+          0.54304636
+        ],
+        [
+          0,
+          0.180945355,
+          0.306843281,
+          0.21122601000000002,
+          0.565121438
+        ],
+        [
+          0,
+          0.31536189000000003,
+          0.195364235,
+          0.15214182000000004,
+          0.39072847
+        ],
+        [
+          0,
+          0.76070902,
+          0.37969095,
+          0.34859676000000006,
+          0.7593819
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "a153975c2546aa5d",
+      "OriginalURL": "https://c6.staticflickr.com/1/225/443872349_eb6f74b439_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/terwilliger911/443872349",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Jessie Pearl",
+      "boxes": [
+        [
+          4,
+          0.544662315,
+          0.64059198,
+          0.70588237,
+          0.61733616
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "4acf140baf27c62f",
+      "OriginalURL": "https://c8.staticflickr.com/8/7339/9141191273_64938e17d0_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/stignygaard/9141191273",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Stig Nygaard",
+      "boxes": [
+        [
+          4,
+          0.5866425900000001,
+          0.65072204,
+          0.27436822000000005,
+          0.40613720000000003
+        ],
+        [
+          4,
+          0.5,
+          0.57671479,
+          0.09747290000000003,
+          0.24729242
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "ef9b66e431ad9fa4",
+      "OriginalURL": "https://farm5.staticflickr.com/3658/3379416771_44eda9e8b5_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/marilynjane/3379416771",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Marilyn Peddle",
+      "boxes": [
+        [
+          4,
+          0.391592925,
+          0.7219764,
+          0.46902654999999993,
+          0.23156339999999997
+        ],
+        [
+          4,
+          0.731194675,
+          0.6725664,
+          0.2853982500000001,
+          0.29203540000000006
+        ],
+        [
+          0,
+          0.420353975,
+          0.54129794,
+          0.52654865,
+          0.5752212400000001
+        ],
+        [
+          0,
+          0.7323009,
+          0.525073755,
+          0.3274336,
+          0.47197643
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "b501f5cfc7215e47",
+      "OriginalURL": "https://farm8.staticflickr.com/5460/9679666634_df321d6a6b_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/maticulous/9679666634",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "maticulous",
+      "boxes": [
+        [
+          4,
+          0.50807636,
+          0.48669624100000003,
+          0.92217328,
+          0.871396918
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "9f95077dcf985a4e",
+      "OriginalURL": "https://c7.staticflickr.com/1/241/3264261543_9f7af5ce1b_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/dandeluca/3264261543",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Dan DeLuca",
+      "boxes": [
+        [
+          4,
+          0.239757203,
+          0.84086023,
+          0.33383913400000004,
+          0.27956994
+        ],
+        [
+          4,
+          0.58497724,
+          0.61935485,
+          0.18361152000000003,
+          0.1419355
+        ],
+        [
+          4,
+          0.760242785,
+          0.56989248,
+          0.12443097000000003,
+          0.12473115999999995
+        ],
+        [
+          0,
+          0.15098634,
+          0.37634407999999997,
+          0.040971160000000006,
+          0.09032256
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "85f98f4114ee84de",
+      "OriginalURL": "https://c7.staticflickr.com/8/7134/7103916527_df073c3590_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/dawn-pinkchick/7103916527",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Dawn",
+      "boxes": [
+        [
+          4,
+          0.975,
+          0.60833335,
+          0.050000000000000044,
+          0.24166669999999996
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "81ac34eb158bcc18",
+      "OriginalURL": "https://c1.staticflickr.com/9/8247/8511767685_2814a8920e_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/92902289@N06/8511767685",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "BCC Leisure Centres",
+      "boxes": [
+        [
+          4,
+          0.48893807,
+          0.35730089,
+          0.07522125999999996,
+          0.19690266
+        ]
+      ]
+    },
+    {
+      "group": "small_bicycle",
+      "image_id": "1d3f8a7b5c94e736",
+      "OriginalURL": "https://farm7.staticflickr.com/3744/13560539523_6c7862fa2e_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/10015563@N03/13560539523",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "C\u00edcero R. C. Omena",
+      "boxes": [
+        [
+          4,
+          0.37961594,
+          0.754966885,
+          0.40768092,
+          0.33554083
+        ],
+        [
+          0,
+          0.387740035,
+          0.60154525,
+          0.20827177000000002,
+          0.5717439
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "68dd3c8561d18ca5",
+      "OriginalURL": "https://farm6.staticflickr.com/3040/2891090524_23057bc70b_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/davemont/2891090524",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "DaveMontPhotography",
+      "boxes": [
+        [
+          7,
+          0.46530611499999996,
+          0.492012785,
+          0.89795917,
+          0.7252396299999999
+        ],
+        [
+          0,
+          0.28877552500000003,
+          0.3530351615,
+          0.45102043,
+          0.610223677
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "c8b20a6b572a752c",
+      "OriginalURL": "https://c5.staticflickr.com/8/7157/6422669207_395628f853_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/bkm_br/6422669207",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Bruno Kussler Marques",
+      "boxes": [
+        [
+          3,
+          0.10546875,
+          0.6854166749999999,
+          0.1453125,
+          0.09583335000000004
+        ],
+        [
+          3,
+          0.19453125,
+          0.717708325,
+          0.2421875,
+          0.16041665000000005
+        ],
+        [
+          3,
+          0.946875,
+          0.81145835,
+          0.10624999999999996,
+          0.29791670000000003
+        ],
+        [
+          7,
+          0.33359375,
+          0.7364583250000001,
+          0.11093749999999997,
+          0.13124995000000006
+        ],
+        [
+          7,
+          0.4203125,
+          0.74166665,
+          0.10625000000000001,
+          0.12916669999999997
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "0b3cee81b907aa24",
+      "OriginalURL": "https://farm5.staticflickr.com/3051/2870997744_759719c763_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/mimos/2870997744",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Paula Martins",
+      "boxes": [
+        [
+          3,
+          0.1015625,
+          0.30208333499999995,
+          0.078125,
+          0.05833333000000002
+        ],
+        [
+          7,
+          0.6171875,
+          0.578125,
+          0.6375,
+          0.70625
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "85643b29584c963f",
+      "OriginalURL": "https://c8.staticflickr.com/7/6081/6082672930_2079bf94c8_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/europeanmobilityweek/6082672930",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "EUROPEAN MOBILITY WEEK",
+      "boxes": [
+        [
+          7,
+          0.48125,
+          0.639583335,
+          0.678125,
+          0.53333333
+        ],
+        [
+          0,
+          0.40546875,
+          0.57291667,
+          0.35468749999999993,
+          0.59166666
+        ],
+        [
+          0,
+          0.5601562499999999,
+          0.46875,
+          0.17031249999999998,
+          0.6875
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "10644f516604217c",
+      "OriginalURL": "https://c5.staticflickr.com/4/3322/3604271495_4ace8e5ac9_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/ofernandezberrios/3604271495",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Olga Berrios",
+      "boxes": [
+        [
+          7,
+          0.380530985,
+          0.592920365,
+          0.40117996999999994,
+          0.50442481
+        ],
+        [
+          7,
+          0.50147493,
+          0.46792036000000004,
+          0.30973454,
+          0.40486728
+        ],
+        [
+          7,
+          0.63716814,
+          0.42367256999999997,
+          0.32153392000000003,
+          0.36504426
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "023c7d986f64b55e",
+      "OriginalURL": "https://c7.staticflickr.com/3/2115/2522372399_16c83eb2b8_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/brettneilson/2522372399",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Brett Neilson",
+      "boxes": [
+        [
+          3,
+          0.511782042,
+          0.5898004649999999,
+          0.8880707160000001,
+          0.77161867
+        ],
+        [
+          7,
+          0.067746685,
+          0.3015521,
+          0.13549337,
+          0.23503324
+        ],
+        [
+          7,
+          0.0493372625,
+          0.246119725,
+          0.06332842500000001,
+          0.09756095000000001
+        ],
+        [
+          7,
+          0.150220915,
+          0.259423505,
+          0.08247423,
+          0.16407983
+        ],
+        [
+          7,
+          0.206921945,
+          0.256097555,
+          0.13402060999999998,
+          0.12195123000000002
+        ],
+        [
+          7,
+          0.27835052,
+          0.24722839000000002,
+          0.05596467999999999,
+          0.09977828000000002
+        ],
+        [
+          7,
+          0.29307805,
+          0.20399113,
+          0.044182620000000006,
+          0.07538802
+        ],
+        [
+          7,
+          0.388807075,
+          0.18514413,
+          0.09425625000000004,
+          0.05543238
+        ],
+        [
+          7,
+          0.55007362,
+          0.23614190499999999,
+          0.04565535999999992,
+          0.08203992999999998
+        ],
+        [
+          7,
+          0.6001473,
+          0.252771615,
+          0.083947,
+          0.12416850999999998
+        ],
+        [
+          7,
+          0.69072165,
+          0.296008875,
+          0.11192930000000001,
+          0.15299335000000003
+        ],
+        [
+          7,
+          0.7179676,
+          0.23614190499999999,
+          0.05743739999999997,
+          0.09534366999999999
+        ],
+        [
+          7,
+          0.765832095,
+          0.30709534,
+          0.10603826999999999,
+          0.21507759999999998
+        ],
+        [
+          7,
+          0.8092783349999999,
+          0.19179601000000002,
+          0.08100147000000002,
+          0.07317073999999998
+        ],
+        [
+          7,
+          0.8770249999999999,
+          0.29268292500000004,
+          0.12812959999999995,
+          0.24833701000000002
+        ],
+        [
+          7,
+          0.8836524,
+          0.21064302999999998,
+          0.07658319999999996,
+          0.11973393999999998
+        ],
+        [
+          7,
+          0.964653865,
+          0.335920175,
+          0.0677466699999999,
+          0.15299335000000003
+        ],
+        [
+          7,
+          0.96612665,
+          0.2172949,
+          0.06480109999999994,
+          0.08869180000000002
+        ],
+        [
+          0,
+          0.24889543,
+          0.15410199,
+          0.029455080000000022,
+          0.0820399
+        ],
+        [
+          0,
+          0.30633284,
+          0.185144125,
+          0.035346120000000036,
+          0.11751663000000001
+        ],
+        [
+          0,
+          0.339469805,
+          0.17627494999999999,
+          0.033873350000000024,
+          0.07760532
+        ],
+        [
+          0,
+          0.36303388000000003,
+          0.16186253,
+          0.02209129999999998,
+          0.03991132
+        ],
+        [
+          0,
+          0.38291604,
+          0.17960089,
+          0.023564079999999987,
+          0.07095344
+        ],
+        [
+          0,
+          0.432989705,
+          0.16851441,
+          0.023564070000000048,
+          0.07982262000000001
+        ],
+        [
+          0,
+          0.46023565,
+          0.15188469999999998,
+          0.022091300000000036,
+          0.10421285999999999
+        ],
+        [
+          0,
+          0.48159057,
+          0.15188469500000001,
+          0.026509580000000033,
+          0.10864745
+        ],
+        [
+          0,
+          0.5802651000000001,
+          0.1940133,
+          0.0324006,
+          0.18847006
+        ],
+        [
+          0,
+          0.6023564050000001,
+          0.19401329499999997,
+          0.029455129999999996,
+          0.19290464999999998
+        ],
+        [
+          0,
+          0.6870397749999999,
+          0.177383585,
+          0.033873350000000024,
+          0.15521063000000002
+        ],
+        [
+          0,
+          0.7569956,
+          0.18403547,
+          0.05891019999999991,
+          0.14190686000000002
+        ],
+        [
+          0,
+          0.8173785,
+          0.13192905,
+          0.01178199999999996,
+          0.05099777999999999
+        ],
+        [
+          0,
+          0.833578795,
+          0.110864745,
+          0.01767307000000007,
+          0.035476709999999995
+        ],
+        [
+          0,
+          0.8460972,
+          0.16407982000000002,
+          0.03681880000000004,
+          0.10643016000000001
+        ],
+        [
+          0,
+          0.90574372,
+          0.1308204,
+          0.020618559999999952,
+          0.039911319999999986
+        ],
+        [
+          0,
+          0.9845360649999999,
+          0.15521064,
+          0.027982269999999976,
+          0.13747228
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "5a6f7297ade39887",
+      "OriginalURL": "https://farm8.staticflickr.com/7634/16254840374_63ecd52ce6_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/reddragonimages/16254840374",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Red Dragon Images",
+      "boxes": [
+        [
+          7,
+          0.46602658999999996,
+          0.55077261,
+          0.29985227999999997,
+          0.51876378
+        ],
+        [
+          7,
+          0.75036927,
+          0.80573948,
+          0.04135886,
+          0.03090504000000005
+        ],
+        [
+          0,
+          0.52880355,
+          0.7483444,
+          0.9364844999999999,
+          0.05739519999999998
+        ],
+        [
+          0,
+          0.493353,
+          0.43598234999999996,
+          0.12998520000000002,
+          0.4834437
+        ],
+        [
+          0,
+          0.7451994,
+          0.788079475,
+          0.016248200000000046,
+          0.05739514999999995
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "4970c7258c43950d",
+      "OriginalURL": "https://c6.staticflickr.com/6/5531/14651363054_cef1a6f54b_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/67338640@N04/14651363054",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Billy Meinke",
+      "boxes": [
+        [
+          3,
+          0.489174565,
+          0.510843385,
+          0.7050067899999999,
+          0.73734943
+        ],
+        [
+          7,
+          0.89512855,
+          0.090361445,
+          0.20974289999999995,
+          0.18072289
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "dee1b1c220415295",
+      "OriginalURL": "https://farm6.staticflickr.com/2220/1560723793_1306ae72ba_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/johnnieb/1560723793",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "John Goode",
+      "boxes": [
+        [
+          7,
+          0.45716395,
+          0.6456953599999999,
+          0.9143279,
+          0.70860928
+        ],
+        [
+          0,
+          0.54726737,
+          0.513245033,
+          0.7075332599999999,
+          0.973509934
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "d0a915f804dbc264",
+      "OriginalURL": "https://farm5.staticflickr.com/82/231900174_7a3948ef31_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/pauldineen/231900174",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Paul L Dineen",
+      "boxes": [
+        [
+          7,
+          0.5,
+          0.5,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "0be68cb951208dc2",
+      "OriginalURL": "https://farm3.staticflickr.com/8508/8571569915_0e1667378b_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/mark233/8571569915",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "marksontok",
+      "boxes": [
+        [
+          7,
+          0.7392438050000001,
+          0.66625,
+          0.29726207000000004,
+          0.5874999999999999
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "29f506fb37c411c6",
+      "OriginalURL": "https://farm7.staticflickr.com/5155/5846619345_104c624085_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/29621494@N02/5846619345/",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Paula Lively",
+      "boxes": [
+        [
+          7,
+          0.51171875,
+          0.76354168,
+          0.6890624999999999,
+          0.46041664000000004
+        ],
+        [
+          0,
+          0.6015625,
+          0.62708333,
+          0.32187499999999997,
+          0.74583334
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "b6e853787ccf29ca",
+      "OriginalURL": "https://c3.staticflickr.com/5/4124/4963949822_309f353fc1_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/kenjonbro/4963949822",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "kenjonbro",
+      "boxes": [
+        [
+          3,
+          0.83333334,
+          0.06770833500000001,
+          0.15492958,
+          0.11041667000000001
+        ],
+        [
+          7,
+          0.5,
+          0.5,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "caa2b54bfac0b3b3",
+      "OriginalURL": "https://farm4.staticflickr.com/2794/4148754363_8c63beb35a_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/pat_ossa/4148754363",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "momentcaptured1",
+      "boxes": [
+        [
+          7,
+          0.52109375,
+          0.501041667,
+          0.8796875,
+          0.910416666
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "04c94d94a205c7e2",
+      "OriginalURL": "https://farm3.staticflickr.com/3656/3474195876_3e3e1b3705_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/skenmy/3474195876",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Paul Williams",
+      "boxes": [
+        [
+          7,
+          0.49921875000000004,
+          0.5072916585,
+          0.5390625,
+          0.956249983
+        ],
+        [
+          0,
+          0.44140625,
+          0.375,
+          0.4296875,
+          0.75
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "6b7b01d58c37094a",
+      "OriginalURL": "https://c3.staticflickr.com/6/5482/11903840744_be05d5256a_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/ericrayner/11903840744",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Eric Rayner",
+      "boxes": [
+        [
+          7,
+          0.4734375,
+          0.38020832,
+          0.775,
+          0.6729166400000001
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "5c6b5876873bd25a",
+      "OriginalURL": "https://c3.staticflickr.com/6/5190/5641992647_bd14e612f3_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/cowgirlonline/5641992647",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Cowgirlonline",
+      "boxes": [
+        [
+          7,
+          0.740625,
+          0.29791668,
+          0.51875,
+          0.59583336
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "52d8fce8c32fe306",
+      "OriginalURL": "https://farm7.staticflickr.com/38/115615460_9d5590e543_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/bigiain/115615460",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Iain",
+      "boxes": [
+        [
+          3,
+          0.60078125,
+          0.410416675,
+          0.03593750000000007,
+          0.025000010000000017
+        ],
+        [
+          7,
+          0.51484375,
+          0.6625,
+          0.38281250000000006,
+          0.425
+        ],
+        [
+          0,
+          0.48124999999999996,
+          0.46354167,
+          0.17187499999999994,
+          0.24791666
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "9bf6d28723ca69e7",
+      "OriginalURL": "https://farm8.staticflickr.com/7013/6593484141_9e37987a9b_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/governomunicipaldeitanhaem/6593484141",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Prefeitura Municipal Itanha\u00e9m",
+      "boxes": [
+        [
+          7,
+          0.44053207499999997,
+          0.84375,
+          0.15805945,
+          0.25416671999999996
+        ],
+        [
+          0,
+          0.4632238,
+          0.208333332,
+          0.14084510000000006,
+          0.39999999599999997
+        ],
+        [
+          0,
+          0.479655725,
+          0.21145833200000003,
+          0.17370894999999997,
+          0.406249996
+        ],
+        [
+          0,
+          0.53834115,
+          0.6499999999999999,
+          0.20031300000000002,
+          0.2875
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "6b4c1535ec7357b9",
+      "OriginalURL": "https://c2.staticflickr.com/8/7195/13618306215_a72b74a926_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/creebof/13618306215",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "SuhufRiyadi",
+      "boxes": [
+        [
+          7,
+          0.44911504999999996,
+          0.32964601,
+          0.02212390000000003,
+          0.06194690000000003
+        ],
+        [
+          7,
+          0.4859882,
+          0.32632743,
+          0.04277288000000001,
+          0.07743362000000004
+        ],
+        [
+          7,
+          0.56637167,
+          0.31747787,
+          0.038348059999999906,
+          0.08628318000000001
+        ],
+        [
+          7,
+          0.6622418999999999,
+          0.32632743,
+          0.03244839999999993,
+          0.07743362000000004
+        ],
+        [
+          7,
+          0.7588495500000001,
+          0.32079646,
+          0.03392329999999999,
+          0.06637168000000004
+        ],
+        [
+          7,
+          0.880530985,
+          0.74336283,
+          0.23893803000000002,
+          0.5132743399999999
+        ],
+        [
+          7,
+          0.82743362,
+          0.27765486,
+          0.008849560000000034,
+          0.024336279999999988
+        ],
+        [
+          7,
+          0.869469025,
+          0.32190266,
+          0.03392335000000002,
+          0.07300883999999996
+        ],
+        [
+          7,
+          0.980825975,
+          0.31526549000000004,
+          0.029498550000000012,
+          0.07300886000000001
+        ],
+        [
+          0,
+          0.42699115,
+          0.242256635,
+          0.019174059999999993,
+          0.03761060999999999
+        ],
+        [
+          0,
+          0.45648966999999996,
+          0.234513275,
+          0.02507374000000001,
+          0.04867256999999997
+        ],
+        [
+          0,
+          0.49705015,
+          0.30752212,
+          0.038348099999999996,
+          0.11504424000000002
+        ],
+        [
+          0,
+          0.56637167,
+          0.298672565,
+          0.038348059999999906,
+          0.10176991000000002
+        ],
+        [
+          0,
+          0.8827433499999999,
+          0.57411503,
+          0.23451330000000004,
+          0.29424774000000004
+        ],
+        [
+          0,
+          0.866519175,
+          0.297566375,
+          0.03392335000000002,
+          0.10840709000000001
+        ],
+        [
+          0,
+          0.9778761,
+          0.2909292,
+          0.032448400000000044,
+          0.09955751999999998
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "435e4a19092643ca",
+      "OriginalURL": "https://c3.staticflickr.com/4/3083/3154468897_6c6115df7b_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/orkneysports/3154468897",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Rae Slater",
+      "boxes": [
+        [
+          7,
+          0.358407085,
+          0.67588497,
+          0.28023599,
+          0.62168146
+        ],
+        [
+          0,
+          0.1290560475,
+          0.33960177,
+          0.010324484999999994,
+          0.019911500000000026
+        ],
+        [
+          0,
+          0.162979355,
+          0.33849558,
+          0.007374629999999993,
+          0.02654867999999999
+        ],
+        [
+          0,
+          0.35693215,
+          0.4103982275,
+          0.23303834,
+          0.5774336250000001
+        ],
+        [
+          0,
+          0.7300885,
+          0.2234513235,
+          0.18289080000000002,
+          0.358407073
+        ],
+        [
+          0,
+          0.80457227,
+          0.582964595,
+          0.06932154000000001,
+          0.17920350999999995
+        ],
+        [
+          0,
+          0.9380531,
+          0.38606195,
+          0.008849600000000013,
+          0.04646018000000002
+        ],
+        [
+          0,
+          0.9498525,
+          0.39048673,
+          0.014749200000000018,
+          0.03761062000000004
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "25c1ba4b9caff840",
+      "OriginalURL": "https://farm1.staticflickr.com/5451/17542805296_84a8f2f1f5_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/chattoconeenf/17542805296",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "ChattOconeeNF",
+      "boxes": [
+        [
+          7,
+          0.44235034500000003,
+          0.566079275,
+          0.30820403,
+          0.35095445
+        ],
+        [
+          0,
+          0.43348117,
+          0.433920695,
+          0.32150778,
+          0.38032301
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "3caa425417a0db1e",
+      "OriginalURL": "https://c7.staticflickr.com/4/3901/14636717584_bd16819339_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/conner395/14636717584",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Dave Conner",
+      "boxes": [
+        [
+          3,
+          0.29159519,
+          0.44296578,
+          0.49056602,
+          0.18631177999999998
+        ],
+        [
+          3,
+          0.417667245,
+          0.60741445,
+          0.66380791,
+          0.5342205
+        ],
+        [
+          3,
+          0.982847335,
+          0.43060836,
+          0.03430533000000002,
+          0.06273763999999998
+        ],
+        [
+          7,
+          0.68610635,
+          0.43346007,
+          0.10291589999999995,
+          0.07984790000000003
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "c53bea194533f584",
+      "OriginalURL": "https://farm5.staticflickr.com/4009/4613452264_1db0c6b915_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/lcwilder/4613452264/",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Larry Wilder",
+      "boxes": [
+        [
+          7,
+          0.33592536,
+          0.68343815,
+          0.23950234000000004,
+          0.25995809999999997
+        ],
+        [
+          7,
+          0.8258165,
+          0.41090145,
+          0.3390358,
+          0.2725367
+        ],
+        [
+          0,
+          0.34370141,
+          0.587002075,
+          0.1119751,
+          0.21383645000000007
+        ],
+        [
+          0,
+          0.77216173,
+          0.30503145,
+          0.16640746000000006,
+          0.3417191
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "08eb9697d767c481",
+      "OriginalURL": "https://farm2.staticflickr.com/5652/21813291639_ef72f0e4dc_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/130424964@N04/21813291639/in/pool-356195@N23/",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Hammad Khan",
+      "boxes": [
+        [
+          7,
+          0.52138644,
+          0.61283186,
+          0.46165192,
+          0.77433628
+        ],
+        [
+          0,
+          0.47271385,
+          0.5088495575,
+          0.41740409999999994,
+          0.982300885
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "fd4e853348667bb0",
+      "OriginalURL": "https://farm1.staticflickr.com/2470/5836039502_806ef56bd9_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/jezzak/5836039502",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Jeremy",
+      "boxes": [
+        [
+          7,
+          0.263274335,
+          0.523230085,
+          0.24631269000000003,
+          0.57743363
+        ],
+        [
+          7,
+          0.71533925,
+          0.38827433,
+          0.17404130000000007,
+          0.30309734000000005
+        ],
+        [
+          7,
+          0.89675517,
+          0.443584065,
+          0.18879053999999995,
+          0.44026547
+        ],
+        [
+          0,
+          0.27286136,
+          0.37168142249999997,
+          0.23598819999999998,
+          0.637168155
+        ],
+        [
+          0,
+          0.747050175,
+          0.28539823000000003,
+          0.16076695000000008,
+          0.24778762000000001
+        ],
+        [
+          0,
+          0.8945428,
+          0.294247806,
+          0.18436580000000002,
+          0.46902658799999997
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "042676f6b5eba097",
+      "OriginalURL": "https://farm8.staticflickr.com/3118/2542824605_babaa24419_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/klearchos/2542824605",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Klearchos Kapoutsis",
+      "boxes": [
+        [
+          7,
+          0.07746479,
+          0.058333333,
+          0.06103286,
+          0.10416666599999999
+        ],
+        [
+          7,
+          0.49295772,
+          0.61458335,
+          0.69170576,
+          0.6041667
+        ],
+        [
+          0,
+          0.0211267596,
+          0.06666667,
+          0.0391236288,
+          0.13333334
+        ],
+        [
+          0,
+          0.048513302,
+          0.063541665,
+          0.028169016000000005,
+          0.12708333
+        ],
+        [
+          0,
+          0.17370892500000001,
+          0.0625,
+          0.03755868999999998,
+          0.125
+        ],
+        [
+          0,
+          0.30672927,
+          0.06666667,
+          0.03442880000000004,
+          0.13333334
+        ],
+        [
+          0,
+          0.489827865,
+          0.460416665,
+          0.34115807000000004,
+          0.62916667
+        ],
+        [
+          0,
+          0.392018785,
+          0.040625,
+          0.04538343,
+          0.08125
+        ],
+        [
+          0,
+          0.47183098,
+          0.034375,
+          0.04225351999999999,
+          0.06875
+        ],
+        [
+          0,
+          0.71048512,
+          0.052083332,
+          0.02816896000000002,
+          0.104166664
+        ],
+        [
+          0,
+          0.7331768249999999,
+          0.06666667,
+          0.039123649999999954,
+          0.13333334
+        ],
+        [
+          0,
+          0.8020344500000001,
+          0.058333335,
+          0.07668229999999998,
+          0.11666667
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "3623f736e228da04",
+      "OriginalURL": "https://farm5.staticflickr.com/4122/5010917543_b13befa6f7_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/familymwr/5010917543",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "U.S. Army",
+      "boxes": [
+        [
+          7,
+          0.818584075,
+          0.5475663799999999,
+          0.28613564999999996,
+          0.49336283999999997
+        ],
+        [
+          0,
+          0.24705015000000002,
+          0.622787625,
+          0.04867257999999999,
+          0.09070794999999998
+        ],
+        [
+          0,
+          0.27359882,
+          0.664823025,
+          0.07522124,
+          0.17477874999999998
+        ],
+        [
+          0,
+          0.79941002,
+          0.3727876275,
+          0.20058995999999996,
+          0.643805345
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "4b38c0547c42ffea",
+      "OriginalURL": "https://c3.staticflickr.com/4/3432/3389781612_36f6a95fdd_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/mccollection/3389781612",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "MC Collection - Icons of Motorcycle Design",
+      "boxes": [
+        [
+          7,
+          0.49207491,
+          0.521493215,
+          0.85158498,
+          0.7307692299999999
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "9a5ca7b7f82e53fd",
+      "OriginalURL": "https://c6.staticflickr.com/1/184/478742251_2ef3cb0212_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/pixel_addict/478742251",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Pixel Addict",
+      "boxes": [
+        [
+          7,
+          0.515486735,
+          0.46460177875,
+          0.89380533,
+          0.9115044425
+        ],
+        [
+          0,
+          0.50884956,
+          0.266224175,
+          0.94247788,
+          0.53244835
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "7772dc10c892f2f1",
+      "OriginalURL": "https://farm2.staticflickr.com/3798/9116093794_df53184e4e_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/sparker/9116093794",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Steve Parker",
+      "boxes": [
+        [
+          3,
+          0.697949535,
+          0.655991735,
+          0.53785493,
+          0.53099173
+        ],
+        [
+          7,
+          0.2641955815,
+          0.6177685850000001,
+          0.455835957,
+          0.62396693
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "655dfe8fc827ad71",
+      "OriginalURL": "https://farm2.staticflickr.com/4048/4255846217_1d5a748146_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/40076999@N05/4255846217",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Agent of the Czar",
+      "boxes": [
+        [
+          7,
+          0.5,
+          0.616910235,
+          1.0,
+          0.67014613
+        ],
+        [
+          0,
+          0.5704225300000001,
+          0.420668055,
+          0.33020342,
+          0.63674321
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "47a256c18ae5102d",
+      "OriginalURL": "https://c6.staticflickr.com/5/4086/4831468871_6010ca6574_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/grahammitchellphotography/4831468871",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Graham  Mitchell",
+      "boxes": [
+        [
+          7,
+          0.474557513,
+          0.592920355,
+          0.918141574,
+          0.81415929
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "28a5af092bdc61a7",
+      "OriginalURL": "https://farm8.staticflickr.com/7023/13276347554_1a251a77c2_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/junction29_truckstop/13276347554",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "terrybb M1 Junction29 Truckstop",
+      "boxes": [
+        [
+          7,
+          0.12089810150000001,
+          0.6896226299999999,
+          0.131260797,
+          0.10754713999999999
+        ],
+        [
+          7,
+          0.55872195,
+          0.45,
+          0.4818653,
+          0.5037736
+        ],
+        [
+          7,
+          0.93782385,
+          0.5566037500000001,
+          0.05181349999999996,
+          0.037735900000000044
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "e95293cbfd51c546",
+      "OriginalURL": "https://farm7.staticflickr.com/4112/4998293886_9b4b06dc0d_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/kelvynskee/4998293886",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Kelvyn Skee",
+      "boxes": [
+        [
+          7,
+          0.05859375,
+          0.18125,
+          0.1171875,
+          0.3625
+        ],
+        [
+          7,
+          0.48124999999999996,
+          0.457291667,
+          0.78125,
+          0.760416666
+        ],
+        [
+          7,
+          0.93125,
+          0.178125,
+          0.13749999999999996,
+          0.35625
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "df42aa977681279c",
+      "OriginalURL": "https://c5.staticflickr.com/7/6193/6109815737_ab29e27d3d_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/degu_andre/6109815737",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Andr\u00e9 Gustavo Stumpf",
+      "boxes": [
+        [
+          7,
+          0.499999984,
+          0.53528226,
+          0.948220032,
+          0.8447580800000001
+        ],
+        [
+          0,
+          0.043689320000000004,
+          0.40524192000000003,
+          0.05501618,
+          0.24999996000000002
+        ],
+        [
+          0,
+          0.30582523500000003,
+          0.29939515499999997,
+          0.06472492999999996,
+          0.16733868999999998
+        ],
+        [
+          0,
+          0.3697411,
+          0.32762097,
+          0.06634304000000002,
+          0.15524194000000002
+        ],
+        [
+          0,
+          0.436893195,
+          0.35282257,
+          0.04854369000000003,
+          0.125
+        ],
+        [
+          0,
+          0.475728155,
+          0.32459678000000003,
+          0.04530745000000003,
+          0.07661292000000003
+        ],
+        [
+          0,
+          0.5226537,
+          0.3125,
+          0.016181199999999896,
+          0.02419351999999997
+        ],
+        [
+          0,
+          0.666666655,
+          0.31451613,
+          0.02912622999999992,
+          0.044354859999999996
+        ],
+        [
+          0,
+          0.711974075,
+          0.32560484,
+          0.03236244999999993,
+          0.05040319999999998
+        ],
+        [
+          0,
+          0.9417475799999999,
+          0.41129032,
+          0.042071159999999996,
+          0.12096775999999998
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "cf003fe3404df63c",
+      "OriginalURL": "https://c5.staticflickr.com/9/8802/16902662257_1c9f16a2df_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/ubefoto/16902662257",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Uberto",
+      "boxes": [
+        [
+          7,
+          0.6273437500000001,
+          0.53125,
+          0.5953125,
+          0.575
+        ],
+        [
+          0,
+          0.54296875,
+          0.40312501,
+          0.35468750000000004,
+          0.47291668
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "cc871e500ffa4041",
+      "OriginalURL": "https://farm2.staticflickr.com/84/206786588_6481c9bf28_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/india-nepal-iran/206786588",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Mahatma4711",
+      "boxes": [
+        [
+          7,
+          0.502727265,
+          0.5690072749999999,
+          0.79090907,
+          0.48426150999999995
+        ],
+        [
+          0,
+          0.0800000035,
+          0.52663438,
+          0.069090913,
+          0.12832929999999998
+        ],
+        [
+          0,
+          0.32727272500000004,
+          0.472154975,
+          0.14545455000000002,
+          0.39225184999999996
+        ],
+        [
+          0,
+          0.6536363700000001,
+          0.41162227,
+          0.07454546000000006,
+          0.17433414000000003
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "65c0bc75563d2a3e",
+      "OriginalURL": "https://c7.staticflickr.com/1/59/191154799_294c834f74_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/rocketjim54/191154799/",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "jim simonson",
+      "boxes": [
+        [
+          3,
+          0.7637244000000001,
+          0.20151514999999998,
+          0.196986,
+          0.28787878
+        ],
+        [
+          3,
+          0.8875134499999999,
+          0.21515151000000002,
+          0.12594190000000005,
+          0.26666666
+        ],
+        [
+          7,
+          0.129709365,
+          0.47424241999999994,
+          0.10656618999999999,
+          0.28181816
+        ],
+        [
+          7,
+          0.45263724,
+          0.46666667,
+          0.07212057999999999,
+          0.25454546
+        ],
+        [
+          7,
+          0.51829925,
+          0.21818182000000003,
+          0.0850377,
+          0.13333332
+        ],
+        [
+          7,
+          0.68729818,
+          0.56666666,
+          0.19052744,
+          0.40606058000000006
+        ],
+        [
+          7,
+          0.96071045,
+          0.62121211,
+          0.07857910000000001,
+          0.30909088
+        ],
+        [
+          0,
+          0.177610335,
+          0.45757575,
+          0.10118406999999999,
+          0.30909090000000006
+        ],
+        [
+          0,
+          0.502152845,
+          0.46666667000000006,
+          0.07427337,
+          0.26060606000000003
+        ],
+        [
+          0,
+          0.58557588,
+          0.184848485,
+          0.03875136000000001,
+          0.18787879
+        ],
+        [
+          0,
+          0.71474701,
+          0.49242425,
+          0.16792249999999997,
+          0.3909091
+        ],
+        [
+          0,
+          0.9784714999999999,
+          0.54696967,
+          0.04305700000000001,
+          0.20909086
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle",
+      "image_id": "366c681e63d08667",
+      "OriginalURL": "https://farm8.staticflickr.com/8014/7259690280_dc8afaccd4_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/virnakai/7259690280",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Vir Nakai",
+      "boxes": [
+        [
+          7,
+          0.38537905499999997,
+          0.64981952,
+          0.47472923,
+          0.5379061600000001
+        ],
+        [
+          7,
+          0.87364625,
+          0.59386283,
+          0.22382669999999993,
+          0.31768954000000005
+        ],
+        [
+          0,
+          0.29512635,
+          0.57220218,
+          0.39169674,
+          0.66064984
+        ]
+      ]
+    }
+  ]
+}

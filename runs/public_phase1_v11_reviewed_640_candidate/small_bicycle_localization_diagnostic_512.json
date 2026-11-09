@@ -1,0 +1,396 @@
+{
+  "images": 31,
+  "boxes": 48,
+  "iou_ge_0_1": 15,
+  "iou_ge_0_3": 12,
+  "iou_ge_0_5": 10,
+  "gt_center_in_prediction": 18,
+  "zero_overlap": 28,
+  "limitations": "Diagnostic on post-hoc public slice with incomplete Open Images boxes. Independent phone-domain performance cannot be inferred.",
+  "rows": [
+    {
+      "image_id": "97948408f6a3a476",
+      "gt_index": 0,
+      "approx_side_at_512": 63.49459925211673,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 0
+    },
+    {
+      "image_id": "126f9b413309aa4c",
+      "gt_index": 0,
+      "approx_side_at_512": 62.30468610111909,
+      "best_same_class_iou": 0.8723127218358917,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "04ef633c41462641",
+      "gt_index": 0,
+      "approx_side_at_512": 50.35295688823829,
+      "best_same_class_iou": 0.2693013504646296,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 6
+    },
+    {
+      "image_id": "04ef633c41462641",
+      "gt_index": 1,
+      "approx_side_at_512": 30.394702434759232,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 6
+    },
+    {
+      "image_id": "7f67f6051d99b447",
+      "gt_index": 0,
+      "approx_side_at_512": 22.283759639625544,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "7f67f6051d99b447",
+      "gt_index": 1,
+      "approx_side_at_512": 28.519133781303765,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "7f67f6051d99b447",
+      "gt_index": 2,
+      "approx_side_at_512": 59.49214555208057,
+      "best_same_class_iou": 0.016575015727710442,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "7f67f6051d99b447",
+      "gt_index": 3,
+      "approx_side_at_512": 20.016925679834397,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "7f67f6051d99b447",
+      "gt_index": 4,
+      "approx_side_at_512": 15.482975431846457,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "7f67f6051d99b447",
+      "gt_index": 5,
+      "approx_side_at_512": 25.33989771542995,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "7f67f6051d99b447",
+      "gt_index": 6,
+      "approx_side_at_512": 20.271917003244155,
+      "best_same_class_iou": 0.27781376872254915,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "7f67f6051d99b447",
+      "gt_index": 7,
+      "approx_side_at_512": 63.515125323694015,
+      "best_same_class_iou": 0.9015558585802653,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "0c72c95ee8e4c6e6",
+      "gt_index": 0,
+      "approx_side_at_512": 32.633724886993825,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 2
+    },
+    {
+      "image_id": "f7210d60b00102a2",
+      "gt_index": 0,
+      "approx_side_at_512": 48.46001157308983,
+      "best_same_class_iou": 0.7982999429578272,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "f7210d60b00102a2",
+      "gt_index": 1,
+      "approx_side_at_512": 25.716403675164234,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "f7210d60b00102a2",
+      "gt_index": 2,
+      "approx_side_at_512": 32.053288366468735,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "e73e9c6111a9f7d4",
+      "gt_index": 0,
+      "approx_side_at_512": 22.803626377675226,
+      "best_same_class_iou": 0.0038790400052363433,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "e73e9c6111a9f7d4",
+      "gt_index": 1,
+      "approx_side_at_512": 24.91840870238627,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "0d1902a8a0ccab84",
+      "gt_index": 0,
+      "approx_side_at_512": 48.47471042845535,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 11
+    },
+    {
+      "image_id": "637bd7e807a742a8",
+      "gt_index": 0,
+      "approx_side_at_512": 63.919946284833514,
+      "best_same_class_iou": 0.8561763690687072,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "711012ff91bddbe5",
+      "gt_index": 0,
+      "approx_side_at_512": 25.730982605778987,
+      "best_same_class_iou": 0.03713646126400099,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 7
+    },
+    {
+      "image_id": "4b76b35cd4d63ce3",
+      "gt_index": 0,
+      "approx_side_at_512": 50.73117999179598,
+      "best_same_class_iou": 0.1936835602497518,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 14
+    },
+    {
+      "image_id": "4b76b35cd4d63ce3",
+      "gt_index": 1,
+      "approx_side_at_512": 46.17879169939377,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 14
+    },
+    {
+      "image_id": "1c75e5e7104da318",
+      "gt_index": 0,
+      "approx_side_at_512": 52.10193659677043,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "1c75e5e7104da318",
+      "gt_index": 1,
+      "approx_side_at_512": 44.92691343739814,
+      "best_same_class_iou": 0.6372518108505647,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "5dc9465b0bad69fc",
+      "gt_index": 0,
+      "approx_side_at_512": 22.66286235987506,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 5
+    },
+    {
+      "image_id": "f2a6c70eeb66e2a5",
+      "gt_index": 0,
+      "approx_side_at_512": 43.16690457870099,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 0
+    },
+    {
+      "image_id": "410495487da9771a",
+      "gt_index": 0,
+      "approx_side_at_512": 24.29050927749357,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 2
+    },
+    {
+      "image_id": "370afdfc46eaa248",
+      "gt_index": 0,
+      "approx_side_at_512": 20.920020400170063,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 6
+    },
+    {
+      "image_id": "370afdfc46eaa248",
+      "gt_index": 1,
+      "approx_side_at_512": 21.563846481925726,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 6
+    },
+    {
+      "image_id": "370afdfc46eaa248",
+      "gt_index": 2,
+      "approx_side_at_512": 29.57094916269523,
+      "best_same_class_iou": 0.3582645873590546,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 6
+    },
+    {
+      "image_id": "370afdfc46eaa248",
+      "gt_index": 3,
+      "approx_side_at_512": 36.97017131102309,
+      "best_same_class_iou": 0.6771660840684535,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 6
+    },
+    {
+      "image_id": "361ce18d9489c7ab",
+      "gt_index": 0,
+      "approx_side_at_512": 60.92618484691127,
+      "best_same_class_iou": 0.006409158449450177,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "5ecff14d4085663c",
+      "gt_index": 0,
+      "approx_side_at_512": 41.5118188898408,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 0
+    },
+    {
+      "image_id": "0e0625e9e1bd200d",
+      "gt_index": 0,
+      "approx_side_at_512": 21.4925378976053,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "9183e29974bac45c",
+      "gt_index": 0,
+      "approx_side_at_512": 38.91101008825083,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "8b6fab32f099cf50",
+      "gt_index": 0,
+      "approx_side_at_512": 55.80154913175798,
+      "best_same_class_iou": 0.45650806627192286,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 10
+    },
+    {
+      "image_id": "586e7f5bf13412b3",
+      "gt_index": 0,
+      "approx_side_at_512": 29.006666700743107,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 2
+    },
+    {
+      "image_id": "d97ab9ae3d902fa0",
+      "gt_index": 0,
+      "approx_side_at_512": 53.16239272267567,
+      "best_same_class_iou": 0.641702455476207,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 4
+    },
+    {
+      "image_id": "d0e1433d9fe813e6",
+      "gt_index": 0,
+      "approx_side_at_512": 34.14786202548134,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 5
+    },
+    {
+      "image_id": "d0e1433d9fe813e6",
+      "gt_index": 1,
+      "approx_side_at_512": 46.84458160116654,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 5
+    },
+    {
+      "image_id": "118de39bd14b87b4",
+      "gt_index": 0,
+      "approx_side_at_512": 58.81403396915542,
+      "best_same_class_iou": 0.6270294421422664,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 2
+    },
+    {
+      "image_id": "0caafe50e3258dd3",
+      "gt_index": 0,
+      "approx_side_at_512": 32.344332339203724,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "07a23b4ca59c2c26",
+      "gt_index": 0,
+      "approx_side_at_512": 62.93107129042059,
+      "best_same_class_iou": 0.021348148749702277,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "91fce09c6ffabb56",
+      "gt_index": 0,
+      "approx_side_at_512": 48.160854582079,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "dffaf8a4d9fc6c82",
+      "gt_index": 0,
+      "approx_side_at_512": 51.19032853783033,
+      "best_same_class_iou": 0.6976975879377605,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 3
+    },
+    {
+      "image_id": "dbed91844d434b7d",
+      "gt_index": 0,
+      "approx_side_at_512": 56.38723259745951,
+      "best_same_class_iou": 0.9110804290914314,
+      "gt_center_in_prediction": true,
+      "same_class_predictions_on_image": 1
+    },
+    {
+      "image_id": "5a7c753c0e06099d",
+      "gt_index": 0,
+      "approx_side_at_512": 40.010664767084265,
+      "best_same_class_iou": 0.0,
+      "gt_center_in_prediction": false,
+      "same_class_predictions_on_image": 1
+    }
+  ]
+}

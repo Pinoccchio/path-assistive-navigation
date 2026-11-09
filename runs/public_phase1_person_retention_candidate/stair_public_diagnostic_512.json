@@ -1,0 +1,3742 @@
+{
+  "images": 620,
+  "imgsz": 512,
+  "conf": 0.25,
+  "matching_iou": 0.5,
+  "weights_sha256": "4271b0279c9f4017c75d667b805db1a20020a2e6d49d969ef9b73cf13a1cfa2b",
+  "baseline_report": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\runs\\public_phase1_v11_reviewed_640_candidate\\stair_pretrained_comparison_512.json",
+  "limitations": "Reused public development images with imperfect stair labels; not independent or phone validation.",
+  "candidate": {
+    "counts": {
+      "gt_boxes": 122,
+      "pred_boxes": 118,
+      "matched_boxes": 101,
+      "positive_images": 118,
+      "positive_images_with_prediction": 104,
+      "zero_label_images": 502,
+      "zero_label_images_with_prediction": 2
+    },
+    "rows": [
+      {
+        "id": "openimagesv7_test_01afd648a4376160",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_047c02edc7043382",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_087b1062dc719626",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_0bdc378272c98063",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_104585a6522ac572",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_11051240239ce83f",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_12d8c0e031b0a447",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_1524b0919466c2f1",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_1554f6fd493281ec",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_1b28a7f8ac4d7956",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_1da35ffdf63ced85",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_24c2cce9b8252793",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_24fd5374dd3aa5be",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_29e91aca75ec18db",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_2bd09eb8b8669b7b",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_2de6c1769ddbfcb9",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "openimagesv7_test_2e81f8000e9028a1",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_2ec90b74cfc16038",
+        "gt": 0,
+        "pred": 1,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_313f51fc7ef2a042",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_35d84d6fb6276346",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "openimagesv7_test_3606698913ba1fa5",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_363ca9571e4863dc",
+        "gt": 0,
+        "pred": 1,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_38c3939f1a0bdc00",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_3ec938b27cbaef84",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_412e3fddac13e4cf",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_4326f59925a359c3",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_4590b9aa33c0f9f7",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_45e3ef238ecca2cc",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_48cfd394b5db1ec7",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_4c671b78b114d176",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_4dc53b2601d701b1",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_524642ab6f5b8930",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_531190de6ba40077",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_5374ada3084810c8",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_55db358e236e72ea",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_5a949cd202a5c448",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_5afcb31ffaceeb8a",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_5b54b66ae5e4d602",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_5d4d3070cbba7d3d",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_602f4bebef083e58",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_610caa8709ab6060",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_6250f6797bf34d80",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_636ba1487a96dc86",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_6455367d9a974936",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_650278103bf5006d",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_65e3d41692d6669a",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_65f5ed364ac36805",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_662790dc7792665d",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_67cb8cf054c17cd4",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_6b6b3bd0fe09f384",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_6db7c2b0edefbf74",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_78bc898cf9490e18",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_7e926d1dbc780314",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_7f26462acb0d1f01",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_811ed6c2c0bd05df",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_81a89ccb5deed3d1",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_861f1a24328a63c8",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_86a416588475bae5",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "openimagesv7_test_8aa8c43966aa5955",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_8dd440ff321beb9a",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_8e76e210dec5f157",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_8f4365531b4f7e8e",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_93c6d7c43ed318bb",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "openimagesv7_test_996e4f08c8db6ff8",
+        "gt": 2,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_9b1bb9b79cee9ed7",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_9ccb255eb67761c8",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_9d3af0c7e89e4639",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_a11fe213e122692a",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_a1e8ff6e0a10fb3b",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_a59b9c480e5e822e",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_a66d1884132bd89a",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_a6a9b01f818e93b9",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_adcb44da4d7fb792",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_aeba7b85bb39ae31",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_af0a496f9e67d485",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_b2e78c004eb20bf3",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_b44d8f176b21c088",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_b47b55d0f6a7836f",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_b8806615fbe8e40c",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_bbcba729f99ec6fa",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_bdd885df4be7518c",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_be870e4b205a53cc",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_c0b18f3bb70c524a",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_c2ddf0678c9cfe8c",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_c5974482f16d86c7",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "openimagesv7_test_c9f15ab58375f193",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_cf57de7ca4588d46",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_d0480197cbf7d971",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_daaf83c97eac3bab",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_de3a68d0f8e8a76c",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_df8182d6fb1c64f6",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_e540805e4905a298",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_e7110a9bdee3e023",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_e9e6ab8ed6b26984",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_f0e68de1ecd1525e",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_f243d015e0c59854",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_f6daef3ca544abf3",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_f70d1008d55d43e4",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "openimagesv7_test_fa4e8b511e5abf44",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19187",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19189",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19192",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19194",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19195",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19196",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19197",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19198",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19199",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19200",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19202",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19203",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19204",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19207",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19208",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19209",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19210",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19211",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19212",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19213",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19214",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19218",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19220",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19221",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19239",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19240",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19242",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19243",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19244",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19245",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19256",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19263",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19267",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19268",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19278",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19281",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19282",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19288",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19291",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19298",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19300",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19302",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19303",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19309",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19317",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19352",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19360",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19362",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19419",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19420",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19421",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19442",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19456",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19461",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19462",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19471",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19486",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19505",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19508",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19512",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19515",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19531",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19538",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19568",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19578",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19579",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19584",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19589",
+        "gt": 1,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19590",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19593",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19633",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19639",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19640",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19641",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19642",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19649",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19655",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19656",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19658",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19659",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19660",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19661",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19662",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19667",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19669",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19670",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19672",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19673",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19676",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19677",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19679",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19684",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19685",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19686",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19687",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19688",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19689",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19690",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19692",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19693",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19695",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19696",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19697",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19698",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19700",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19702",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19703",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19704",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19705",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19706",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19708",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19709",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19711",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19719",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19720",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19721",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19722",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19723",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19724",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19725",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19726",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19727",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19728",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19729",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19736",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19737",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19738",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19740",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19742",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19744",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19745",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19747",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19748",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19749",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19750",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19751",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19752",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19753",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19754",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19755",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19756",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19759",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19760",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19761",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19763",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19764",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19765",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19766",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19768",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19769",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19770",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19771",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19773",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19774",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19775",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19776",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19777",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19780",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19781",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19782",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19783",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19784",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19786",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19788",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19789",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19790",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19792",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19793",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19795",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19796",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19797",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19798",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19799",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19800",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19801",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19810",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19811",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19812",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19813",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19832",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19833",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19839",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19841",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19843",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19844",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19846",
+        "gt": 2,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19848",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19851",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19852",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19857",
+        "gt": 2,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19870",
+        "gt": 1,
+        "pred": 6,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19873",
+        "gt": 1,
+        "pred": 2,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19874",
+        "gt": 1,
+        "pred": 3,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19888",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19889",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19893",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19896",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19897",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19898",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19901",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19908",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19952",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19953",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19954",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19955",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19956",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19957",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19958",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19959",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19986",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19989",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19990",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_19994",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19995",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19996",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19997",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19998",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_19999",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20000",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20001",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20002",
+        "gt": 1,
+        "pred": 1,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20003",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20004",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20007",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20009",
+        "gt": 2,
+        "pred": 2,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20012",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20032",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20049",
+        "gt": 1,
+        "pred": 2,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20052",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20056",
+        "gt": 1,
+        "pred": 1,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20057",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20089",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20091",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20093",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20094",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20095",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20103",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20115",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20136",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20191",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20192",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20193",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20244",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20252",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20267",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20274",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20280",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20289",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20294",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20306",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20307",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20312",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20316",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20320",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20326",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20336",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20337",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20338",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20340",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20341",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20343",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20344",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20345",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20346",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20347",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20348",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20349",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20350",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20351",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20352",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20353",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20354",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20357",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20358",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20360",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20361",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20362",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20363",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20364",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20365",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20367",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20368",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20369",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20370",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20379",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20381",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20388",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20389",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20390",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20391",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20392",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20394",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20396",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20397",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20399",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20400",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20404",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20405",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20406",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20408",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20409",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20410",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20411",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20412",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20473",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20474",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20475",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20477",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20478",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20483",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20486",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20488",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20493",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20497",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20501",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20504",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20505",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20510",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20511",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20513",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20514",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20516",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20517",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20518",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20519",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20528",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20533",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20537",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20556",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20557",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20564",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20567",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20571",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20574",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20575",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20576",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20577",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20578",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20579",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20580",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20581",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20582",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20584",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20587",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20594",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20595",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20596",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20597",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20598",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20606",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20607",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20608",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20611",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20612",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20613",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20614",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20626",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20628",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20629",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20631",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20633",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20645",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20646",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20652",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20653",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20658",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20659",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20660",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20662",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20663",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20666",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20667",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20668",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20669",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20670",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20672",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20673",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20674",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20675",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20679",
+        "gt": 1,
+        "pred": 2,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20682",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20683",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20684",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20685",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20686",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20687",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20688",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20689",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20690",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20691",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20692",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20694",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20695",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20697",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20698",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20699",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20701",
+        "gt": 1,
+        "pred": 2,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20702",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20703",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20704",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20706",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20707",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20708",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20710",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20711",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20712",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20713",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20714",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20715",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20717",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20719",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20720",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20721",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20723",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20724",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20725",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20726",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20727",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20728",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20729",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20730",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20731",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20732",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20733",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20734",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20737",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20738",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20739",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20741",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20742",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20744",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20745",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20746",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20747",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20748",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20749",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20750",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20751",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20753",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20754",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20756",
+        "gt": 1,
+        "pred": 1,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20757",
+        "gt": 1,
+        "pred": 1,
+        "matched": 1
+      },
+      {
+        "id": "rod_test_IMG_20758",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20759",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20774",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20777",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20778",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20780",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20782",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20787",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20803",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20805",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20806",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20808",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20811",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20814",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "rod_test_IMG_20815",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_50152080c0ecfb56",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_bda095274738b159",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_684b5fbfedae9a42",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_530b0c8cea862dbc",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_7c3fcc3b6d06cfd3",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_7a3d6af7f97fa846",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_08360cb5ad873a7d",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_a8b1b9dbb5cf0eab",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_173d6fa712870904",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_a1204ef36a38e5e0",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_355bc1ce582f0e96",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_cd004f60ce9c3ab7",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_88859419055de2c5",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_b87e74743a07bacf",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_21d7d2d92f813eb4",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_1481ab26f82cbfa7",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_61b8a57a28449a0e",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_c19708ae1a4b7ba1",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_9d657c89fc6091b5",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_557dcec8f1c98642",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_9b0188bdae0f5b07",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_73bf01ae5d9aea95",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_a153975c2546aa5d",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_4acf140baf27c62f",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_ef9b66e431ad9fa4",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_b501f5cfc7215e47",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_9f95077dcf985a4e",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_81ac34eb158bcc18",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_1d3f8a7b5c94e736",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_68dd3c8561d18ca5",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_c8b20a6b572a752c",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_0b3cee81b907aa24",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_85643b29584c963f",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_10644f516604217c",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_023c7d986f64b55e",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_5a6f7297ade39887",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_dee1b1c220415295",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_29f506fb37c411c6",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_caa2b54bfac0b3b3",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_04c94d94a205c7e2",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_6b7b01d58c37094a",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_5c6b5876873bd25a",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_52d8fce8c32fe306",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_9bf6d28723ca69e7",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_6b4c1535ec7357b9",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_435e4a19092643ca",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_25c1ba4b9caff840",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_3caa425417a0db1e",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_c53bea194533f584",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_08eb9697d767c481",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_fd4e853348667bb0",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_042676f6b5eba097",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_3623f736e228da04",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_4b38c0547c42ffea",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_9a5ca7b7f82e53fd",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_7772dc10c892f2f1",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_655dfe8fc827ad71",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_47a256c18ae5102d",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_28a5af092bdc61a7",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_df42aa977681279c",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_cf003fe3404df63c",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_cc871e500ffa4041",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_65c0bc75563d2a3e",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      },
+      {
+        "id": "oi_v10_test_366c681e63d08667",
+        "gt": 0,
+        "pred": 0,
+        "matched": 0
+      }
+    ]
+  }
+}

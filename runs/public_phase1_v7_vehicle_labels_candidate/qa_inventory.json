@@ -1,0 +1,62 @@
+{
+  "images_checked": 3520,
+  "split_counts": {
+    "test": 556,
+    "val": 251,
+    "train": 2713
+  },
+  "issues": [],
+  "capture_groups_in_multiple_splits": {},
+  "exact_image_hashes_in_multiple_splits": 0,
+  "source_image_counts_by_class": {
+    "person": {
+      "OpenImagesV7": 195,
+      "ROD": 331,
+      "ROD_pilot": 341
+    },
+    "chair": {
+      "OpenImagesV7": 122,
+      "ROD": 276,
+      "ROD_pilot": 188
+    },
+    "stairs": {
+      "OpenImagesV7": 102,
+      "ROD": 244,
+      "ROD_pilot": 163
+    },
+    "car": {
+      "OpenImagesV7": 135,
+      "ROD": 371,
+      "ROD_pilot": 453
+    },
+    "bicycle": {
+      "OpenImagesV7": 123,
+      "ROD": 129,
+      "ROD_pilot": 40
+    },
+    "electrical_pole": {
+      "ROD": 34,
+      "ROD_pilot": 24
+    },
+    "plant_pot": {
+      "ROD": 114,
+      "ROD_pilot": 92
+    }
+  },
+  "box_counts_by_class": {
+    "bicycle": 427,
+    "car": 1664,
+    "person": 2667,
+    "chair": 1425,
+    "stairs": 549,
+    "plant_pot": 286,
+    "electrical_pole": 58
+  },
+  "boxes_under_16px_on_either_side": {
+    "chair": 42,
+    "car": 54,
+    "person": 59,
+    "bicycle": 5
+  },
+  "cross_split_dhash_pairs_at_most_13": []
+}

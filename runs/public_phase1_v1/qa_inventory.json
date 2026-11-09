@@ -1,0 +1,2360 @@
+{
+  "images_checked": 3953,
+  "split_counts": {
+    "test": 588,
+    "val": 290,
+    "train": 3075
+  },
+  "issues": [],
+  "capture_groups_in_multiple_splits": {
+    "ROD:4163": [
+      "test",
+      "val"
+    ]
+  },
+  "exact_image_hashes_in_multiple_splits": 0,
+  "source_image_counts_by_class": {
+    "person": {
+      "OpenImagesV7": 199,
+      "ROD": 356,
+      "ROD_pilot": 370
+    },
+    "chair": {
+      "OpenImagesV7": 125,
+      "ROD": 330,
+      "ROD_pilot": 229
+    },
+    "stairs": {
+      "OpenImagesV7": 120,
+      "ROD": 303,
+      "ROD_pilot": 201
+    },
+    "car": {
+      "OpenImagesV7": 135,
+      "ROD": 380,
+      "ROD_pilot": 460
+    },
+    "bicycle": {
+      "OpenImagesV7": 123,
+      "ROD": 215,
+      "ROD_pilot": 100
+    },
+    "electrical_pole": {
+      "ROD": 140,
+      "ROD_pilot": 75
+    },
+    "plant_pot": {
+      "ROD": 126,
+      "ROD_pilot": 104
+    }
+  },
+  "box_counts_by_class": {
+    "bicycle": 575,
+    "car": 1685,
+    "person": 2847,
+    "chair": 1570,
+    "stairs": 855,
+    "plant_pot": 318,
+    "electrical_pole": 216
+  },
+  "boxes_under_16px_on_either_side": {
+    "chair": 43,
+    "car": 54,
+    "person": 73,
+    "stairs": 4,
+    "electrical_pole": 3,
+    "bicycle": 5
+  },
+  "cross_split_dhash_pairs_at_most_13": [
+    {
+      "test": "rod_test_IMG_19204",
+      "train": "pilot_train_IMG_00346",
+      "distance": 5
+    },
+    {
+      "test": "rod_test_IMG_19209",
+      "train": "pilot_train_IMG_00346",
+      "distance": 5
+    },
+    {
+      "test": "rod_test_IMG_19214",
+      "train": "rod_train_IMG_00418",
+      "distance": 5
+    },
+    {
+      "test": "rod_test_IMG_19214",
+      "train": "pilot_train_IMG_00346",
+      "distance": 5
+    },
+    {
+      "test": "rod_test_IMG_19633",
+      "train": "rod_train_IMG_05233",
+      "distance": 5
+    },
+    {
+      "test": "rod_test_IMG_19641",
+      "train": "pilot_train_IMG_01518",
+      "distance": 5
+    },
+    {
+      "test": "rod_test_IMG_19870",
+      "train": "pilot_train_IMG_07759",
+      "distance": 5
+    },
+    {
+      "test": "rod_test_IMG_20361",
+      "train": "pilot_val_IMG_23224",
+      "distance": 5
+    },
+    {
+      "test": "rod_test_IMG_20381",
+      "train": "pilot_train_IMG_06944",
+      "distance": 5
+    },
+    {
+      "test": "rod_test_IMG_20814",
+      "train": "pilot_train_IMG_19176",
+      "distance": 5
+    },
+    {
+      "test": "rod_test_IMG_19194",
+      "train": "rod_train_IMG_00154",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_19209",
+      "train": "pilot_train_IMG_00408",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_19212",
+      "train": "pilot_train_IMG_00400",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_19213",
+      "train": "rod_train_IMG_00407",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_19783",
+      "train": "rod_train_IMG_06942",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "pilot_val_IMG_22250",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_19786",
+      "train": "pilot_val_IMG_22252",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "pilot_train_IMG_18427",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_19874",
+      "train": "rod_train_IMG_07763",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_20090",
+      "train": "pilot_train_IMG_10621",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_20381",
+      "train": "pilot_val_IMG_22252",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "rod_train_IMG_18569",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_train_IMG_18612",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "rod_train_IMG_07529",
+      "distance": 6
+    },
+    {
+      "test": "rod_test_IMG_19193",
+      "train": "pilot_train_IMG_00142",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19204",
+      "train": "rod_train_IMG_00354",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19204",
+      "train": "rod_train_IMG_00418",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19209",
+      "train": "rod_train_IMG_00354",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19212",
+      "train": "pilot_train_IMG_00408",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19214",
+      "train": "rod_train_IMG_00354",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19780",
+      "train": "rod_train_IMG_06910",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19780",
+      "train": "rod_train_IMG_06922",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "pilot_train_IMG_06947",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19786",
+      "train": "pilot_train_IMG_06944",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "pilot_train_IMG_01642",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19795",
+      "train": "pilot_val_IMG_22292",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "rod_train_IMG_18569",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "pilot_train_IMG_18461",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "pilot_train_IMG_18612",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19920",
+      "train": "rod_train_IMG_08274",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_20405",
+      "train": "rod_train_IMG_03854",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_20475",
+      "train": "pilot_train_IMG_14631",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_20597",
+      "train": "rod_train_IMG_16872",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_train_IMG_18427",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_20719",
+      "train": "pilot_train_IMG_18421",
+      "distance": 7
+    },
+    {
+      "test": "rod_test_IMG_19204",
+      "train": "rod_train_IMG_00398",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19204",
+      "train": "pilot_train_IMG_00408",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19209",
+      "train": "rod_train_IMG_00398",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19220",
+      "train": "pilot_train_IMG_14631",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19302",
+      "train": "pilot_train_IMG_05262",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19773",
+      "train": "pilot_train_IMG_06881",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19780",
+      "train": "rod_train_IMG_06916",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19783",
+      "train": "rod_train_IMG_06987",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19783",
+      "train": "pilot_val_IMG_22288",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "rod_train_IMG_06948",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "pilot_train_IMG_06944",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19795",
+      "train": "rod_train_IMG_06987",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19799",
+      "train": "rod_train_IMG_06999",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19920",
+      "train": "rod_train_IMG_08267",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20091",
+      "train": "pilot_train_IMG_10629",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20348",
+      "train": "pilot_val_IMG_23198",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20360",
+      "train": "pilot_val_IMG_23224",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20410",
+      "train": "rod_train_IMG_06163",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20410",
+      "train": "pilot_val_IMG_23540",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20474",
+      "train": "pilot_train_IMG_15209",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20475",
+      "train": "rod_train_IMG_16445",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20475",
+      "train": "rod_train_IMG_18679",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20513",
+      "train": "pilot_train_IMG_15696",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20612",
+      "train": "pilot_train_IMG_18658",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20628",
+      "train": "rod_train_IMG_17859",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20660",
+      "train": "pilot_val_IMG_24026",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "rod_train_IMG_07529",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_train_IMG_18461",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "rod_train_IMG_18523",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20751",
+      "train": "openimagesv7_train_594633f985a3f0ba",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19194",
+      "train": "pilot_train_IMG_00088",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19204",
+      "train": "pilot_train_IMG_00385",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19204",
+      "train": "pilot_train_IMG_00388",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19208",
+      "train": "rod_train_IMG_00398",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19209",
+      "train": "pilot_train_IMG_00400",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19211",
+      "train": "pilot_train_IMG_00400",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19212",
+      "train": "rod_train_IMG_00398",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19214",
+      "train": "pilot_train_IMG_00388",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19220",
+      "train": "rod_train_IMG_18679",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19725",
+      "train": "pilot_train_IMG_06204",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "rod_train_IMG_05408",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19786",
+      "train": "rod_train_IMG_06948",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "rod_train_IMG_02330",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "rod_train_IMG_06953",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "pilot_val_IMG_21171",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19832",
+      "train": "pilot_train_IMG_15207",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19874",
+      "train": "pilot_train_IMG_07764",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19920",
+      "train": "openimagesv7_train_594633f985a3f0ba",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_20381",
+      "train": "rod_train_IMG_06948",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_20528",
+      "train": "pilot_train_IMG_19069",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_20557",
+      "train": "pilot_train_IMG_19136",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_20571",
+      "train": "pilot_train_IMG_16143",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_20595",
+      "train": "rod_train_IMG_16861",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "pilot_train_IMG_18427",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_20741",
+      "train": "rod_train_IMG_18523",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_20747",
+      "train": "pilot_train_IMG_18612",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_20751",
+      "train": "rod_train_IMG_07454",
+      "distance": 9
+    },
+    {
+      "test": "rod_test_IMG_19194",
+      "train": "rod_train_IMG_00055",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19194",
+      "train": "rod_train_IMG_00086",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19194",
+      "train": "pilot_train_IMG_00044",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19194",
+      "train": "pilot_train_IMG_00150",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19211",
+      "train": "pilot_train_IMG_00408",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19212",
+      "train": "pilot_train_IMG_00388",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19214",
+      "train": "rod_train_IMG_00398",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19214",
+      "train": "pilot_train_IMG_00408",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19419",
+      "train": "openimagesv7_train_4b488854702fccdf",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19578",
+      "train": "rod_train_IMG_04442",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19725",
+      "train": "rod_train_IMG_06208",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19725",
+      "train": "pilot_train_IMG_06225",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19725",
+      "train": "pilot_train_IMG_06233",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19727",
+      "train": "rod_train_IMG_06224",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19727",
+      "train": "pilot_train_IMG_06221",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19727",
+      "train": "pilot_val_IMG_22018",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19780",
+      "train": "pilot_val_IMG_23195",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19786",
+      "train": "rod_train_IMG_07001",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19786",
+      "train": "pilot_train_IMG_06947",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "pilot_train_IMG_02036",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "pilot_train_IMG_02117",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "pilot_train_IMG_04543",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19796",
+      "train": "rod_train_IMG_03634",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19796",
+      "train": "pilot_train_IMG_06947",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19798",
+      "train": "pilot_train_IMG_02117",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "rod_train_IMG_18594",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19873",
+      "train": "rod_train_IMG_07763",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19920",
+      "train": "rod_train_IMG_08275",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19958",
+      "train": "pilot_val_IMG_22512",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20012",
+      "train": "pilot_train_IMG_09428",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20336",
+      "train": "pilot_val_IMG_23209",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20379",
+      "train": "rod_train_IMG_13032",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20381",
+      "train": "pilot_train_IMG_06947",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20381",
+      "train": "pilot_train_IMG_15499",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20410",
+      "train": "rod_train_IMG_14632",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20474",
+      "train": "pilot_train_IMG_15194",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20475",
+      "train": "rod_train_IMG_12439",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20475",
+      "train": "rod_train_IMG_15183",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20477",
+      "train": "pilot_train_IMG_14629",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20477",
+      "train": "pilot_train_IMG_15209",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20556",
+      "train": "pilot_val_IMG_23711",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20663",
+      "train": "pilot_train_IMG_18382",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20682",
+      "train": "pilot_train_IMG_18427",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20685",
+      "train": "rod_train_IMG_07456",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "rod_train_IMG_18523",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_train_IMG_18367",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20710",
+      "train": "rod_train_IMG_18569",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20710",
+      "train": "pilot_train_IMG_18573",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20719",
+      "train": "rod_train_IMG_18633",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20719",
+      "train": "pilot_train_IMG_18612",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20721",
+      "train": "pilot_train_IMG_18590",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20723",
+      "train": "rod_train_IMG_18366",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "rod_train_IMG_18569",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "pilot_train_IMG_18612",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20741",
+      "train": "pilot_val_IMG_24099",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_20811",
+      "train": "pilot_train_IMG_16454",
+      "distance": 10
+    },
+    {
+      "test": "openimagesv7_test_b8806615fbe8e40c",
+      "train": "pilot_val_IMG_23238",
+      "distance": 11
+    },
+    {
+      "test": "openimagesv7_test_c5974482f16d86c7",
+      "train": "openimagesv7_train_0f4f85efb12a7b28",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19207",
+      "train": "pilot_train_IMG_00385",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19211",
+      "train": "pilot_train_IMG_00388",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19214",
+      "train": "pilot_train_IMG_00400",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19309",
+      "train": "rod_train_IMG_04164",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19360",
+      "train": "rod_train_IMG_02409",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19578",
+      "train": "rod_train_IMG_03556",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19578",
+      "train": "pilot_val_IMG_23265",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19725",
+      "train": "pilot_train_IMG_06221",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19738",
+      "train": "pilot_train_IMG_05693",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19777",
+      "train": "pilot_train_IMG_06881",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19777",
+      "train": "pilot_val_IMG_22212",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "rod_train_IMG_02119",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "rod_train_IMG_06953",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "rod_train_IMG_15295",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "pilot_val_IMG_21171",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "rod_train_IMG_02119",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "rod_train_IMG_04680",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "rod_train_IMG_15411",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "pilot_train_IMG_02212",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19796",
+      "train": "pilot_train_IMG_06944",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19798",
+      "train": "rod_train_IMG_02119",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19798",
+      "train": "pilot_train_IMG_02547",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19800",
+      "train": "rod_train_IMG_06999",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19800",
+      "train": "pilot_train_IMG_02201",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "rod_train_IMG_18633",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "pilot_train_IMG_18367",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19873",
+      "train": "rod_train_IMG_07765",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19874",
+      "train": "rod_train_IMG_07765",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19920",
+      "train": "openimagesv7_train_c00cea497a9263ae",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19994",
+      "train": "rod_train_IMG_09164",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20092",
+      "train": "rod_train_IMG_10645",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20093",
+      "train": "pilot_train_IMG_10705",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20094",
+      "train": "pilot_train_IMG_10715",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20244",
+      "train": "rod_train_IMG_17888",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20306",
+      "train": "pilot_train_IMG_07037",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20381",
+      "train": "pilot_val_IMG_21745",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20381",
+      "train": "pilot_val_IMG_22250",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20405",
+      "train": "rod_train_IMG_17297",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20473",
+      "train": "rod_train_IMG_15187",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20474",
+      "train": "rod_train_IMG_12363",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20474",
+      "train": "pilot_train_IMG_15184",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20475",
+      "train": "pilot_train_IMG_15184",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20477",
+      "train": "rod_train_IMG_12363",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20477",
+      "train": "pilot_train_IMG_15184",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20528",
+      "train": "pilot_train_IMG_15947",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20663",
+      "train": "rod_train_IMG_18569",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20663",
+      "train": "pilot_train_IMG_18367",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20663",
+      "train": "pilot_train_IMG_18612",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20682",
+      "train": "pilot_train_IMG_18367",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20682",
+      "train": "pilot_train_IMG_18612",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "rod_train_IMG_18594",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_train_IMG_18382",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_train_IMG_18421",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_train_IMG_18456",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_val_IMG_24057",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_val_IMG_24086",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20710",
+      "train": "pilot_train_IMG_18456",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20719",
+      "train": "pilot_val_IMG_24057",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20727",
+      "train": "pilot_val_IMG_24117",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "pilot_val_IMG_24086",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_20751",
+      "train": "rod_train_IMG_08275",
+      "distance": 11
+    },
+    {
+      "test": "rod_test_IMG_19194",
+      "train": "pilot_train_IMG_08676",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19208",
+      "train": "pilot_train_IMG_00391",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19211",
+      "train": "rod_train_IMG_00398",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19212",
+      "train": "rod_train_IMG_00418",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19212",
+      "train": "pilot_train_IMG_00346",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19220",
+      "train": "rod_train_IMG_15179",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19242",
+      "train": "pilot_train_IMG_19136",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19282",
+      "train": "pilot_train_IMG_06225",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19288",
+      "train": "pilot_train_IMG_02212",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19303",
+      "train": "rod_train_IMG_01462",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19309",
+      "train": "rod_train_IMG_02409",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19309",
+      "train": "pilot_train_IMG_04163",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19362",
+      "train": "rod_train_IMG_04680",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19725",
+      "train": "pilot_train_IMG_06194",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19726",
+      "train": "pilot_train_IMG_06194",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19726",
+      "train": "pilot_train_IMG_06225",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19726",
+      "train": "pilot_train_IMG_06233",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19742",
+      "train": "pilot_train_IMG_01044",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19774",
+      "train": "pilot_train_IMG_06881",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19775",
+      "train": "rod_train_IMG_06887",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19777",
+      "train": "rod_train_IMG_06884",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19781",
+      "train": "rod_train_IMG_06887",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19783",
+      "train": "pilot_train_IMG_06977",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "rod_train_IMG_02345",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "rod_train_IMG_04164",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "pilot_train_IMG_04543",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19786",
+      "train": "pilot_train_IMG_15499",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "rod_train_IMG_06948",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19795",
+      "train": "rod_train_IMG_06887",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19795",
+      "train": "pilot_train_IMG_15377",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19795",
+      "train": "pilot_val_IMG_22288",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19796",
+      "train": "pilot_train_IMG_01714",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19796",
+      "train": "pilot_val_IMG_22252",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19799",
+      "train": "rod_train_IMG_13608",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19799",
+      "train": "pilot_val_IMG_23265",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19832",
+      "train": "pilot_train_IMG_15181",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "pilot_train_IMG_18382",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "pilot_train_IMG_18421",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "pilot_val_IMG_24086",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_19920",
+      "train": "rod_train_IMG_08297",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20092",
+      "train": "pilot_train_IMG_10648",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20093",
+      "train": "rod_train_IMG_10703",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20244",
+      "train": "rod_train_IMG_03475",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20306",
+      "train": "pilot_train_IMG_17388",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20340",
+      "train": "pilot_train_IMG_13116",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20341",
+      "train": "pilot_val_IMG_23189",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20381",
+      "train": "rod_train_IMG_07001",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20381",
+      "train": "rod_train_IMG_15295",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20405",
+      "train": "pilot_train_IMG_17391",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20434",
+      "train": "rod_train_IMG_14704",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20473",
+      "train": "pilot_train_IMG_15181",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20528",
+      "train": "rod_train_IMG_03389",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20528",
+      "train": "rod_train_IMG_14240",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20567",
+      "train": "pilot_train_IMG_07123",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20606",
+      "train": "rod_train_IMG_17110",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20608",
+      "train": "pilot_val_IMG_23823",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20612",
+      "train": "rod_train_IMG_18198",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20612",
+      "train": "pilot_train_IMG_07123",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20612",
+      "train": "pilot_train_IMG_17156",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20663",
+      "train": "pilot_train_IMG_18421",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20663",
+      "train": "pilot_val_IMG_24057",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20679",
+      "train": "rod_train_IMG_18576",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20682",
+      "train": "pilot_val_IMG_24057",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "rod_train_IMG_18574",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "rod_train_IMG_18633",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_train_IMG_18562",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_train_IMG_18573",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20698",
+      "train": "rod_train_IMG_18467",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20710",
+      "train": "pilot_train_IMG_18461",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20710",
+      "train": "pilot_train_IMG_18612",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20717",
+      "train": "rod_train_IMG_18523",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20719",
+      "train": "rod_train_IMG_18569",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20719",
+      "train": "pilot_train_IMG_18367",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20719",
+      "train": "pilot_train_IMG_18469",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20724",
+      "train": "pilot_train_IMG_18367",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "rod_train_IMG_18574",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "pilot_train_IMG_18367",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "pilot_train_IMG_18461",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20747",
+      "train": "pilot_train_IMG_18421",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20747",
+      "train": "pilot_train_IMG_18427",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20751",
+      "train": "rod_train_IMG_08274",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20751",
+      "train": "rod_train_IMG_15425",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20782",
+      "train": "pilot_val_IMG_24267",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20806",
+      "train": "pilot_train_IMG_00327",
+      "distance": 12
+    },
+    {
+      "test": "rod_test_IMG_20815",
+      "train": "pilot_train_IMG_19176",
+      "distance": 12
+    },
+    {
+      "test": "openimagesv7_test_5d4d3070cbba7d3d",
+      "train": "rod_train_IMG_04360",
+      "distance": 13
+    },
+    {
+      "test": "openimagesv7_test_a6a9b01f818e93b9",
+      "train": "rod_train_IMG_19023",
+      "distance": 13
+    },
+    {
+      "test": "openimagesv7_test_aeba7b85bb39ae31",
+      "train": "rod_train_IMG_07556",
+      "distance": 13
+    },
+    {
+      "test": "openimagesv7_test_aeba7b85bb39ae31",
+      "train": "rod_train_IMG_08258",
+      "distance": 13
+    },
+    {
+      "test": "openimagesv7_test_fa4e8b511e5abf44",
+      "train": "pilot_train_IMG_05382",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19194",
+      "train": "rod_train_IMG_00082",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19204",
+      "train": "pilot_train_IMG_00400",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19208",
+      "train": "pilot_train_IMG_00408",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19209",
+      "train": "rod_train_IMG_00418",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19209",
+      "train": "pilot_train_IMG_00385",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19209",
+      "train": "pilot_train_IMG_00388",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19210",
+      "train": "pilot_train_IMG_00391",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19214",
+      "train": "pilot_train_IMG_00385",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19220",
+      "train": "rod_train_IMG_15183",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19220",
+      "train": "rod_train_IMG_16445",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19278",
+      "train": "openimagesv7_train_0108b48ecce161dd",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19281",
+      "train": "rod_train_IMG_13608",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19281",
+      "train": "pilot_train_IMG_02096",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19282",
+      "train": "pilot_train_IMG_03528",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19282",
+      "train": "pilot_train_IMG_15557",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19282",
+      "train": "pilot_train_IMG_18255",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19288",
+      "train": "pilot_val_IMG_23265",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19300",
+      "train": "rod_train_IMG_06999",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19300",
+      "train": "pilot_val_IMG_21745",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19302",
+      "train": "pilot_train_IMG_01461",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19303",
+      "train": "rod_train_IMG_01574",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19309",
+      "train": "rod_train_IMG_03911",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19362",
+      "train": "pilot_train_IMG_02360",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19578",
+      "train": "pilot_val_IMG_23573",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19633",
+      "train": "rod_train_IMG_15411",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19641",
+      "train": "rod_train_IMG_01577",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19641",
+      "train": "rod_train_IMG_01866",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19711",
+      "train": "pilot_train_IMG_16132",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19723",
+      "train": "pilot_train_IMG_06225",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19725",
+      "train": "pilot_train_IMG_11017",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19727",
+      "train": "pilot_train_IMG_06233",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19727",
+      "train": "pilot_train_IMG_15586",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19763",
+      "train": "rod_train_IMG_05955",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19781",
+      "train": "rod_train_IMG_02330",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19783",
+      "train": "pilot_val_IMG_22292",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "rod_train_IMG_02178",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "rod_train_IMG_03634",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "rod_train_IMG_04680",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19784",
+      "train": "pilot_val_IMG_22252",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19786",
+      "train": "rod_train_IMG_01762",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19786",
+      "train": "pilot_train_IMG_04543",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19786",
+      "train": "pilot_val_IMG_21745",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19786",
+      "train": "pilot_val_IMG_22250",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19786",
+      "train": "pilot_val_IMG_23265",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19792",
+      "train": "rod_train_IMG_03430",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19793",
+      "train": "rod_train_IMG_15295",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19795",
+      "train": "rod_train_IMG_02330",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19796",
+      "train": "rod_train_IMG_01762",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19796",
+      "train": "pilot_val_IMG_21745",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19797",
+      "train": "rod_train_IMG_06892",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19798",
+      "train": "rod_train_IMG_02330",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19798",
+      "train": "rod_train_IMG_07001",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19799",
+      "train": "rod_train_IMG_03634",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19800",
+      "train": "pilot_train_IMG_02096",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19801",
+      "train": "pilot_val_IMG_23238",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19812",
+      "train": "rod_train_IMG_12370",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19832",
+      "train": "rod_train_IMG_15201",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "rod_train_IMG_07529",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "rod_train_IMG_18523",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "rod_train_IMG_18574",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "pilot_train_IMG_18562",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19844",
+      "train": "pilot_train_IMG_18573",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19857",
+      "train": "rod_train_IMG_18614",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19875",
+      "train": "rod_train_IMG_02784",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19920",
+      "train": "rod_train_IMG_08258",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_19953",
+      "train": "rod_train_IMG_08659",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20009",
+      "train": "pilot_val_IMG_22444",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20057",
+      "train": "rod_train_IMG_18633",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20088",
+      "train": "rod_train_IMG_10612",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20090",
+      "train": "pilot_train_IMG_10629",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20093",
+      "train": "pilot_train_IMG_10702",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20344",
+      "train": "pilot_train_IMG_13138",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20352",
+      "train": "pilot_val_IMG_23209",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20379",
+      "train": "pilot_train_IMG_19136",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20381",
+      "train": "pilot_train_IMG_02036",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20390",
+      "train": "openimagesv7_train_7e942058a90c12cc",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20391",
+      "train": "rod_train_IMG_14240",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20391",
+      "train": "pilot_train_IMG_17413",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20405",
+      "train": "rod_train_IMG_12621",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20405",
+      "train": "pilot_train_IMG_07123",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20405",
+      "train": "pilot_train_IMG_17156",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20405",
+      "train": "pilot_val_IMG_23812",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20410",
+      "train": "rod_train_IMG_15663",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20410",
+      "train": "pilot_train_IMG_15215",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20412",
+      "train": "pilot_train_IMG_15186",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20419",
+      "train": "pilot_train_IMG_14719",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20423",
+      "train": "rod_train_IMG_10707",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20426",
+      "train": "pilot_train_IMG_14731",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20473",
+      "train": "pilot_train_IMG_15191",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20474",
+      "train": "rod_train_IMG_01839",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20475",
+      "train": "rod_train_IMG_12363",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20475",
+      "train": "rod_train_IMG_15179",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20477",
+      "train": "rod_train_IMG_01839",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20493",
+      "train": "rod_train_IMG_03556",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20493",
+      "train": "pilot_val_IMG_23265",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20528",
+      "train": "rod_train_IMG_17213",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20528",
+      "train": "pilot_train_IMG_16143",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20537",
+      "train": "rod_train_IMG_03389",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20537",
+      "train": "rod_train_IMG_14240",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20557",
+      "train": "rod_train_IMG_16323",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20557",
+      "train": "pilot_train_IMG_07347",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20557",
+      "train": "pilot_train_IMG_16513",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20567",
+      "train": "rod_train_IMG_16704",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20567",
+      "train": "pilot_val_IMG_23861",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20571",
+      "train": "pilot_train_IMG_17508",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20598",
+      "train": "rod_train_IMG_10752",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20612",
+      "train": "pilot_train_IMG_17391",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20663",
+      "train": "rod_train_IMG_18523",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20663",
+      "train": "rod_train_IMG_18633",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20663",
+      "train": "pilot_val_IMG_24066",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20669",
+      "train": "pilot_val_IMG_24099",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20682",
+      "train": "rod_train_IMG_07529",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20682",
+      "train": "rod_train_IMG_18569",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20682",
+      "train": "rod_train_IMG_18633",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20682",
+      "train": "pilot_train_IMG_18461",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "rod_train_IMG_18415",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_train_IMG_18383",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20688",
+      "train": "pilot_train_IMG_18544",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20710",
+      "train": "rod_train_IMG_18415",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20710",
+      "train": "rod_train_IMG_18594",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20710",
+      "train": "pilot_train_IMG_18382",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20710",
+      "train": "pilot_train_IMG_18421",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20710",
+      "train": "pilot_train_IMG_18427",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20717",
+      "train": "rod_train_IMG_18599",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20719",
+      "train": "pilot_train_IMG_18381",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20719",
+      "train": "pilot_train_IMG_18427",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20719",
+      "train": "pilot_train_IMG_18544",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20724",
+      "train": "pilot_train_IMG_18382",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20724",
+      "train": "pilot_train_IMG_18544",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20727",
+      "train": "rod_train_IMG_18516",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20729",
+      "train": "rod_train_IMG_18599",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20734",
+      "train": "rod_train_IMG_02784",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "rod_train_IMG_18349",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "rod_train_IMG_18594",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "pilot_train_IMG_18383",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20739",
+      "train": "pilot_train_IMG_18421",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20741",
+      "train": "pilot_train_IMG_18367",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20741",
+      "train": "pilot_train_IMG_18612",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20747",
+      "train": "rod_train_IMG_18569",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20747",
+      "train": "pilot_train_IMG_18461",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20751",
+      "train": "openimagesv7_train_68c02eb8d891b893",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20751",
+      "train": "openimagesv7_train_c4c61c19e8f9969a",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20751",
+      "train": "rod_train_IMG_09049",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20751",
+      "train": "pilot_train_IMG_02764",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20751",
+      "train": "pilot_train_IMG_18544",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20780",
+      "train": "rod_train_IMG_18813",
+      "distance": 13
+    },
+    {
+      "test": "rod_test_IMG_20803",
+      "train": "rod_train_IMG_05954",
+      "distance": 13
+    }
+  ]
+}

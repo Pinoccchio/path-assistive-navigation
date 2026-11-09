@@ -1,0 +1,24 @@
+{
+  "scope": "Two full-resolution verified motorcycle training boxes added to the v13 pilot; no public test edits.",
+  "review_method": "Original image and current v13 label inspection. Boxes target distinct visible scooters and do not duplicate existing motorcycle boxes.",
+  "add_boxes": {
+    "3b255ed49fe19fa2": {
+      "image_sha256": "7cd85b2cb5ed35b92e1a56d9dca40ff11ae42aa3e4f91a9304daafc7bb8e66ae",
+      "image_size": [1024, 681],
+      "boxes_xyxy": [[7, 885.6, 312.7, 1024.0, 545.3]],
+      "reason": "Distinct teal motor scooter at the right image boundary; current motorcycle boxes cover the gray scooter and police motorcycle only."
+    },
+    "66da6f93d78d1a49": {
+      "image_sha256": "c8be419eb2c41d9adb99749f882bedeebd9356f3bf3035b391a9c87b22f20e98",
+      "image_size": [1024, 768],
+      "boxes_xyxy": [[7, 215.0, 282.0, 571.0, 767.0]],
+      "reason": "Distinct white motor scooter in the foreground; current motorcycle boxes cover the cropped left and right scooters only. Box excludes most of the adjacent teal scooter."
+    }
+  },
+  "reviewed_without_label_addition": {
+    "6d048a3c49d0eaaf": "Crowded overlapping motorcycles; the model proposal covers only part of an instance. Needs exhaustive manual annotation.",
+    "09fd0f291ff4f6d4": "Blurred overlapping background motorcycles; cannot approve the proposed instance boundary.",
+    "29e6d25056a05f4d": "Many missing bicycles in a crowded race; review all instances before adding isolated prediction boxes."
+  },
+  "remaining_work": "This is an isolated annotation pilot, not an exhaustive label pass or a retraining-ready dataset."
+}

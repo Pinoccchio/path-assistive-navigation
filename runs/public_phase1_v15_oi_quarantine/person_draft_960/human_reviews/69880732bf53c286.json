@@ -1,0 +1,20 @@
+{
+  "image_id": "69880732bf53c286",
+  "image_sha256": "08b464331e6e9dfb3c6472c889bf720d2e9e7f8dd3a173c05f3a2b64da40ed4e",
+  "width": 1024,
+  "height": 728,
+  "status": "in_progress",
+  "reviewer": "Codex AI visual triage",
+  "second_reviewer": "",
+  "all_visible_people_checked": false,
+  "vehicle_completeness_checked": false,
+  "notes": "AI triage: one rider; draft person box plausible. Human full-image and motorcycle-box review required.",
+  "boxes": [
+    [
+      218.1,
+      21.4,
+      592.9,
+      671.2
+    ]
+  ]
+}

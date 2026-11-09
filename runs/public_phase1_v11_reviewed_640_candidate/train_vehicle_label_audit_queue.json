@@ -1,0 +1,1351 @@
+{
+  "retained_train_images": 290,
+  "flagged_images": 40,
+  "method": "v11 inference at 512px/confidence 0.4; bicycle/motorcycle predictions with IoU <0.1 to every same-class source box",
+  "warning": "Prediction is not a ground-truth annotation. Review visually; do not auto-add boxes or alter frozen test labels.",
+  "rows": [
+    {
+      "image_id": "29e6d25056a05f4d",
+      "group": "small_bicycle",
+      "source_boxes": 16,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.9121922850608826,
+          "box_xyxy": [
+            331.824462890625,
+            489.82537841796875,
+            406.058349609375,
+            572.6671752929688
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.7781568169593811,
+          "box_xyxy": [
+            362.418212890625,
+            500.3035888671875,
+            405.2962646484375,
+            567.1513671875
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.7454919815063477,
+          "box_xyxy": [
+            480.6790466308594,
+            488.934814453125,
+            558.4947509765625,
+            582.8045654296875
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.7164254188537598,
+          "box_xyxy": [
+            669.2084350585938,
+            501.01153564453125,
+            745.5469360351562,
+            587.9774780273438
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.7007306814193726,
+          "box_xyxy": [
+            691.3116455078125,
+            503.26837158203125,
+            750.4058837890625,
+            586.9721069335938
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.6609447598457336,
+          "box_xyxy": [
+            320.33660888671875,
+            496.3045959472656,
+            384.85906982421875,
+            580.1585693359375
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.6572800278663635,
+          "box_xyxy": [
+            89.54222106933594,
+            471.91650390625,
+            139.38287353515625,
+            579.2626953125
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.6390082240104675,
+          "box_xyxy": [
+            203.38076782226562,
+            474.4561462402344,
+            256.8333435058594,
+            577.9237060546875
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.6244337558746338,
+          "box_xyxy": [
+            502.722412109375,
+            494.1261901855469,
+            558.4893798828125,
+            583.025146484375
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.6122691035270691,
+          "box_xyxy": [
+            205.17791748046875,
+            473.68902587890625,
+            284.39501953125,
+            577.8540649414062
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.6060757040977478,
+          "box_xyxy": [
+            96.36837005615234,
+            467.54937744140625,
+            166.44998168945312,
+            568.1776733398438
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.5904858708381653,
+          "box_xyxy": [
+            357.75323486328125,
+            468.63616943359375,
+            406.892333984375,
+            569.0249633789062
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.5773943662643433,
+          "box_xyxy": [
+            320.2030334472656,
+            468.63665771484375,
+            405.8616638183594,
+            573.9841918945312
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.5092703104019165,
+          "box_xyxy": [
+            59.676597595214844,
+            485.8437805175781,
+            89.26725006103516,
+            550.943603515625
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4905638098716736,
+          "box_xyxy": [
+            245.26454162597656,
+            473.57843017578125,
+            294.3756103515625,
+            576.7252807617188
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.48794692754745483,
+          "box_xyxy": [
+            656.3294067382812,
+            504.6158447265625,
+            722.3654174804688,
+            587.0069580078125
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4599683880805969,
+          "box_xyxy": [
+            703.2533569335938,
+            500.70758056640625,
+            761.7831420898438,
+            587.8975219726562
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4510788023471832,
+          "box_xyxy": [
+            123.5242691040039,
+            479.98492431640625,
+            169.60733032226562,
+            547.9860229492188
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4435032308101654,
+          "box_xyxy": [
+            778.733154296875,
+            512.7075805664062,
+            833.236083984375,
+            586.3845825195312
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4144796133041382,
+          "box_xyxy": [
+            463.73358154296875,
+            473.6190185546875,
+            553.3851928710938,
+            581.291259765625
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.9121922850608826
+    },
+    {
+      "image_id": "dfc7fb40f5632b45",
+      "group": "small_bicycle",
+      "source_boxes": 2,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.7297880053520203,
+          "box_xyxy": [
+            623.0740966796875,
+            491.30609130859375,
+            683.37841796875,
+            618.1469116210938
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.5726341009140015,
+          "box_xyxy": [
+            298.14752197265625,
+            468.41009521484375,
+            362.09112548828125,
+            608.4069213867188
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.5574681758880615,
+          "box_xyxy": [
+            219.59393310546875,
+            471.98760986328125,
+            307.4136962890625,
+            607.6747436523438
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.556748628616333,
+          "box_xyxy": [
+            697.088134765625,
+            491.31787109375,
+            755.85400390625,
+            614.62841796875
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.5482888221740723,
+          "box_xyxy": [
+            737.999755859375,
+            491.813720703125,
+            815.4566650390625,
+            614.0787353515625
+          ],
+          "best_same_class_iou": 0.08519211202711081
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.515726625919342,
+          "box_xyxy": [
+            140.8983154296875,
+            461.08184814453125,
+            208.73272705078125,
+            620.5139770507812
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4948382079601288,
+          "box_xyxy": [
+            573.8603515625,
+            487.9497375488281,
+            683.27978515625,
+            616.71337890625
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.49324432015419006,
+          "box_xyxy": [
+            371.78619384765625,
+            487.6903076171875,
+            447.35137939453125,
+            613.3031005859375
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4797193109989166,
+          "box_xyxy": [
+            138.24798583984375,
+            453.3464050292969,
+            239.58880615234375,
+            618.421875
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4780254065990448,
+          "box_xyxy": [
+            557.896484375,
+            488.88653564453125,
+            613.625244140625,
+            613.9430541992188
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4557861387729645,
+          "box_xyxy": [
+            521.9732666015625,
+            486.6164245605469,
+            614.8890380859375,
+            611.734130859375
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4352172613143921,
+          "box_xyxy": [
+            463.39007568359375,
+            487.2790222167969,
+            542.6137084960938,
+            610.17919921875
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.41712966561317444,
+          "box_xyxy": [
+            210.08465576171875,
+            468.7119140625,
+            289.906005859375,
+            610.642822265625
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.7297880053520203
+    },
+    {
+      "image_id": "b96a89e8d5b34184",
+      "group": "small_bicycle",
+      "source_boxes": 7,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.8846284747123718,
+          "box_xyxy": [
+            636.0538330078125,
+            335.72442626953125,
+            763.5833740234375,
+            549.6959838867188
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.5175951719284058,
+          "box_xyxy": [
+            879.74609375,
+            363.84576416015625,
+            952.105224609375,
+            537.506103515625
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.45608702301979065,
+          "box_xyxy": [
+            827.2050170898438,
+            358.62994384765625,
+            896.7913208007812,
+            536.40380859375
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.44867992401123047,
+          "box_xyxy": [
+            804.3023681640625,
+            348.1209716796875,
+            904.2601318359375,
+            536.630859375
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.44238123297691345,
+          "box_xyxy": [
+            855.589111328125,
+            351.11077880859375,
+            953.6942138671875,
+            539.4613647460938
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4201236069202423,
+          "box_xyxy": [
+            675.6332397460938,
+            340.18389892578125,
+            779.8733520507812,
+            538.850830078125
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.8846284747123718
+    },
+    {
+      "image_id": "e8a75d8f8fdd85fa",
+      "group": "motorcycle",
+      "source_boxes": 41,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.7333787679672241,
+          "box_xyxy": [
+            781.0833740234375,
+            195.824951171875,
+            844.7252197265625,
+            272.8914794921875
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 7,
+          "confidence": 0.704875648021698,
+          "box_xyxy": [
+            86.10277557373047,
+            174.23416137695312,
+            268.8740234375,
+            283.1665954589844
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.5540862083435059,
+          "box_xyxy": [
+            781.7437744140625,
+            203.15469360351562,
+            840.535888671875,
+            271.1842956542969
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 7,
+          "confidence": 0.4742248058319092,
+          "box_xyxy": [
+            82.43875122070312,
+            160.06036376953125,
+            165.93284606933594,
+            279.742431640625
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.41256171464920044,
+          "box_xyxy": [
+            312.833984375,
+            170.9090576171875,
+            475.376220703125,
+            278.9152526855469
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.7333787679672241
+    },
+    {
+      "image_id": "1f0413949f0d0e90",
+      "group": "small_bicycle",
+      "source_boxes": 5,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.6724526882171631,
+          "box_xyxy": [
+            217.4778289794922,
+            375.754150390625,
+            414.29583740234375,
+            598.2930908203125
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.45523133873939514,
+          "box_xyxy": [
+            351.14337158203125,
+            292.103759765625,
+            527.4143676757812,
+            391.8046875
+          ],
+          "best_same_class_iou": 0.006732005727515719
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.42651575803756714,
+          "box_xyxy": [
+            24.34771728515625,
+            281.8062438964844,
+            131.57705688476562,
+            383.3305969238281
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.42553386092185974,
+          "box_xyxy": [
+            93.50897216796875,
+            287.18035888671875,
+            171.64584350585938,
+            403.05596923828125
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.6724526882171631
+    },
+    {
+      "image_id": "2097b2c1aaf55688",
+      "group": "small_bicycle",
+      "source_boxes": 11,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.8921449780464172,
+          "box_xyxy": [
+            180.3522491455078,
+            234.81243896484375,
+            404.64813232421875,
+            653.2178344726562
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.48284104466438293,
+          "box_xyxy": [
+            187.78167724609375,
+            265.65771484375,
+            321.30401611328125,
+            639.08349609375
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.4497998058795929,
+          "box_xyxy": [
+            132.61978149414062,
+            249.39801025390625,
+            313.08575439453125,
+            637.4874267578125
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.8921449780464172
+    },
+    {
+      "image_id": "d5c75161e020ce88",
+      "group": "motorcycle",
+      "source_boxes": 14,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.43830183148384094,
+          "box_xyxy": [
+            847.4164428710938,
+            285.28875732421875,
+            1022.9319458007812,
+            531.7608032226562
+          ],
+          "best_same_class_iou": 0.07041975719280898
+        },
+        {
+          "class_id": 7,
+          "confidence": 0.4130765497684479,
+          "box_xyxy": [
+            874.093017578125,
+            276.10272216796875,
+            1024.0,
+            489.6700439453125
+          ],
+          "best_same_class_iou": 0.04541036998932839
+        },
+        {
+          "class_id": 7,
+          "confidence": 0.4053610563278198,
+          "box_xyxy": [
+            804.9530029296875,
+            270.54510498046875,
+            1022.9346923828125,
+            506.65777587890625
+          ],
+          "best_same_class_iou": 0.08169353514293409
+        }
+      ],
+      "priority": 0.43830183148384094
+    },
+    {
+      "image_id": "627931ae6e6b7e3c",
+      "group": "small_bicycle",
+      "source_boxes": 7,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.8028000593185425,
+          "box_xyxy": [
+            307.4571533203125,
+            176.89688110351562,
+            397.92364501953125,
+            259.3931884765625
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.5786612033843994,
+          "box_xyxy": [
+            333.5347900390625,
+            182.23580932617188,
+            402.362060546875,
+            259.4670715332031
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.8028000593185425
+    },
+    {
+      "image_id": "a90e7b6f08f282ef",
+      "group": "motorcycle",
+      "source_boxes": 15,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.7341513633728027,
+          "box_xyxy": [
+            871.25341796875,
+            69.90925598144531,
+            1005.713134765625,
+            167.2859344482422
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.46866166591644287,
+          "box_xyxy": [
+            947.7421264648438,
+            82.89149475097656,
+            1002.8602905273438,
+            164.2255096435547
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.7341513633728027
+    },
+    {
+      "image_id": "3527bac8e600842a",
+      "group": "small_bicycle",
+      "source_boxes": 4,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.6683993339538574,
+          "box_xyxy": [
+            425.1117858886719,
+            388.5921630859375,
+            859.102294921875,
+            879.1605224609375
+          ],
+          "best_same_class_iou": 0.011506868941908905
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.5599278807640076,
+          "box_xyxy": [
+            429.12750244140625,
+            398.970458984375,
+            784.2944946289062,
+            753.3460693359375
+          ],
+          "best_same_class_iou": 0.011088526114366351
+        }
+      ],
+      "priority": 0.6683993339538574
+    },
+    {
+      "image_id": "66da6f93d78d1a49",
+      "group": "motorcycle",
+      "source_boxes": 2,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.6641098260879517,
+          "box_xyxy": [
+            191.244873046875,
+            256.7127990722656,
+            665.387451171875,
+            768.0
+          ],
+          "best_same_class_iou": 0.06475275988449886
+        },
+        {
+          "class_id": 7,
+          "confidence": 0.40866732597351074,
+          "box_xyxy": [
+            161.3929443359375,
+            267.45037841796875,
+            332.9248352050781,
+            557.3185424804688
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.6641098260879517
+    },
+    {
+      "image_id": "0180abbd8512db11",
+      "group": "motorcycle",
+      "source_boxes": 1,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.6499347686767578,
+          "box_xyxy": [
+            5.031005859375,
+            253.59893798828125,
+            711.4404296875,
+            681.0
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 4,
+          "confidence": 0.44656750559806824,
+          "box_xyxy": [
+            497.73089599609375,
+            348.773193359375,
+            959.8016967773438,
+            681.0
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.6499347686767578
+    },
+    {
+      "image_id": "ceff3e6b06f665a5",
+      "group": "small_bicycle",
+      "source_boxes": 9,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.47383618354797363,
+          "box_xyxy": [
+            498.0815124511719,
+            332.6727294921875,
+            800.646728515625,
+            573.7620849609375
+          ],
+          "best_same_class_iou": 0.0
+        },
+        {
+          "class_id": 7,
+          "confidence": 0.43315649032592773,
+          "box_xyxy": [
+            464.1700134277344,
+            387.82232666015625,
+            801.6851806640625,
+            576.0
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.47383618354797363
+    },
+    {
+      "image_id": "de2e055504d90b42",
+      "group": "small_bicycle",
+      "source_boxes": 16,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.9214836955070496,
+          "box_xyxy": [
+            329.63671875,
+            357.77679443359375,
+            664.1500244140625,
+            768.0
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.9214836955070496
+    },
+    {
+      "image_id": "3b255ed49fe19fa2",
+      "group": "motorcycle",
+      "source_boxes": 2,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.9175085425376892,
+          "box_xyxy": [
+            885.6011962890625,
+            312.6932373046875,
+            1023.090087890625,
+            545.2808837890625
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.9175085425376892
+    },
+    {
+      "image_id": "cc5212bdf6acd3f3",
+      "group": "small_bicycle",
+      "source_boxes": 4,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.8734989762306213,
+          "box_xyxy": [
+            349.4124450683594,
+            308.6114196777344,
+            688.9735107421875,
+            725.0545654296875
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.8734989762306213
+    },
+    {
+      "image_id": "e8ae57ef9e388166",
+      "group": "motorcycle",
+      "source_boxes": 1,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.840334415435791,
+          "box_xyxy": [
+            350.757080078125,
+            345.490966796875,
+            848.5634765625,
+            669.4251708984375
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.840334415435791
+    },
+    {
+      "image_id": "323070c6c12679c5",
+      "group": "motorcycle",
+      "source_boxes": 2,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.7860777378082275,
+          "box_xyxy": [
+            294.60418701171875,
+            356.41900634765625,
+            449.61773681640625,
+            460.14361572265625
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.7860777378082275
+    },
+    {
+      "image_id": "06e734bf775ba157",
+      "group": "small_bicycle",
+      "source_boxes": 2,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.7847738265991211,
+          "box_xyxy": [
+            337.50048828125,
+            600.095458984375,
+            449.8741455078125,
+            842.867431640625
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.7847738265991211
+    },
+    {
+      "image_id": "017482da6cb1d140",
+      "group": "motorcycle",
+      "source_boxes": 4,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.7766636610031128,
+          "box_xyxy": [
+            47.31622314453125,
+            32.42596435546875,
+            1005.2445678710938,
+            582.35595703125
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.7766636610031128
+    },
+    {
+      "image_id": "b8de9ce8cb2f4d94",
+      "group": "small_bicycle",
+      "source_boxes": 31,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.7659648656845093,
+          "box_xyxy": [
+            840.1727294921875,
+            467.2851867675781,
+            966.1485595703125,
+            662.47509765625
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.7659648656845093
+    },
+    {
+      "image_id": "6d048a3c49d0eaaf",
+      "group": "motorcycle",
+      "source_boxes": 14,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.7525885701179504,
+          "box_xyxy": [
+            536.9873046875,
+            270.35638427734375,
+            727.152587890625,
+            481.22906494140625
+          ],
+          "best_same_class_iou": 0.08545341394194822
+        }
+      ],
+      "priority": 0.7525885701179504
+    },
+    {
+      "image_id": "8dfef66be8e71bd6",
+      "group": "small_bicycle",
+      "source_boxes": 2,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.7481158375740051,
+          "box_xyxy": [
+            0.34484100341796875,
+            367.2637939453125,
+            76.53463745117188,
+            460.8258056640625
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.7481158375740051
+    },
+    {
+      "image_id": "5d9a76c617be9980",
+      "group": "small_bicycle",
+      "source_boxes": 9,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.729400634765625,
+          "box_xyxy": [
+            745.6729736328125,
+            302.1744384765625,
+            992.7816162109375,
+            719.1214599609375
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.729400634765625
+    },
+    {
+      "image_id": "15a0f1b56275b936",
+      "group": "motorcycle",
+      "source_boxes": 5,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.7292090058326721,
+          "box_xyxy": [
+            0.0,
+            233.21827697753906,
+            354.0003356933594,
+            739.0
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.7292090058326721
+    },
+    {
+      "image_id": "012ab80f0b591832",
+      "group": "motorcycle",
+      "source_boxes": 5,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.687451958656311,
+          "box_xyxy": [
+            413.060791015625,
+            230.41058349609375,
+            490.929443359375,
+            334.6680908203125
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.687451958656311
+    },
+    {
+      "image_id": "eee875fdfd5f3f52",
+      "group": "motorcycle",
+      "source_boxes": 2,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.6700179576873779,
+          "box_xyxy": [
+            535.5929565429688,
+            27.438507080078125,
+            642.3217163085938,
+            197.58184814453125
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.6700179576873779
+    },
+    {
+      "image_id": "52b7e6224c457990",
+      "group": "motorcycle",
+      "source_boxes": 10,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.6586822271347046,
+          "box_xyxy": [
+            480.6002502441406,
+            401.2012634277344,
+            959.9139404296875,
+            664.5843505859375
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.6586822271347046
+    },
+    {
+      "image_id": "5b429fba2f25dc15",
+      "group": "motorcycle",
+      "source_boxes": 2,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.6361579895019531,
+          "box_xyxy": [
+            521.8187866210938,
+            914.4490966796875,
+            677.3273315429688,
+            1024.0
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.6361579895019531
+    },
+    {
+      "image_id": "8e974f70e72dbdf0",
+      "group": "small_bicycle",
+      "source_boxes": 18,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.6258329749107361,
+          "box_xyxy": [
+            828.0546875,
+            171.72698974609375,
+            1023.989990234375,
+            342.50897216796875
+          ],
+          "best_same_class_iou": 0.023065113552047996
+        }
+      ],
+      "priority": 0.6258329749107361
+    },
+    {
+      "image_id": "09fd0f291ff4f6d4",
+      "group": "motorcycle",
+      "source_boxes": 8,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.6045494079589844,
+          "box_xyxy": [
+            547.414306640625,
+            282.34063720703125,
+            713.7470703125,
+            390.29205322265625
+          ],
+          "best_same_class_iou": 0.009566967597071934
+        }
+      ],
+      "priority": 0.6045494079589844
+    },
+    {
+      "image_id": "22502af39e25fe90",
+      "group": "motorcycle",
+      "source_boxes": 5,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.5799099802970886,
+          "box_xyxy": [
+            110.24127197265625,
+            146.42254638671875,
+            1013.9342651367188,
+            541.4417724609375
+          ],
+          "best_same_class_iou": 0.0975252064713453
+        }
+      ],
+      "priority": 0.5799099802970886
+    },
+    {
+      "image_id": "61341e263872270a",
+      "group": "small_bicycle",
+      "source_boxes": 9,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.5705336928367615,
+          "box_xyxy": [
+            843.5250244140625,
+            22.1104736328125,
+            1024.0,
+            199.02200317382812
+          ],
+          "best_same_class_iou": 0.08922409622862801
+        }
+      ],
+      "priority": 0.5705336928367615
+    },
+    {
+      "image_id": "0453627f53b876f1",
+      "group": "motorcycle",
+      "source_boxes": 2,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.5334371328353882,
+          "box_xyxy": [
+            438.53216552734375,
+            346.1167907714844,
+            540.2201538085938,
+            497.1068420410156
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.5334371328353882
+    },
+    {
+      "image_id": "96358b85fed657db",
+      "group": "motorcycle",
+      "source_boxes": 6,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.5057174563407898,
+          "box_xyxy": [
+            460.73211669921875,
+            868.9822998046875,
+            684.2319946289062,
+            1024.0
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.5057174563407898
+    },
+    {
+      "image_id": "8f6bf97e674d81b8",
+      "group": "small_bicycle",
+      "source_boxes": 12,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.5032357573509216,
+          "box_xyxy": [
+            387.943115234375,
+            461.4635009765625,
+            467.783203125,
+            558.40869140625
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.5032357573509216
+    },
+    {
+      "image_id": "fc39516ed15ec5ba",
+      "group": "small_bicycle",
+      "source_boxes": 3,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.4348953068256378,
+          "box_xyxy": [
+            2.9594268798828125,
+            420.7508544921875,
+            68.97108459472656,
+            510.33721923828125
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.4348953068256378
+    },
+    {
+      "image_id": "1aa5a8f4f5a28219",
+      "group": "small_bicycle",
+      "source_boxes": 16,
+      "unmatched_predictions": [
+        {
+          "class_id": 7,
+          "confidence": 0.42678824067115784,
+          "box_xyxy": [
+            1.982452392578125,
+            296.72119140625,
+            195.72683715820312,
+            443.028564453125
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.42678824067115784
+    },
+    {
+      "image_id": "fcd2173e996fee72",
+      "group": "motorcycle",
+      "source_boxes": 4,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.4134176969528198,
+          "box_xyxy": [
+            74.16084289550781,
+            265.343994140625,
+            156.80563354492188,
+            336.367919921875
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.4134176969528198
+    },
+    {
+      "image_id": "005753525902c0a1",
+      "group": "motorcycle",
+      "source_boxes": 1,
+      "unmatched_predictions": [
+        {
+          "class_id": 4,
+          "confidence": 0.4101499319076538,
+          "box_xyxy": [
+            78.88217163085938,
+            0.0,
+            1015.1309814453125,
+            1024.0
+          ],
+          "best_same_class_iou": 0.0
+        }
+      ],
+      "priority": 0.4101499319076538
+    }
+  ]
+}

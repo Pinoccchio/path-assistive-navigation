@@ -1,0 +1,518 @@
+{
+  "weights": "runs\\public_phase1_v6_curated_candidate\\yolov8n\\weights\\best.pt",
+  "threshold": 0.25,
+  "imgsz": 512,
+  "results": {
+    "train": {
+      "reviewed_images": 74,
+      "images_with_bicycle_prediction": 65,
+      "bicycle_predictions": 70,
+      "images": [
+        {
+          "id": "pilot_train_IMG_04058",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "pilot_train_IMG_05298",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "pilot_train_IMG_06196",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9266590476036072
+        },
+        {
+          "id": "pilot_train_IMG_06197",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9419794678688049
+        },
+        {
+          "id": "pilot_train_IMG_06198",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9049126505851746
+        },
+        {
+          "id": "pilot_train_IMG_06201",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6985373497009277
+        },
+        {
+          "id": "pilot_train_IMG_06202",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.4619823098182678
+        },
+        {
+          "id": "pilot_train_IMG_06205",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6914762258529663
+        },
+        {
+          "id": "pilot_train_IMG_06206",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8296274542808533
+        },
+        {
+          "id": "pilot_train_IMG_06207",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.7004457116127014
+        },
+        {
+          "id": "pilot_train_IMG_06209",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9469617009162903
+        },
+        {
+          "id": "pilot_train_IMG_06211",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9854594469070435
+        },
+        {
+          "id": "pilot_train_IMG_06213",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9005666375160217
+        },
+        {
+          "id": "pilot_train_IMG_06216",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.921107828617096
+        },
+        {
+          "id": "pilot_train_IMG_06219",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9354320764541626
+        },
+        {
+          "id": "pilot_train_IMG_06220",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6900172829627991
+        },
+        {
+          "id": "pilot_train_IMG_06222",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6500252485275269
+        },
+        {
+          "id": "pilot_train_IMG_06223",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8833981156349182
+        },
+        {
+          "id": "pilot_train_IMG_06226",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8539361953735352
+        },
+        {
+          "id": "pilot_train_IMG_06227",
+          "bicycle_detections": 2,
+          "max_bicycle_confidence": 0.7962241172790527
+        },
+        {
+          "id": "pilot_train_IMG_06231",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.77348792552948
+        },
+        {
+          "id": "pilot_train_IMG_06235",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9269710779190063
+        },
+        {
+          "id": "pilot_train_IMG_06236",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6067534685134888
+        },
+        {
+          "id": "pilot_train_IMG_06237",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8830719590187073
+        },
+        {
+          "id": "pilot_train_IMG_06247",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "pilot_train_IMG_07353",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.29873186349868774
+        },
+        {
+          "id": "pilot_train_IMG_10956",
+          "bicycle_detections": 2,
+          "max_bicycle_confidence": 0.4770464599132538
+        },
+        {
+          "id": "pilot_train_IMG_11468",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6404763460159302
+        },
+        {
+          "id": "pilot_train_IMG_12517",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6529764533042908
+        },
+        {
+          "id": "pilot_train_IMG_14223",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "pilot_train_IMG_18966",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.39467519521713257
+        },
+        {
+          "id": "pilot_val_IMG_22005",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9895060658454895
+        },
+        {
+          "id": "pilot_val_IMG_22007",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.7822749614715576
+        },
+        {
+          "id": "pilot_val_IMG_22015",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.896094560623169
+        },
+        {
+          "id": "pilot_val_IMG_22016",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6637418866157532
+        },
+        {
+          "id": "pilot_val_IMG_22021",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8940565586090088
+        },
+        {
+          "id": "pilot_val_IMG_22023",
+          "bicycle_detections": 2,
+          "max_bicycle_confidence": 0.4318881332874298
+        },
+        {
+          "id": "rod_train_IMG_01473",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8642858266830444
+        },
+        {
+          "id": "rod_train_IMG_01935",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.483389288187027
+        },
+        {
+          "id": "rod_train_IMG_02745",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.423113614320755
+        },
+        {
+          "id": "rod_train_IMG_02795",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.7024964094161987
+        },
+        {
+          "id": "rod_train_IMG_02800",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.917449951171875
+        },
+        {
+          "id": "rod_train_IMG_03312",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6567932367324829
+        },
+        {
+          "id": "rod_train_IMG_03343",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.36027801036834717
+        },
+        {
+          "id": "rod_train_IMG_03345",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.5839753746986389
+        },
+        {
+          "id": "rod_train_IMG_03585",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.578076958656311
+        },
+        {
+          "id": "rod_train_IMG_03657",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "rod_train_IMG_03945",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.3283962309360504
+        },
+        {
+          "id": "rod_train_IMG_05293",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6777923107147217
+        },
+        {
+          "id": "rod_train_IMG_05297",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "rod_train_IMG_06173",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "rod_train_IMG_06193",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8013852834701538
+        },
+        {
+          "id": "rod_train_IMG_06195",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9550278186798096
+        },
+        {
+          "id": "rod_train_IMG_06203",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9549478888511658
+        },
+        {
+          "id": "rod_train_IMG_06210",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9320014119148254
+        },
+        {
+          "id": "rod_train_IMG_06217",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.874773383140564
+        },
+        {
+          "id": "rod_train_IMG_06228",
+          "bicycle_detections": 3,
+          "max_bicycle_confidence": 0.8836638927459717
+        },
+        {
+          "id": "rod_train_IMG_06232",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6389256119728088
+        },
+        {
+          "id": "rod_train_IMG_06239",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8340993523597717
+        },
+        {
+          "id": "rod_train_IMG_06240",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9188961982727051
+        },
+        {
+          "id": "rod_train_IMG_06248",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "rod_train_IMG_06250",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.27335038781166077
+        },
+        {
+          "id": "rod_train_IMG_07354",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.26735180616378784
+        },
+        {
+          "id": "rod_train_IMG_07356",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6316635608673096
+        },
+        {
+          "id": "rod_train_IMG_10957",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6365237832069397
+        },
+        {
+          "id": "rod_train_IMG_10961",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.2896345257759094
+        },
+        {
+          "id": "rod_train_IMG_11014",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.7835088968276978
+        },
+        {
+          "id": "rod_train_IMG_11016",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.49721360206604004
+        },
+        {
+          "id": "rod_train_IMG_11465",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.38686296343803406
+        },
+        {
+          "id": "rod_train_IMG_11605",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.5305086374282837
+        },
+        {
+          "id": "rod_train_IMG_12194",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.32008296251296997
+        },
+        {
+          "id": "rod_train_IMG_14227",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.5699642896652222
+        },
+        {
+          "id": "rod_train_IMG_16367",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "rod_train_IMG_16498",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.4904946982860565
+        }
+      ]
+    },
+    "val": {
+      "reviewed_images": 8,
+      "images_with_bicycle_prediction": 6,
+      "bicycle_predictions": 6,
+      "images": [
+        {
+          "id": "rod_validation_IMG_21222",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.32403990626335144
+        },
+        {
+          "id": "rod_validation_IMG_21232",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8592075109481812
+        },
+        {
+          "id": "rod_validation_IMG_21401",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "rod_validation_IMG_21461",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.7266725301742554
+        },
+        {
+          "id": "rod_validation_IMG_22012",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6837974190711975
+        },
+        {
+          "id": "rod_validation_IMG_22019",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9609929919242859
+        },
+        {
+          "id": "rod_validation_IMG_22020",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.7495505809783936
+        },
+        {
+          "id": "rod_validation_IMG_23348",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        }
+      ]
+    },
+    "test": {
+      "reviewed_images": 16,
+      "images_with_bicycle_prediction": 14,
+      "bicycle_predictions": 15,
+      "images": [
+        {
+          "id": "rod_test_IMG_19421",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.6189751029014587
+        },
+        {
+          "id": "rod_test_IMG_19442",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.794305682182312
+        },
+        {
+          "id": "rod_test_IMG_19719",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.694464385509491
+        },
+        {
+          "id": "rod_test_IMG_19720",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.902113676071167
+        },
+        {
+          "id": "rod_test_IMG_19721",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8883477449417114
+        },
+        {
+          "id": "rod_test_IMG_19722",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "rod_test_IMG_19723",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8423103094100952
+        },
+        {
+          "id": "rod_test_IMG_19724",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8239243626594543
+        },
+        {
+          "id": "rod_test_IMG_19725",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.9340896606445312
+        },
+        {
+          "id": "rod_test_IMG_19726",
+          "bicycle_detections": 2,
+          "max_bicycle_confidence": 0.9090654850006104
+        },
+        {
+          "id": "rod_test_IMG_19727",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.8471471071243286
+        },
+        {
+          "id": "rod_test_IMG_19728",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.7054636478424072
+        },
+        {
+          "id": "rod_test_IMG_19729",
+          "bicycle_detections": 0,
+          "max_bicycle_confidence": 0.0
+        },
+        {
+          "id": "rod_test_IMG_19839",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.4091947674751282
+        },
+        {
+          "id": "rod_test_IMG_20136",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.5732586979866028
+        },
+        {
+          "id": "rod_test_IMG_20289",
+          "bicycle_detections": 1,
+          "max_bicycle_confidence": 0.5194229483604431
+        }
+      ]
+    }
+  }
+}

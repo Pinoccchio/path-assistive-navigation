@@ -1,0 +1,21 @@
+{
+  "format": "tflite_fp32",
+  "file": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\runs\\public_phase1_v3_screened\\tflite_fp32\\best_float32.tflite",
+  "sha256": "14a294e77399753b59cc4c1660c805c822f74d4d2cafd97e49d1f852fc9af792",
+  "source_weights": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\runs\\public_phase1_v3_screened\\yolov8n\\weights\\best.pt",
+  "source_weights_sha256": "47ccbaf1cfbbd242c86ea326ea7de69d6d89c2e14b71b682e8df234ebd4a3ed6",
+  "source_onnx": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\runs\\public_phase1_v3_screened\\yolov8n\\weights\\best.onnx",
+  "class_names": [
+    "person",
+    "chair",
+    "stairs",
+    "car",
+    "bicycle",
+    "electrical_pole",
+    "plant_pot"
+  ],
+  "input_size": 512,
+  "test_dataset": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v3_screened\\dataset.yaml",
+  "status": "desktop_raw_output_parity_checked_phone_testing_pending",
+  "parity_report": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\runs\\public_phase1_v3_screened\\tflite_fp32\\parity.json"
+}

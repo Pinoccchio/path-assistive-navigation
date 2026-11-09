@@ -1,0 +1,10 @@
+# Additional utility-pole source review — 2026-09-28
+
+The existing ROD electrical-pole label mixes utility poles with crossing-button posts and incorrect wide boxes. New source data must be inspected before integration into the seven-class dataset.
+
+| Source | What was checked | Decision |
+| --- | --- | --- |
+| [HOT-OSM Street-level Poles & Towers](https://huggingface.co/datasets/hotosm/streetlevel-poles) | The source card lists 3,500 images, 977 pole boxes, per-image source metadata, and CC BY-SA 4.0. Two validation parquet shards (996 images, 297 pole-positive images) were downloaded to [`data/source/hotosm_pole_candidate/`](../data/source/hotosm_pole_candidate/). Their SHA-256 hashes and source counts are in the adjacent `*_inventory.json` files. [Shard 1 preview](../data/source/hotosm_pole_candidate/preview/val-00000-of-00002/pole_review_sheet.jpg) includes streetlight/traffic posts under the broad `pole` label. [Shard 2 preview](../data/source/hotosm_pole_candidate/preview/val-00001-of-00002/pole_review_sheet.jpg) mostly shows utility poles but often from a vehicle or 360-degree camera at long range. | **Candidate only.** Manually filter to utility poles with electrical/communication hardware, preserve source attribution, and resolve other target objects that are unannotated in this pole-specific dataset before using it in seven-class training. |
+| [OHL-UK, University of Strathclyde](https://pureportal.strath.ac.uk/en/datasets/data-for-ohl-uk-wooden-utility-pole-and-electrical-sign-corpus-wi/) | Official record describes ground-level 640×640 wooden utility poles, COCO annotations, CC BY 4.0, and a 3.41 GB archive. | **Not downloaded.** The archive is large relative to current free disk space and covers a narrower pole type; assess after campus capture and source-rights review. |
+
+The downloaded HOT-OSM shards are preserved as source candidates and have **not** been merged into v3 or used by its running model. The campus collection plan remains the primary route to matching the intended phone viewpoint.

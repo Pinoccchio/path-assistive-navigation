@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v14_six_box_pilot",
+  "target": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v15_oi_quarantine",
+  "ledger_sha256": "39b4fcc4dab4568060bdcb42faadfb292742771f2ed5180a0ba63cd0e0bd68e0",
+  "quarantined_train_ids": [
+    "1f0413949f0d0e90",
+    "2097b2c1aaf55688",
+    "29e6d25056a05f4d",
+    "b96a89e8d5b34184",
+    "ca17abd7809bdd0c",
+    "ceff3e6b06f665a5",
+    "dfc7fb40f5632b45"
+  ],
+  "kept_by_split": {
+    "test": 620,
+    "val": 251,
+    "train": 3295
+  },
+  "val_test_unchanged": true,
+  "status": "Data-quality pilot; remaining train images are not yet exhaustively audited."
+}

@@ -1,0 +1,26 @@
+{
+  "source": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v11_reviewed_640_candidate",
+  "target": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_person_retention_candidate",
+  "source_manifest_sha256": "905ab012b7661bb4718d66f17ed4e58572045f2ec51418f62cb8c0b1d3214234",
+  "overlay_manifest_sha256": "679513a2a843ce7ad0caa3f2fcfbb3a95df1d63f31f20d6b8886e924147435d5",
+  "removed_unreviewed_new_oi_train_images": 290,
+  "removed_ambiguous_stair_train_images": [
+    "openimagesv7_train_5a08b0bfc03b87a9",
+    "pilot_train_IMG_09075",
+    "pilot_train_IMG_09338",
+    "rod_train_IMG_18372"
+  ],
+  "corrected_stair_train_labels": [
+    "pilot_train_IMG_09074",
+    "pilot_train_IMG_09199",
+    "pilot_train_IMG_09245",
+    "pilot_train_IMG_09282"
+  ],
+  "kept_by_split": {
+    "test": 620,
+    "val": 251,
+    "train": 3008
+  },
+  "validation_and_test_bytes_unchanged": true,
+  "limitations": "Controlled public-data experiment, not a cleaned independent dataset. Other older source labels remain provisional."
+}

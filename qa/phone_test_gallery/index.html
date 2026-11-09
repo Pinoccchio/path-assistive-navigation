@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<title>Phone detection test gallery</title>
+<style>body{margin:0;background:#111;color:white;font:24px system-ui;text-align:center}
+section{display:none;height:100vh;box-sizing:border-box;padding:10px}
+section.active{display:flex;flex-direction:column;align-items:center;justify-content:center}
+h2,p{margin:8px}img{max-height:75vh;max-width:95vw;object-fit:contain}
+aside{position:fixed;right:12px;top:12px;font-size:14px;background:#222;padding:8px}</style>
+<aside>← → switch image · Space auto-play</aside><section><h2>Person</h2><img src="01_person.jpg" alt="person test image"><p>Expected label: person · Public test image 1/8</p></section>
+<section><h2>Chair</h2><img src="02_chair.jpg" alt="chair test image"><p>Expected label: chair · Public test image 2/8</p></section>
+<section><h2>Stairs</h2><img src="03_stairs.jpg" alt="stairs test image"><p>Expected label: stairs · Public test image 3/8</p></section>
+<section><h2>Car</h2><img src="04_car.jpg" alt="car test image"><p>Expected label: car · Public test image 4/8</p></section>
+<section><h2>Bicycle</h2><img src="05_bicycle.jpg" alt="bicycle test image"><p>Expected label: bicycle · Public test image 5/8</p></section>
+<section><h2>Electrical Pole</h2><img src="06_electrical_pole.jpg" alt="electrical_pole test image"><p>Expected label: electrical_pole · Public test image 6/8</p></section>
+<section><h2>Plant Pot</h2><img src="07_plant_pot.jpg" alt="plant_pot test image"><p>Expected label: plant_pot · Public test image 7/8</p></section>
+<section><h2>Motorcycle</h2><img src="08_motorcycle.jpg" alt="motorcycle test image"><p>Expected label: motorcycle · Public test image 8/8</p></section>
+<script>const slides=[...document.querySelectorAll('section')];let index=0,timer;
+function show(n){slides[index].classList.remove('active');index=(n+slides.length)%slides.length;
+slides[index].classList.add('active')}show(0);
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')show(index+1);
+if(e.key==='ArrowLeft')show(index-1);if(e.code==='Space'){e.preventDefault();
+if(timer){clearInterval(timer);timer=null}else timer=setInterval(()=>show(index+1),5000)}});</script></html>

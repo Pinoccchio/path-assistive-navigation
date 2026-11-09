@@ -1,0 +1,22 @@
+{
+  "format": "tflite_fp32",
+  "file": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\runs\\public_phase1_person_retention_candidate\\tflite_fp32\\best_float32.tflite",
+  "sha256": "6baef465b1366efbf9d5470679205bc26d939d18dde50fb9e58782df069c6dfe",
+  "source_weights": "runs\\public_phase1_person_retention_candidate\\yolov8n_local\\weights\\best.pt",
+  "source_weights_sha256": "4271b0279c9f4017c75d667b805db1a20020a2e6d49d969ef9b73cf13a1cfa2b",
+  "source_onnx": "runs\\public_phase1_person_retention_candidate\\yolov8n_local\\weights\\best.onnx",
+  "class_names": [
+    "person",
+    "chair",
+    "stairs",
+    "car",
+    "bicycle",
+    "electrical_pole",
+    "plant_pot",
+    "motorcycle"
+  ],
+  "input_size": 512,
+  "test_dataset": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_person_retention_candidate\\dataset.yaml",
+  "status": "desktop_raw_output_parity_checked_phone_testing_pending",
+  "parity_report": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\runs\\public_phase1_person_retention_candidate\\tflite_fp32\\parity.json"
+}

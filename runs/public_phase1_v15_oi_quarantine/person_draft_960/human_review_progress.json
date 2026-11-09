@@ -1,0 +1,13 @@
+{
+  "total_images": 179,
+  "statuses": {
+    "not_started": 174,
+    "in_progress": 5
+  },
+  "ready_for_corrected_dataset": 0,
+  "ready_ids": [],
+  "invalid_or_stale_reviews": [],
+  "unexpected_review_files": [],
+  "dataset_labels_changed": false,
+  "policy": "Ready requires second human review and vehicle-completeness check; a future builder must still validate boxes and preserve val/test."
+}

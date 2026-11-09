@@ -1,0 +1,13 @@
+{
+  "review_method": "Manual visual review of all 15 existing 20-image Open Images v10 training contact sheets, with full-size checks for ambiguous examples. Quarantine entire images only when the target object or scene is clearly outside the project label policy. This is not complete instance-level relabeling.",
+  "excluded": {
+    "a23ef7417f7bb943": "bicycle target is a handlebar-only close-up",
+    "7879eb9a4baec86d": "motorcycle target is an engine-only close-up",
+    "be276a4e24080c9f": "motorcycle target is a small scale-model toy",
+    "b23113420f5e03bb": "motorcycle target is a fuel-tank and engine close-up",
+    "d32706f1c4816131": "powered four-wheel ATV outside motorcycle policy",
+    "01f3b82550060266": "motorcycle is a newspaper depiction",
+    "1d0f488608d16b06": "motorcycle shown inside a video game screenshot"
+  },
+  "limitations": "Crowd scenes may have incomplete source boxes. Their instance labels need a separate manual review; no automatic pseudo-labels were added."
+}

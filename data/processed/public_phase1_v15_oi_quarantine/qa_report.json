@@ -1,0 +1,14 @@
+{
+  "quarantined_train_ids": [
+    "1f0413949f0d0e90",
+    "2097b2c1aaf55688",
+    "29e6d25056a05f4d",
+    "b96a89e8d5b34184",
+    "ca17abd7809bdd0c",
+    "ceff3e6b06f665a5",
+    "dfc7fb40f5632b45"
+  ],
+  "remaining_files_unchanged": 4166,
+  "train_count": 3295,
+  "val_test_unchanged": true
+}

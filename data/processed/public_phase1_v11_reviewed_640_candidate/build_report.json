@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v10_oi_vehicle_candidate",
+  "target": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v11_reviewed_640_candidate",
+  "excluded_train_images": {
+    "a23ef7417f7bb943": "bicycle target is a handlebar-only close-up",
+    "7879eb9a4baec86d": "motorcycle target is an engine-only close-up",
+    "be276a4e24080c9f": "motorcycle target is a small scale-model toy",
+    "b23113420f5e03bb": "motorcycle target is a fuel-tank and engine close-up",
+    "d32706f1c4816131": "powered four-wheel ATV outside motorcycle policy",
+    "01f3b82550060266": "motorcycle is a newspaper depiction",
+    "1d0f488608d16b06": "motorcycle shown inside a video game screenshot"
+  },
+  "ledger_sha256": "9fc3bb67bd11ba41a2abb0fa52d5136f2e2a08753c7e54d7c32ea3cf712614ae",
+  "kept_by_split": {
+    "test": 620,
+    "val": 251,
+    "train": 3302
+  },
+  "unchanged_val_test": true,
+  "limitations": "Only seven clearly invalid OI training images were quarantined; other source labels remain provisional."
+}

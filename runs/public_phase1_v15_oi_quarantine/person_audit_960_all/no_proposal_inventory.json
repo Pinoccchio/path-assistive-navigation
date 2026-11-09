@@ -1,0 +1,10 @@
+{
+  "unflagged_images": 97,
+  "counts": {
+    "some_person_labels": 60,
+    "zero_person_labels": 37
+  },
+  "rendered_zero_person_images": 37,
+  "sheets": 10,
+  "policy": "No model proposal does not prove no visible person; sheets require visual review."
+}

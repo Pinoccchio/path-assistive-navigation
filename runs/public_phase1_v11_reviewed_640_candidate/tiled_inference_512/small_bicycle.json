@@ -1,0 +1,788 @@
+{
+  "full": {
+    "counts": {
+      "bicycle_gt": 48,
+      "bicycle_matched": 10,
+      "bicycle_pred": 101,
+      "motorcycle_gt": 0,
+      "motorcycle_matched": 0,
+      "motorcycle_pred": 4,
+      "person_pred": 50,
+      "bike_only_images_with_motorcycle_prediction": 3
+    },
+    "total_seconds": 4.524507200054359,
+    "mean_seconds_per_image": 0.14595184516304383
+  },
+  "full_plus_tiles": {
+    "counts": {
+      "bicycle_gt": 48,
+      "bicycle_matched": 15,
+      "bicycle_pred": 132,
+      "motorcycle_gt": 0,
+      "motorcycle_matched": 0,
+      "motorcycle_pred": 11,
+      "person_pred": 93,
+      "bike_only_images_with_motorcycle_prediction": 8
+    },
+    "total_seconds": 4.286889299983159,
+    "mean_seconds_per_image": 0.13828675161235995
+  },
+  "images": 31,
+  "rows": [
+    {
+      "image_id": "97948408f6a3a476",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 0,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 1,
+        "seconds": 2.4845395000011194
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 5,
+        "seconds": 0.08150719999684952
+      }
+    },
+    {
+      "image_id": "126f9b413309aa4c",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 1,
+        "person_pred": 4,
+        "bike_only_images_with_motorcycle_prediction": 1,
+        "seconds": 0.11647269999957643
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 4,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 1,
+        "person_pred": 5,
+        "bike_only_images_with_motorcycle_prediction": 1,
+        "seconds": 0.07612050001625903
+      }
+    },
+    {
+      "image_id": "04ef633c41462641",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 2,
+        "bicycle_matched": 0,
+        "bicycle_pred": 6,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 1,
+        "seconds": 0.18235359998652712
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 2,
+        "bicycle_matched": 1,
+        "bicycle_pred": 10,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 1,
+        "person_pred": 6,
+        "bike_only_images_with_motorcycle_prediction": 1,
+        "seconds": 0.15253750002011657
+      }
+    },
+    {
+      "image_id": "7f67f6051d99b447",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 8,
+        "bicycle_matched": 1,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 1,
+        "seconds": 0.04406739998375997
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 8,
+        "bicycle_matched": 3,
+        "bicycle_pred": 7,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 2,
+        "seconds": 0.28157419999479316
+      }
+    },
+    {
+      "image_id": "0c72c95ee8e4c6e6",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 2,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 2,
+        "seconds": 0.2696083000046201
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 3,
+        "seconds": 0.1751767999958247
+      }
+    },
+    {
+      "image_id": "f7210d60b00102a2",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 3,
+        "bicycle_matched": 1,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 0,
+        "seconds": 0.038018800027202815
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 3,
+        "bicycle_matched": 1,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 0,
+        "seconds": 0.15798769998946227
+      }
+    },
+    {
+      "image_id": "e73e9c6111a9f7d4",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 2,
+        "bicycle_matched": 0,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 1,
+        "seconds": 0.048395899997558445
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 2,
+        "bicycle_matched": 1,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 1,
+        "person_pred": 3,
+        "bike_only_images_with_motorcycle_prediction": 1,
+        "seconds": 0.16221509999013506
+      }
+    },
+    {
+      "image_id": "0d1902a8a0ccab84",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 11,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 2,
+        "person_pred": 0,
+        "bike_only_images_with_motorcycle_prediction": 1,
+        "seconds": 0.042925599991576746
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 14,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 4,
+        "person_pred": 0,
+        "bike_only_images_with_motorcycle_prediction": 1,
+        "seconds": 0.11639860001741908
+      }
+    },
+    {
+      "image_id": "637bd7e807a742a8",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 4,
+        "seconds": 0.042262200004188344
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 5,
+        "seconds": 0.16779709997354075
+      }
+    },
+    {
+      "image_id": "711012ff91bddbe5",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 7,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 4,
+        "seconds": 0.041663399984827265
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 9,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 6,
+        "seconds": 0.1534416000067722
+      }
+    },
+    {
+      "image_id": "4b76b35cd4d63ce3",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 2,
+        "bicycle_matched": 0,
+        "bicycle_pred": 14,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 2,
+        "seconds": 0.03637460002209991
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 2,
+        "bicycle_matched": 1,
+        "bicycle_pred": 12,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 4,
+        "seconds": 0.14412079998874106
+      }
+    },
+    {
+      "image_id": "1c75e5e7104da318",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 2,
+        "bicycle_matched": 1,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 3,
+        "seconds": 0.20962320000398904
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 2,
+        "bicycle_matched": 1,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 4,
+        "seconds": 0.12892899999860674
+      }
+    },
+    {
+      "image_id": "5dc9465b0bad69fc",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 5,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 2,
+        "seconds": 0.036562200024491176
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 6,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 2,
+        "seconds": 0.14561790000880137
+      }
+    },
+    {
+      "image_id": "f2a6c70eeb66e2a5",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 0,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 1,
+        "seconds": 0.05323059999500401
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 4,
+        "seconds": 0.18247140001039952
+      }
+    },
+    {
+      "image_id": "410495487da9771a",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 2,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 3,
+        "seconds": 0.0338812000118196
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 5,
+        "seconds": 0.13832929998170584
+      }
+    },
+    {
+      "image_id": "370afdfc46eaa248",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 4,
+        "bicycle_matched": 1,
+        "bicycle_pred": 6,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 1,
+        "seconds": 0.03285610000602901
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 4,
+        "bicycle_matched": 1,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 4,
+        "seconds": 0.1417387000110466
+      }
+    },
+    {
+      "image_id": "361ce18d9489c7ab",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 0,
+        "seconds": 0.033751900016795844
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 7,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 0,
+        "seconds": 0.12986789998831227
+      }
+    },
+    {
+      "image_id": "5ecff14d4085663c",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 0,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 2,
+        "seconds": 0.03940490001696162
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 0,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 1,
+        "person_pred": 3,
+        "bike_only_images_with_motorcycle_prediction": 1,
+        "seconds": 0.16174579999642447
+      }
+    },
+    {
+      "image_id": "0e0625e9e1bd200d",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 1,
+        "seconds": 0.04042579999077134
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 1,
+        "seconds": 0.136968299979344
+      }
+    },
+    {
+      "image_id": "9183e29974bac45c",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 1,
+        "seconds": 0.038272199977654964
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 1,
+        "person_pred": 1,
+        "bike_only_images_with_motorcycle_prediction": 1,
+        "seconds": 0.1487984000123106
+      }
+    },
+    {
+      "image_id": "8b6fab32f099cf50",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 10,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 0,
+        "seconds": 0.03657510000630282
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 11,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 1,
+        "person_pred": 0,
+        "bike_only_images_with_motorcycle_prediction": 1,
+        "seconds": 0.13142299998435192
+      }
+    },
+    {
+      "image_id": "586e7f5bf13412b3",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 2,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 3,
+        "seconds": 0.03328669999609701
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 6,
+        "seconds": 0.1261221000168007
+      }
+    },
+    {
+      "image_id": "d97ab9ae3d902fa0",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 4,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 1,
+        "person_pred": 4,
+        "bike_only_images_with_motorcycle_prediction": 1,
+        "seconds": 0.029227099992567673
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 4,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 1,
+        "person_pred": 7,
+        "bike_only_images_with_motorcycle_prediction": 1,
+        "seconds": 0.08344180000131018
+      }
+    },
+    {
+      "image_id": "d0e1433d9fe813e6",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 2,
+        "bicycle_matched": 0,
+        "bicycle_pred": 5,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 3,
+        "seconds": 0.17937430000165477
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 2,
+        "bicycle_matched": 0,
+        "bicycle_pred": 6,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 6,
+        "seconds": 0.08651309998822398
+      }
+    },
+    {
+      "image_id": "118de39bd14b87b4",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 2,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 2,
+        "seconds": 0.18484800000442192
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 5,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 2,
+        "seconds": 0.11569150001741946
+      }
+    },
+    {
+      "image_id": "0caafe50e3258dd3",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 0,
+        "seconds": 0.013496800005668774
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 0,
+        "seconds": 0.07933169999159873
+      }
+    },
+    {
+      "image_id": "07a23b4ca59c2c26",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 0,
+        "seconds": 0.021482699987245724
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 1,
+        "seconds": 0.09875549998832867
+      }
+    },
+    {
+      "image_id": "91fce09c6ffabb56",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 0,
+        "seconds": 0.03326470000320114
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 0,
+        "seconds": 0.08922970001003705
+      }
+    },
+    {
+      "image_id": "dffaf8a4d9fc6c82",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 3,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 2,
+        "seconds": 0.04961580000235699
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 5,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 3,
+        "seconds": 0.14398950000759214
+      }
+    },
+    {
+      "image_id": "dbed91844d434b7d",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 2,
+        "seconds": 0.03901249999762513
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 1,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 4,
+        "seconds": 0.1711907999997493
+      }
+    },
+    {
+      "image_id": "5a7c753c0e06099d",
+      "group": "small_bicycle",
+      "full": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 1,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 0,
+        "seconds": 0.03963340001064353
+      },
+      "full_plus_tiles": {
+        "bicycle_gt": 1,
+        "bicycle_matched": 0,
+        "bicycle_pred": 2,
+        "motorcycle_gt": 0,
+        "motorcycle_matched": 0,
+        "motorcycle_pred": 0,
+        "person_pred": 1,
+        "seconds": 0.17785680000088178
+      }
+    }
+  ]
+}

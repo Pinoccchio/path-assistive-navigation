@@ -1,0 +1,56 @@
+{
+  "model": "pilot",
+  "weights": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\runs\\yolov8n_pilot\\finetune_7class_5epoch\\weights\\best.pt",
+  "test_split": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v1\\images\\test",
+  "overall": {
+    "metrics/precision(B)": 0.7742245470330567,
+    "metrics/recall(B)": 0.5702463888359038,
+    "metrics/mAP50(B)": 0.6523601870674226,
+    "metrics/mAP50-95(B)": 0.44649240293615805,
+    "fitness": 0.46707918134928456
+  },
+  "per_class": {
+    "person": {
+      "precision": 0.7656162882770305,
+      "recall": 0.4030612244897959,
+      "map50": 0.5624307933781727,
+      "map50_95": 0.3331974892576678
+    },
+    "chair": {
+      "precision": 0.7584307984866708,
+      "recall": 0.6502172565345204,
+      "map50": 0.7056521671319909,
+      "map50_95": 0.49434930062947513
+    },
+    "stairs": {
+      "precision": 0.9508682542970627,
+      "recall": 0.5259182127916746,
+      "map50": 0.6318027106652228,
+      "map50_95": 0.4145611823394752
+    },
+    "car": {
+      "precision": 0.8091705812408297,
+      "recall": 0.6158140855413419,
+      "map50": 0.7249308437347628,
+      "map50_95": 0.4707883219009298
+    },
+    "bicycle": {
+      "precision": 0.760442950466896,
+      "recall": 0.5507246376811594,
+      "map50": 0.6685113000850679,
+      "map50_95": 0.4933013347433837
+    },
+    "electrical_pole": {
+      "precision": 0.6265300541895408,
+      "recall": 0.36363636363636365,
+      "map50": 0.3929006302576816,
+      "map50_95": 0.27786132051378865
+    },
+    "plant_pot": {
+      "precision": 0.7485129022733661,
+      "recall": 0.8823529411764706,
+      "map50": 0.8802928642190593,
+      "map50_95": 0.6413878711683855
+    }
+  }
+}

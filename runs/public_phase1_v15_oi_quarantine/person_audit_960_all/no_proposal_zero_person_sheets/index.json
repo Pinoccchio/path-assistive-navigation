@@ -1,0 +1,187 @@
+[
+  {
+    "image_id": "924ef64d7b2ced57",
+    "sheet": "sheet_01.jpg",
+    "slot": 1
+  },
+  {
+    "image_id": "c3b9cd2f8784c502",
+    "sheet": "sheet_01.jpg",
+    "slot": 2
+  },
+  {
+    "image_id": "14e3295fa60b1350",
+    "sheet": "sheet_01.jpg",
+    "slot": 3
+  },
+  {
+    "image_id": "15a9cf5f7fc23d75",
+    "sheet": "sheet_01.jpg",
+    "slot": 4
+  },
+  {
+    "image_id": "d15f4d41de44e62c",
+    "sheet": "sheet_02.jpg",
+    "slot": 1
+  },
+  {
+    "image_id": "e236ee579ee2ed5e",
+    "sheet": "sheet_02.jpg",
+    "slot": 2
+  },
+  {
+    "image_id": "b8676d918e42b4f5",
+    "sheet": "sheet_02.jpg",
+    "slot": 3
+  },
+  {
+    "image_id": "9f20245f5d7eeeb5",
+    "sheet": "sheet_02.jpg",
+    "slot": 4
+  },
+  {
+    "image_id": "895a35c31d0775b7",
+    "sheet": "sheet_03.jpg",
+    "slot": 1
+  },
+  {
+    "image_id": "cec2f09304bbcdd4",
+    "sheet": "sheet_03.jpg",
+    "slot": 2
+  },
+  {
+    "image_id": "a4902ca618282f91",
+    "sheet": "sheet_03.jpg",
+    "slot": 3
+  },
+  {
+    "image_id": "bcb9d5bd0edd0bb7",
+    "sheet": "sheet_03.jpg",
+    "slot": 4
+  },
+  {
+    "image_id": "a30e400c0c692356",
+    "sheet": "sheet_04.jpg",
+    "slot": 1
+  },
+  {
+    "image_id": "05eea16dc5efcae2",
+    "sheet": "sheet_04.jpg",
+    "slot": 2
+  },
+  {
+    "image_id": "b8fec90fc5526c16",
+    "sheet": "sheet_04.jpg",
+    "slot": 3
+  },
+  {
+    "image_id": "42b67c0c17d2e1ac",
+    "sheet": "sheet_04.jpg",
+    "slot": 4
+  },
+  {
+    "image_id": "501966a7d1004c09",
+    "sheet": "sheet_05.jpg",
+    "slot": 1
+  },
+  {
+    "image_id": "ea7b9c506d1db42d",
+    "sheet": "sheet_05.jpg",
+    "slot": 2
+  },
+  {
+    "image_id": "3cde3642c995ddb9",
+    "sheet": "sheet_05.jpg",
+    "slot": 3
+  },
+  {
+    "image_id": "b628144cbbc80031",
+    "sheet": "sheet_05.jpg",
+    "slot": 4
+  },
+  {
+    "image_id": "b6bc10c0e89ae2a2",
+    "sheet": "sheet_06.jpg",
+    "slot": 1
+  },
+  {
+    "image_id": "967a02651457f238",
+    "sheet": "sheet_06.jpg",
+    "slot": 2
+  },
+  {
+    "image_id": "60bfe77e9b98c0c6",
+    "sheet": "sheet_06.jpg",
+    "slot": 3
+  },
+  {
+    "image_id": "06177850ef1b4bf2",
+    "sheet": "sheet_06.jpg",
+    "slot": 4
+  },
+  {
+    "image_id": "00504e57c8f3bcae",
+    "sheet": "sheet_07.jpg",
+    "slot": 1
+  },
+  {
+    "image_id": "e0b65df5d0991f3b",
+    "sheet": "sheet_07.jpg",
+    "slot": 2
+  },
+  {
+    "image_id": "437032030be8a759",
+    "sheet": "sheet_07.jpg",
+    "slot": 3
+  },
+  {
+    "image_id": "fd23cfb9ec4242fd",
+    "sheet": "sheet_07.jpg",
+    "slot": 4
+  },
+  {
+    "image_id": "7ed91cc489d23e9b",
+    "sheet": "sheet_08.jpg",
+    "slot": 1
+  },
+  {
+    "image_id": "1231498f5fca1bc8",
+    "sheet": "sheet_08.jpg",
+    "slot": 2
+  },
+  {
+    "image_id": "76f028f5529212cc",
+    "sheet": "sheet_08.jpg",
+    "slot": 3
+  },
+  {
+    "image_id": "a0fb0117888c1c32",
+    "sheet": "sheet_08.jpg",
+    "slot": 4
+  },
+  {
+    "image_id": "015d013bdf8cf34f",
+    "sheet": "sheet_09.jpg",
+    "slot": 1
+  },
+  {
+    "image_id": "01f46661939f721f",
+    "sheet": "sheet_09.jpg",
+    "slot": 2
+  },
+  {
+    "image_id": "b6cbfab6752ebd77",
+    "sheet": "sheet_09.jpg",
+    "slot": 3
+  },
+  {
+    "image_id": "725be049acbf2843",
+    "sheet": "sheet_09.jpg",
+    "slot": 4
+  },
+  {
+    "image_id": "6558cd692b79ead4",
+    "sheet": "sheet_10.jpg",
+    "slot": 1
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "source": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v12_two_box_pilot",
+  "target": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v13_four_box_pilot",
+  "label_files_changed": 2,
+  "changed_source_ids": [
+    "627931ae6e6b7e3c",
+    "8dfef66be8e71bd6"
+  ],
+  "image_files_unchanged": 4173,
+  "val_test_labels_unchanged": true,
+  "review_image": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v13_four_box_pilot\\correction_review.jpg"
+}

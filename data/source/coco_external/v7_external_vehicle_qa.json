@@ -1,0 +1,577 @@
+{
+  "model": "runs/public_phase1_v7_vehicle_labels_candidate/yolov8n/weights/best.pt",
+  "conf": 0.25,
+  "imgsz": 512,
+  "images_by_group": {
+    "bicycle_only": 40,
+    "motorcycle_only": 40
+  },
+  "matched_bicycle_iou50": 21,
+  "gt_bicycle": 98,
+  "bicycle_recall_iou50": 0.21428571428571427,
+  "bicycle_precision_iou50": 0.3684210526315789,
+  "false_bicycle_predictions": 36,
+  "motorcycle_only_images_with_bicycle_prediction": 6,
+  "rows": [
+    {
+      "file_name": "000000203317.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000289343.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000424162.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 4,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000167486.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 2,
+      "predicted_bicycle": 2,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000378515.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000259640.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 4,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000076547.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 3,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000242287.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000138639.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000343561.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 12,
+      "predicted_bicycle": 10,
+      "matched_bicycle_iou50": 3
+    },
+    {
+      "file_name": "000000193926.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000274460.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 2,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000468505.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000050145.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 4,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000279278.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 10,
+      "predicted_bicycle": 7,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000008899.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 2,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000174482.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 2,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000476704.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000338625.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000341469.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000233727.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 8,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000256941.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 2,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000245173.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 2,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000470173.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 2,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000251140.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 2,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000384527.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000074058.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 2,
+      "predicted_bicycle": 4,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000394510.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 2,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000045596.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 7,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000099114.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 3,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000274687.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000546823.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 2,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000428111.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000414510.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000152771.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000361103.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 2,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000177861.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000277005.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 1
+    },
+    {
+      "file_name": "000000549390.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 6,
+      "predicted_bicycle": 2,
+      "matched_bicycle_iou50": 2
+    },
+    {
+      "file_name": "000000473118.jpg",
+      "group": "bicycle_only",
+      "gt_bicycle": 1,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000165518.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000572956.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000491213.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000507667.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000455624.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000338905.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000144300.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000246963.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 3,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000255536.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000143556.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000402433.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000031817.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000336232.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000224724.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000017207.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000244833.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000158548.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000456394.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000297147.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000491090.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000460147.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000534605.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000153217.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000203389.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000553776.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000454978.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000578792.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000380706.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 3,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000284698.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000423617.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000463730.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000568290.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000011511.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000142585.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000136715.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 1,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000102356.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000427338.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000321557.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000457884.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    },
+    {
+      "file_name": "000000068093.jpg",
+      "group": "motorcycle_only",
+      "gt_bicycle": 0,
+      "predicted_bicycle": 0,
+      "matched_bicycle_iou50": 0
+    }
+  ]
+}

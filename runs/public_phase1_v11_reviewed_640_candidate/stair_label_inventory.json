@@ -1,0 +1,288 @@
+{
+  "dataset": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v11_reviewed_640_candidate",
+  "splits": {
+    "train": {
+      "counts": {
+        "images": 3302,
+        "stair_boxes": 386,
+        "stair_positive_images": 351,
+        "multi_stair_box_images": 35
+      },
+      "sources": {
+        "COCO": {
+          "images": 300,
+          "stair_boxes": 0,
+          "stair_positive_images": 0
+        },
+        "Open Images V7": {
+          "images": 385,
+          "stair_boxes": 77,
+          "stair_positive_images": 68
+        },
+        "ROD": {
+          "images": 970,
+          "stair_boxes": 128,
+          "stair_positive_images": 119
+        },
+        "oi": {
+          "images": 290,
+          "stair_boxes": 1,
+          "stair_positive_images": 1
+        },
+        "pilot": {
+          "images": 1357,
+          "stair_boxes": 180,
+          "stair_positive_images": 163
+        }
+      }
+    },
+    "val": {
+      "counts": {
+        "images": 251,
+        "stair_boxes": 41,
+        "stair_positive_images": 40,
+        "multi_stair_box_images": 1
+      },
+      "sources": {
+        "Open Images V7": {
+          "images": 98,
+          "stair_boxes": 16,
+          "stair_positive_images": 15
+        },
+        "ROD": {
+          "images": 153,
+          "stair_boxes": 25,
+          "stair_positive_images": 25
+        }
+      }
+    },
+    "test": {
+      "counts": {
+        "images": 620,
+        "stair_boxes": 122,
+        "stair_positive_images": 118,
+        "multi_stair_box_images": 4
+      },
+      "sources": {
+        "Open Images V7": {
+          "images": 99,
+          "stair_boxes": 19,
+          "stair_positive_images": 18
+        },
+        "ROD": {
+          "images": 457,
+          "stair_boxes": 103,
+          "stair_positive_images": 100
+        },
+        "oi": {
+          "images": 64,
+          "stair_boxes": 0,
+          "stair_positive_images": 0
+        }
+      }
+    }
+  },
+  "multi_stair_box_images": [
+    {
+      "split": "train",
+      "id": "openimagesv7_train_0035c849262c266a",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "openimagesv7_train_0451a182e42b1080",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "openimagesv7_train_2a44c9dfee1ffb62",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "openimagesv7_train_5a08b0bfc03b87a9",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "openimagesv7_train_9510399b9adc7dcd",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "openimagesv7_train_a764828a75cbaad4",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "openimagesv7_train_b98f302500e5532b",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "openimagesv7_train_ba7a2edd0337966f",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "openimagesv7_train_e0cf16e8e9faea10",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "rod_train_IMG_07465",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "rod_train_IMG_07473",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "rod_train_IMG_07482",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "rod_train_IMG_07485",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "rod_train_IMG_07544",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "rod_train_IMG_07784",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "rod_train_IMG_09265",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "rod_train_IMG_09890",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "rod_train_IMG_18372",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_07466",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_07468",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_07472",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_07513",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_07560",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_07587",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09074",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09075",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09199",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09245",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09282",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09338",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_18371",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_18373",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_18374",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_val_IMG_22395",
+      "stair_boxes": 2
+    },
+    {
+      "split": "train",
+      "id": "pilot_val_IMG_22559",
+      "stair_boxes": 2
+    },
+    {
+      "split": "val",
+      "id": "openimagesv7_validation_8eb32c27fcb2dd3e",
+      "stair_boxes": 2
+    },
+    {
+      "split": "test",
+      "id": "openimagesv7_test_996e4f08c8db6ff8",
+      "stair_boxes": 2
+    },
+    {
+      "split": "test",
+      "id": "rod_test_IMG_19846",
+      "stair_boxes": 2
+    },
+    {
+      "split": "test",
+      "id": "rod_test_IMG_19857",
+      "stair_boxes": 2
+    },
+    {
+      "split": "test",
+      "id": "rod_test_IMG_20009",
+      "stair_boxes": 2
+    }
+  ],
+  "limitations": "Structural inventory only; no visual verification of complete or policy-consistent staircase boxes."
+}

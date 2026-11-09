@@ -1,0 +1,72 @@
+# Local environments and generated dependency/build output
+.venv/
+venv/
+node_modules/
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+.gradle/
+.cxx/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.runtime/
+.ipynb_checkpoints/
+
+# Private and machine-specific settings
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.toml
+local.properties
+key.properties
+*.jks
+*.keystore
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.tmp/
+
+# Claude's local skill junctions duplicate the real .agents/skills source
+/.claude/skills/
+
+# Figma API exports and temporary render URLs stay local
+/qa/figma-source/
+
+# Dataset manifests/configuration are versioned; bulk images/labels/downloads are not
+/data/**
+!/data/**/
+!/data/**/*.md
+!/data/**/*.json
+!/data/**/*.jsonl
+!/data/**/*.yaml
+!/data/**/*.yml
+/data/**/images/
+/data/**/labels/
+/data/**/annotations/
+/data/**/cache/
+/data/source/coco_external/instances_*.json
+
+# Reproducible training/export artifacts; retain the model needed to run the app
+*.pt
+*.onnx
+*.tflite
+*.engine
+*.npy
+*.npz
+*.pb
+/runs/**/variables/
+!apps/mobile/assets/model/*.tflite

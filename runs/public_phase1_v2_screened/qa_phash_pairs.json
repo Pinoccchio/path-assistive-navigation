@@ -1,0 +1,30 @@
+{
+  "pairs": [
+    {
+      "test": "rod_test_IMG_19531",
+      "train": "rod_train_IMG_03480",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_20556",
+      "train": "rod_train_IMG_12434",
+      "distance": 8
+    },
+    {
+      "test": "rod_test_IMG_19194",
+      "train": "pilot_train_IMG_00125",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19633",
+      "train": "rod_train_IMG_04969",
+      "distance": 10
+    },
+    {
+      "test": "rod_test_IMG_19773",
+      "train": "pilot_train_IMG_06879",
+      "distance": 10
+    }
+  ],
+  "note": "Candidate pairs require manual review"
+}

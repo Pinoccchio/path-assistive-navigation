@@ -1,0 +1,14 @@
+{
+  "python": "3.10.0",
+  "torch": "2.0.1+cu118",
+  "ultralytics": "8.3.0",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "seed": 42,
+  "epochs": 12,
+  "batch": 4,
+  "imgsz": 640,
+  "initial_weights_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "dataset_manifest_sha256": "905ab012b7661bb4718d66f17ed4e58572045f2ec51418f62cb8c0b1d3214234",
+  "changes_from_v10": "seven quarantined train images and 640px training instead of 512px; validation/test unchanged"
+}

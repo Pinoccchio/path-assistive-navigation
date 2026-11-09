@@ -1,0 +1,10 @@
+{
+  "review_images": 120,
+  "newly_confirmed_images": 11,
+  "false_candidates": 4,
+  "uncertain_candidates": 3,
+  "draft_boxes_geometry_checked": 1091,
+  "source_images_hash_verified": 120,
+  "all_review_images_have_zero_person_labels": true,
+  "semantic_box_approval": false
+}

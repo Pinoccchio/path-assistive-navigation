@@ -1,0 +1,14 @@
+{
+  "policy": "Visual review before inference on the post-hoc size-stratified small-bicycle diagnostic selection; quarantine entire images with ambiguous, part-only, depiction, or out-of-policy labels.",
+  "excluded": {
+    "169405d5a5319492": "crowd scene with ambiguous bicycle fragments",
+    "d5efc1bdafc6da37": "target bicycle mostly hidden behind foreground dog",
+    "5f589d38c63d228b": "bike wheel/frame parts close-up",
+    "001d1da154d00e83": "separate wheels annotated as bicycles",
+    "187a3f8608717e81": "child tricycle outside pedal-bicycle policy",
+    "baa99ac0580ed40d": "child carrier trailer annotated as bicycle",
+    "03ecaf861f54052e": "pedal quadricycle outside bicycle policy",
+    "5a5e7b197014c6dd": "newspaper depiction of cyclists",
+    "18bd49372c15d586": "only bicycle wheel fragments visible"
+  }
+}

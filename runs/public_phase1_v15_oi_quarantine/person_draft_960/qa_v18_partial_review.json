@@ -1,0 +1,9 @@
+{
+  "total_review_images": 179,
+  "confirmed_zero_person_images": 120,
+  "partial_label_review_candidates": 59,
+  "source_images_hash_verified": 179,
+  "draft_boxes_geometry_checked": 1700,
+  "semantic_box_approval": false,
+  "dataset_labels_changed": false
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "image_id": "00c86ad45b7a1c9b",
+    "sheet": "sheet_01.jpg",
+    "slot": 1,
+    "proposal_count": 1
+  },
+  {
+    "image_id": "ce833bef051b8b12",
+    "sheet": "sheet_01.jpg",
+    "slot": 2,
+    "proposal_count": 1
+  },
+  {
+    "image_id": "f99c945524367c87",
+    "sheet": "sheet_01.jpg",
+    "slot": 3,
+    "proposal_count": 1
+  },
+  {
+    "image_id": "ec274de4ef22499f",
+    "sheet": "sheet_01.jpg",
+    "slot": 4,
+    "proposal_count": 5
+  },
+  {
+    "image_id": "61341e263872270a",
+    "sheet": "sheet_02.jpg",
+    "slot": 1,
+    "proposal_count": 1
+  },
+  {
+    "image_id": "70f19b59313561ef",
+    "sheet": "sheet_02.jpg",
+    "slot": 2,
+    "proposal_count": 1
+  },
+  {
+    "image_id": "1aa5a8f4f5a28219",
+    "sheet": "sheet_02.jpg",
+    "slot": 3,
+    "proposal_count": 9
+  },
+  {
+    "image_id": "017482da6cb1d140",
+    "sheet": "sheet_02.jpg",
+    "slot": 4,
+    "proposal_count": 8
+  },
+  {
+    "image_id": "ae42371d04b01e6c",
+    "sheet": "sheet_03.jpg",
+    "slot": 1,
+    "proposal_count": 4
+  },
+  {
+    "image_id": "ad36465df2063c13",
+    "sheet": "sheet_03.jpg",
+    "slot": 2,
+    "proposal_count": 2
+  },
+  {
+    "image_id": "4cda73e840f5672d",
+    "sheet": "sheet_03.jpg",
+    "slot": 3,
+    "proposal_count": 1
+  },
+  {
+    "image_id": "5b429fba2f25dc15",
+    "sheet": "sheet_03.jpg",
+    "slot": 4,
+    "proposal_count": 1
+  },
+  {
+    "image_id": "005753525902c0a1",
+    "sheet": "sheet_04.jpg",
+    "slot": 1,
+    "proposal_count": 2
+  },
+  {
+    "image_id": "79f5fd4f9f0149cf",
+    "sheet": "sheet_04.jpg",
+    "slot": 2,
+    "proposal_count": 3
+  },
+  {
+    "image_id": "b46048fdbde0db62",
+    "sheet": "sheet_04.jpg",
+    "slot": 3,
+    "proposal_count": 1
+  },
+  {
+    "image_id": "37a47598b32fd815",
+    "sheet": "sheet_04.jpg",
+    "slot": 4,
+    "proposal_count": 1
+  },
+  {
+    "image_id": "e02fb1199de88ab1",
+    "sheet": "sheet_05.jpg",
+    "slot": 1,
+    "proposal_count": 1
+  },
+  {
+    "image_id": "9ae736386924710c",
+    "sheet": "sheet_05.jpg",
+    "slot": 2,
+    "proposal_count": 1
+  }
+]

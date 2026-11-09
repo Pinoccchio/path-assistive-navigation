@@ -1,0 +1,26 @@
+{
+  "policy": "Visual review before any model inference; quarantine entire image when the target box is a part, depiction, stationary exercise bike, non-pedal balance bike, snowmobile, or ambiguous vehicle.",
+  "test": {
+    "8281debfdd5b4889": "bicycle wheel fragment behind fish basket",
+    "861bf98f625154e2": "photo collage rather than a single street scene",
+    "714e24decce5aeac": "bicycle wheel close-up",
+    "868472ae4b8accbe": "bicycle wheel close-up",
+    "4d4f078ba13f45f2": "non-pedal balance bike",
+    "0c7ba550abe68e59": "handlebar close-up",
+    "b4fb5fc189c9e45b": "ambiguous bicycles obscured by merchandise",
+    "ab0cb49d328f4c62": "only bicycle handlebar visible",
+    "34fb027d7093fa48": "chainring close-up",
+    "24b1a4b0c565c1d2": "bicycle annotation overlaps powered mobility scooter",
+    "85f98f4114ee84de": "stationary exercise bicycles",
+    "4970c7258c43950d": "only motorcycle wheel fragment at image edge",
+    "d0a915f804dbc264": "motorcycle engine close-up",
+    "0be68cb951208dc2": "loose motorcycle tires",
+    "b6e853787ccf29ca": "motorcycle engine close-up",
+    "e95293cbfd51c546": "snowmobile mislabeled motorcycle"
+  },
+  "train": {
+    "7570ade29f684e68": "webpage screenshot",
+    "5d0bf1c52ea6d996": "bicycle wheel/brake close-up",
+    "e5ace46db48b5e48": "church scene with unresolvable bicycle label"
+  }
+}

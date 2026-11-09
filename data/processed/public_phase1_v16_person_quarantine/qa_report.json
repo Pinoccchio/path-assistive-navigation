@@ -1,0 +1,35 @@
+{
+  "retained_pairs_byte_identical": 4057,
+  "removed_train_images": 109,
+  "val_test_unchanged": true,
+  "train_boxes_before": {
+    "stairs": 386,
+    "chair": 1221,
+    "bicycle": 1339,
+    "car": 1728,
+    "person": 4167,
+    "plant_pot": 241,
+    "motorcycle": 757,
+    "electrical_pole": 50
+  },
+  "train_boxes_after": {
+    "stairs": 386,
+    "chair": 1221,
+    "bicycle": 1057,
+    "car": 1716,
+    "person": 4167,
+    "plant_pot": 241,
+    "motorcycle": 631,
+    "electrical_pole": 50
+  },
+  "lost_train_boxes": {
+    "bicycle": 282,
+    "car": 12,
+    "motorcycle": 126
+  },
+  "lost_fraction": {
+    "bicycle": 0.2106,
+    "car": 0.0069,
+    "motorcycle": 0.1664
+  }
+}

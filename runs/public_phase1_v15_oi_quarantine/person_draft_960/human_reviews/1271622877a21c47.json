@@ -1,0 +1,20 @@
+{
+  "image_id": "1271622877a21c47",
+  "image_sha256": "cfdd18e3f4e93979ef9658c911657b51797acd4db3a5a7ca8985f290f652e642",
+  "width": 1024,
+  "height": 768,
+  "status": "in_progress",
+  "reviewer": "Codex AI visual triage",
+  "second_reviewer": "",
+  "all_visible_people_checked": false,
+  "vehicle_completeness_checked": false,
+  "notes": "AI triage: one visible cyclist; person proposal plausible. Small red car appears unboxed under project car policy; review vehicle labels. Human full-image review required.",
+  "boxes": [
+    [
+      487.8,
+      418.7,
+      539.4,
+      536.9
+    ]
+  ]
+}

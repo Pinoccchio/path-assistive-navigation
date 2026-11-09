@@ -1,0 +1,20 @@
+{
+  "image_id": "17d51251e2ce55f0",
+  "image_sha256": "9032bd3a562d74a25add9dd8efaf354d9e380d660b6aa0f41c7a26683d8e4eaf",
+  "width": 683,
+  "height": 1024,
+  "status": "in_progress",
+  "reviewer": "Codex AI visual triage",
+  "second_reviewer": "",
+  "all_visible_people_checked": false,
+  "vehicle_completeness_checked": false,
+  "notes": "AI triage: one rider. Original draft ended above visible lower leg; extended to image bottom. Tightness/occlusion needs human adjustment; check motorcycle label.",
+  "boxes": [
+    [
+      23.5,
+      32.0,
+      683.0,
+      1024.0
+    ]
+  ]
+}

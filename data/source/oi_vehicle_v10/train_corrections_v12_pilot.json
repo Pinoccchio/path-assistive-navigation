@@ -1,0 +1,23 @@
+{
+  "scope": "Two visually confirmed missing vehicle boxes in retained Open Images V7 training images. Pilot correction ledger, not a complete annotation audit.",
+  "review_method": "Codex inspected full-resolution source images, original labels, and v11 prediction overlays. Prediction boxes were accepted only where the target object and box extent were visually unambiguous.",
+  "add_boxes": {
+    "fc39516ed15ec5ba": {
+      "image_sha256": "1aeeda9a95a05dd644d8666b1392f5825b2ff2e4b5f34c67b45455d9dcf4a7fd",
+      "image_size": [1024, 723],
+      "boxes_xyxy": [[4, 3.0, 420.8, 69.0, 510.3]],
+      "reason": "Visible small pedal bicycle at the far-left edge has no source bicycle box; full-resolution visual check supports the box."
+    },
+    "b8de9ce8cb2f4d94": {
+      "image_sha256": "d45c54d0c8337671d773d2fea5062cfb5f1a1d5e17793fcbac92fc633cab9dfc",
+      "image_size": [1024, 681],
+      "boxes_xyxy": [[7, 840.2, 467.3, 966.1, 662.5]],
+      "reason": "Clearly visible parked motorcycle to the right of the cyclists has no source motorcycle box; full-resolution visual check supports the box."
+    }
+  },
+  "reviewed_without_label_addition": {
+    "fcd2173e996fee72": "The left-edge bicycle prediction is a stroller and must not become a bicycle label.",
+    "22502af39e25fe90": "The large motorcycle prediction is a hot-rod car and must not become a motorcycle label."
+  },
+  "remaining_work": "Most flagged and unflagged train images still need complete instance-level review. No test image is changed. Do not train or promote this two-box pilot as a solved data-quality pass."
+}

@@ -1,0 +1,124 @@
+{
+  "scope": "Image-level visual triage of 18 new zero-person-label candidates from 960px scan; no proposal is ground truth.",
+  "review_method": "All five whole-image sheets inspected; eight ambiguous/false cases also checked at full image size.",
+  "decisions": {
+    "005753525902c0a1": {
+      "decision": "visible_person_without_person_box",
+      "image_sha256": "8d5b774a7ee5f7f1bee9978c5e255f18973b55775dd7068d4a7ba64f28bdbf43",
+      "review_sheet": "sheet_04.jpg",
+      "sheet_slot": 1
+    },
+    "00c86ad45b7a1c9b": {
+      "decision": "visible_person_without_person_box",
+      "image_sha256": "3601426a40301d8bf30dcec7184f0a03ae087a264b9f825598ddd14fec3df6da",
+      "review_sheet": "sheet_01.jpg",
+      "sheet_slot": 1
+    },
+    "017482da6cb1d140": {
+      "decision": "visible_person_without_person_box",
+      "image_sha256": "b8227d078659217c54d186c09c36d1b1f84afcb969eb778887f0d05d0f845fa3",
+      "review_sheet": "sheet_02.jpg",
+      "sheet_slot": 4
+    },
+    "1aa5a8f4f5a28219": {
+      "decision": "visible_person_without_person_box",
+      "image_sha256": "60f2e2299b28755eaba5fe52792a993e539d9752184d4dec0f66e0ed584d987b",
+      "review_sheet": "sheet_02.jpg",
+      "sheet_slot": 3
+    },
+    "37a47598b32fd815": {
+      "decision": "false_person_vehicle_detail",
+      "image_sha256": "0ac8a8e36423f2a50bdcb1e9a2484c43a026e7015c69d2f98fb255c0a5cf100d",
+      "review_sheet": "sheet_04.jpg",
+      "sheet_slot": 4
+    },
+    "4cda73e840f5672d": {
+      "decision": "uncertain_edge_crop",
+      "image_sha256": "7ff635f34d95b910e735e554048070f66d48537792aab3fc162235fb9e5b910a",
+      "review_sheet": "sheet_03.jpg",
+      "sheet_slot": 3
+    },
+    "5b429fba2f25dc15": {
+      "decision": "visible_person_without_person_box",
+      "image_sha256": "87b9c030ac10404b75f39a38eef92c71db7d5d70788a2c70b50799cebfbc94fe",
+      "review_sheet": "sheet_03.jpg",
+      "sheet_slot": 4
+    },
+    "61341e263872270a": {
+      "decision": "uncertain_tiny_proposal",
+      "image_sha256": "bba8e280d29a516f352745b79e35dad95521559959aad3ad4d6e870edbb60bd9",
+      "review_sheet": "sheet_02.jpg",
+      "sheet_slot": 1
+    },
+    "70f19b59313561ef": {
+      "decision": "visible_person_without_person_box",
+      "image_sha256": "5c14fdea375424cb3b9bd21b892583c9468f4bf4cea0aff9cf1d1d4888cc628f",
+      "review_sheet": "sheet_02.jpg",
+      "sheet_slot": 2
+    },
+    "79f5fd4f9f0149cf": {
+      "decision": "visible_person_without_person_box",
+      "image_sha256": "99dd23796c228b84d04407e66b6547351c6228de6bafcd3781b6deb77d272837",
+      "review_sheet": "sheet_04.jpg",
+      "sheet_slot": 2
+    },
+    "9ae736386924710c": {
+      "decision": "false_person_poster",
+      "image_sha256": "37f8c79b0f93707d716f88e402ec0dfb5aebe70c2cf062208e8ae85363467b86",
+      "review_sheet": "sheet_05.jpg",
+      "sheet_slot": 2
+    },
+    "ad36465df2063c13": {
+      "decision": "visible_person_without_person_box",
+      "image_sha256": "c14133bcda7c458300b79e6b553897c2f9dcee71427a11ea5533d8734f6a5d3b",
+      "review_sheet": "sheet_03.jpg",
+      "sheet_slot": 2
+    },
+    "ae42371d04b01e6c": {
+      "decision": "false_person_poster",
+      "image_sha256": "b03d5f28cfc8f12792f51f34ac02fee76a081235bbe973d8c3b3be6129553af2",
+      "review_sheet": "sheet_03.jpg",
+      "sheet_slot": 1
+    },
+    "b46048fdbde0db62": {
+      "decision": "false_person_helmet",
+      "image_sha256": "40a0f5b0c2b619a0a116479ca24be9eb35f8802de40ddc88ed01234b074ab144",
+      "review_sheet": "sheet_04.jpg",
+      "sheet_slot": 3
+    },
+    "ce833bef051b8b12": {
+      "decision": "visible_person_without_person_box",
+      "image_sha256": "39b27bc39f0eb27eb722731a9ccdfb2882acfad76bdb8a23e1f895921d76dde6",
+      "review_sheet": "sheet_01.jpg",
+      "sheet_slot": 2
+    },
+    "e02fb1199de88ab1": {
+      "decision": "uncertain_blurred_rider",
+      "image_sha256": "436f49fe4aac118af332b449542066448da8735f3fbe8dd09c7ad05a603c4b17",
+      "review_sheet": "sheet_05.jpg",
+      "sheet_slot": 1
+    },
+    "ec274de4ef22499f": {
+      "decision": "visible_person_without_person_box",
+      "image_sha256": "7325da91f087c20dde563d74b7c1d0801ac5e5f9683ecaf3956c541e7e742154",
+      "review_sheet": "sheet_01.jpg",
+      "sheet_slot": 4
+    },
+    "f99c945524367c87": {
+      "decision": "visible_person_without_person_box",
+      "image_sha256": "c7ee96043025385c1fe32d55aaebe41d5b61948979bfe84c8d61d694326f71ea",
+      "review_sheet": "sheet_01.jpg",
+      "sheet_slot": 3
+    }
+  },
+  "counts": {
+    "visible_person_without_person_box": 11,
+    "uncertain_tiny_proposal": 1,
+    "false_person_poster": 2,
+    "uncertain_edge_crop": 1,
+    "false_person_helmet": 1,
+    "false_person_vehicle_detail": 1,
+    "uncertain_blurred_rider": 1
+  },
+  "remaining_work": "Confirmed images still require exhaustive box annotation and second review; uncertain images stay out of the approved set."
+}

@@ -1,0 +1,162 @@
+{
+  "review_date": "2026-10-04",
+  "rows": [
+    {
+      "split": "train",
+      "id": "openimagesv7_train_5a08b0bfc03b87a9",
+      "image_sha256": "2c6f02c4e95ff7ede1b74a6728bb7792f2b9a8e155aac09f3991d6ac2ee88b3b",
+      "label_sha256": "55745ef1167c2174af5d54ec0e7d5ecbe262ee2279072ba8e7a3c1dd3315598e",
+      "current_stair_lines": [
+        "2 0.1746875 0.4155720 0.3493750 0.0694180",
+        "2 0.8140625 0.4057220 0.3706250 0.0647280"
+      ],
+      "proposal": "quarantine_for_rebox",
+      "reason": "Both boxes cover fountain ledges while the walkable side stairs are unboxed.",
+      "status": "visual_triage_only"
+    },
+    {
+      "split": "train",
+      "id": "openimagesv7_train_9510399b9adc7dcd",
+      "image_sha256": "25636102f8d5d25bf8c16bf18573f0fe19fc9ed7e7bfcccde1e28c46964520bf",
+      "label_sha256": "557134a52d96ed7a67957152a0a93442dee26fe1c608a7f23c5dac36f30f9836",
+      "current_stair_lines": [
+        "2 0.4856250 0.5883515 0.7687500 0.8134250",
+        "2 0.4900000 0.0794670 0.3037500 0.1589340"
+      ],
+      "proposal": "review_flight_boundary",
+      "reason": "Two staircase flights may be separated by a landing; assess the current lower box geometry.",
+      "status": "visual_triage_only"
+    },
+    {
+      "split": "train",
+      "id": "rod_train_IMG_18372",
+      "image_sha256": "402f049132fc307c7725cb89e75662ce08b1f8496558afb9f27c64e0d23831d5",
+      "label_sha256": "f95170360e187f61473b217cc69ad32f291fcb2ba4a4fb76d8eddd637770c642",
+      "current_stair_lines": [
+        "2 0.4984375 0.1937500 0.9960938 0.3835938",
+        "2 0.5000000 0.6164063 1.0000000 0.1664063"
+      ],
+      "proposal": "quarantine_for_identity_review",
+      "reason": "Low exterior steps or curb around a utility cover; staircase identity is ambiguous.",
+      "status": "visual_triage_only"
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09074",
+      "image_sha256": "40aed320f9795342e7a4114b46d89bd307fa0a279c3dffe434ca0ddc358bbb6e",
+      "label_sha256": "9f1f187fe6a0418a9576b5b6e33741146c19ecb5ce91e4196f07ec3cf91faa33",
+      "current_stair_lines": [
+        "2 0.50000000 0.39355469 1.00000000 0.56152344",
+        "2 0.50000000 0.50195312 1.00000000 0.99609375"
+      ],
+      "proposal": "remove_duplicate_rebox_remaining",
+      "reason": "One stair box spans nearly the full image and duplicates a tighter box.",
+      "status": "visual_triage_only"
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09075",
+      "image_sha256": "3c9a22816d1f812b8980ad13a21f660bb7ee0d6ad4a40e677e9b257ad719a08a",
+      "label_sha256": "b9df51cea96477de3fc13554ec550b22fb985e5a720d48aaaf1840a913dadd06",
+      "current_stair_lines": [
+        "2 0.47753906 0.34179688 0.90722656 0.34570312",
+        "2 0.50000000 0.58300781 1.00000000 0.82910156"
+      ],
+      "proposal": "merge_or_rebox",
+      "reason": "Two boxes overlap one descending flight and one extends onto foreground pavement.",
+      "status": "visual_triage_only"
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09199",
+      "image_sha256": "92e602d652a9e388f5489f821b5062ec700cc05fd2a8c0c6fb3c93bfa29ab3e6",
+      "label_sha256": "efff62157410323fce095d27be1abee60aaf71cff44870b60591abfd189dbd2f",
+      "current_stair_lines": [
+        "2 0.50703125 0.67031250 0.86015625 0.24531250",
+        "2 0.52187500 0.48437500 0.41250000 0.18906250"
+      ],
+      "proposal": "review_landing_box",
+      "reason": "One box covers the visible flight; a second appears to cover the landing.",
+      "status": "visual_triage_only"
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09245",
+      "image_sha256": "c41d5d1b18401f1f5a1bbbfafc81cf13070a143db13f80bd96ffdf9dc6085007",
+      "label_sha256": "e088ad9f85e2b9b89302823fe0a6040ac114148f7a71c75a97dc6161a23e0a90",
+      "current_stair_lines": [
+        "2 0.40781250 0.67109375 0.81562500 0.32968750",
+        "2 0.47734375 0.41562500 0.41718750 0.22421875"
+      ],
+      "proposal": "review_landing_box",
+      "reason": "One box covers the visible flight; a second appears to cover the landing.",
+      "status": "visual_triage_only"
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09282",
+      "image_sha256": "4c2c0023655c4f86a9b45caf55106dfbaae68966d5716753791a894875004e9d",
+      "label_sha256": "598048afa94279519b65f7304264ada354c4e71156f6f47cdfc7a1becd267748",
+      "current_stair_lines": [
+        "2 0.54296875 0.72109375 0.91406250 0.24843750",
+        "2 0.58515625 0.48906250 0.54609375 0.33906250"
+      ],
+      "proposal": "review_landing_box",
+      "reason": "One box covers the near flight; a second appears to cover the far landing.",
+      "status": "visual_triage_only"
+    },
+    {
+      "split": "train",
+      "id": "pilot_train_IMG_09338",
+      "image_sha256": "b6603a22c19a571092b98bcbb4bbc23bc4e8f5c0238bd1b4fa8bc807d391f6eb",
+      "label_sha256": "927959da5001913369344d2a6e91f7691b7f9aeea0f3ff435dbf43d7b6933b0b",
+      "current_stair_lines": [
+        "2 0.45703125 0.53359375 0.91406250 0.33125000",
+        "2 0.36953125 0.32187500 0.38984375 0.42421875"
+      ],
+      "proposal": "merge_or_rebox",
+      "reason": "Boxes overlap a continuous flight and landing; boundaries need a single consistent policy.",
+      "status": "visual_triage_only"
+    },
+    {
+      "split": "val",
+      "id": "openimagesv7_validation_8eb32c27fcb2dd3e",
+      "image_sha256": "09ad27dc7d02215b75496b66f732a8c8b598c2bf4718aeef15fa93ec30ac8086",
+      "label_sha256": "7ae4e8d638336be0c026778f9289876468f3fa8475891202d48606335be975b7",
+      "current_stair_lines": [
+        "2 0.0411160 0.0877778 0.0822320 0.1755556",
+        "2 0.1196769 0.1177778 0.1600587 0.1911111"
+      ],
+      "proposal": "review_non_stair_box",
+      "reason": "One small box appears to cover a railing/post beside the real stair segment.",
+      "status": "visual_triage_only"
+    },
+    {
+      "split": "test",
+      "id": "rod_test_IMG_19846",
+      "image_sha256": "56bdf9135fc9294faa62efdabc239befaf9c0c65187b3a7a7d27cc69e1fba56a",
+      "label_sha256": "d5a6624e23de7c33121805bcee26ae522cea694bfcf7c45e1d7bdb2628e38062",
+      "current_stair_lines": [
+        "2 0.4804688 0.7167969 0.7734375 0.1503906",
+        "2 0.4960938 0.6044922 0.9921875 0.7910156"
+      ],
+      "proposal": "review_frozen_test_geometry",
+      "reason": "Two boxes appear to split one continuous staircase; do not silently alter test labels.",
+      "status": "visual_triage_only"
+    },
+    {
+      "split": "test",
+      "id": "rod_test_IMG_19857",
+      "image_sha256": "69f533adedb4ec6051b978fd1f6d3b8edd30c2754be610b405425b156e0965cc",
+      "label_sha256": "a173af5dc37533c92976f195feb50ff9e3ea940767859dcfb69ce8ba7e1cf951",
+      "current_stair_lines": [
+        "2 0.5000000 0.4980469 1.0000000 0.9951172",
+        "2 0.5000000 0.8193359 1.0000000 0.2861328"
+      ],
+      "proposal": "review_frozen_test_geometry",
+      "reason": "Two boxes appear to split one continuous staircase; do not silently alter test labels.",
+      "status": "visual_triage_only"
+    }
+  ],
+  "limitations": "No labels changed or approved; review source-resolution boxes and independent-source evaluation before training."
+}

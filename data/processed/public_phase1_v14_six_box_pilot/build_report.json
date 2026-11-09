@@ -1,0 +1,18 @@
+{
+  "source": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v13_four_box_pilot",
+  "target": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v14_six_box_pilot",
+  "ledger_sha256": "b8c4eb7be083ac36315cfbc41441d57aa4ff38209d0a7d26d9733710b624be2c",
+  "corrected_train_ids": [
+    "3b255ed49fe19fa2",
+    "66da6f93d78d1a49"
+  ],
+  "added_boxes_this_version": 2,
+  "added_boxes_cumulative_from_v11": 6,
+  "kept_by_split": {
+    "test": 620,
+    "val": 251,
+    "train": 3302
+  },
+  "val_test_unchanged": true,
+  "status": "Annotation pilot only; not ready for retraining or app promotion."
+}

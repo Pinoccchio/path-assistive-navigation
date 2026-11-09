@@ -1,0 +1,13 @@
+{
+  "python": "3.10.0",
+  "torch": "2.0.1+cu118",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "ultralytics": "8.3.0",
+  "seed": 42,
+  "epochs": 12,
+  "batch": 4,
+  "imgsz": 512,
+  "dataset_manifest_sha256": "4bb41b515fc4a5cc14f31ad6267209359c6171e613d5d0633d632e68f6f725ea",
+  "initial_weights_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+}

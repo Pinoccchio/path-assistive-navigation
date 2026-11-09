@@ -1,0 +1,93 @@
+{
+  "scope": "post-hoc public development test; source labels may omit objects",
+  "imgsz": 512,
+  "matching_iou": 0.5,
+  "images": 620,
+  "weights_sha256": "07bc158b8bf4281bf22ed8f235ebbb1e4d507e104f9ce78dac8410f439940a74",
+  "thresholds": {
+    "0.01": {
+      "person_gt": 510,
+      "person_pred": 2468,
+      "person_matched": 406,
+      "person_unmatched_pred": 2062,
+      "bicycle_gt": 95,
+      "bicycle_pred": 865,
+      "bicycle_matched": 86,
+      "bicycle_unmatched_pred": 779,
+      "motorcycle_gt": 90,
+      "motorcycle_pred": 424,
+      "motorcycle_matched": 63,
+      "motorcycle_unmatched_pred": 361
+    },
+    "0.05": {
+      "person_gt": 510,
+      "person_pred": 856,
+      "person_matched": 350,
+      "person_unmatched_pred": 506,
+      "bicycle_gt": 95,
+      "bicycle_pred": 253,
+      "bicycle_matched": 83,
+      "bicycle_unmatched_pred": 170,
+      "motorcycle_gt": 90,
+      "motorcycle_pred": 179,
+      "motorcycle_matched": 56,
+      "motorcycle_unmatched_pred": 123
+    },
+    "0.1": {
+      "person_gt": 510,
+      "person_pred": 558,
+      "person_matched": 314,
+      "person_unmatched_pred": 244,
+      "bicycle_gt": 95,
+      "bicycle_pred": 165,
+      "bicycle_matched": 80,
+      "bicycle_unmatched_pred": 85,
+      "motorcycle_gt": 90,
+      "motorcycle_pred": 125,
+      "motorcycle_matched": 54,
+      "motorcycle_unmatched_pred": 71
+    },
+    "0.15": {
+      "person_gt": 510,
+      "person_pred": 447,
+      "person_matched": 293,
+      "person_unmatched_pred": 154,
+      "bicycle_gt": 95,
+      "bicycle_pred": 130,
+      "bicycle_matched": 78,
+      "bicycle_unmatched_pred": 52,
+      "motorcycle_gt": 90,
+      "motorcycle_pred": 100,
+      "motorcycle_matched": 48,
+      "motorcycle_unmatched_pred": 52
+    },
+    "0.25": {
+      "person_gt": 510,
+      "person_pred": 331,
+      "person_matched": 246,
+      "person_unmatched_pred": 85,
+      "bicycle_gt": 95,
+      "bicycle_pred": 108,
+      "bicycle_matched": 75,
+      "bicycle_unmatched_pred": 33,
+      "motorcycle_gt": 90,
+      "motorcycle_pred": 78,
+      "motorcycle_matched": 48,
+      "motorcycle_unmatched_pred": 30
+    },
+    "0.4": {
+      "person_gt": 510,
+      "person_pred": 235,
+      "person_matched": 199,
+      "person_unmatched_pred": 36,
+      "bicycle_gt": 95,
+      "bicycle_pred": 93,
+      "bicycle_matched": 72,
+      "bicycle_unmatched_pred": 21,
+      "motorcycle_gt": 90,
+      "motorcycle_pred": 59,
+      "motorcycle_matched": 41,
+      "motorcycle_unmatched_pred": 18
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "images": 10,
+  "max_abs_error": 0.0013275146484375,
+  "mean_abs_error": 1.0500323469386785e-05,
+  "all_finite": true,
+  "samples": [
+    {
+      "image": "openimagesv7_test_01afd648a4376160.jpg",
+      "max_abs_error": 0.0012054443359375,
+      "mean_abs_error": 1.117913780035451e-05,
+      "all_finite": true
+    },
+    {
+      "image": "openimagesv7_test_047c02edc7043382.jpg",
+      "max_abs_error": 0.0007781982421875,
+      "mean_abs_error": 1.0403766282252036e-05,
+      "all_finite": true
+    },
+    {
+      "image": "openimagesv7_test_087b1062dc719626.jpg",
+      "max_abs_error": 0.0007781982421875,
+      "mean_abs_error": 9.237554877472576e-06,
+      "all_finite": true
+    },
+    {
+      "image": "openimagesv7_test_0bdc378272c98063.jpg",
+      "max_abs_error": 0.000946044921875,
+      "mean_abs_error": 1.1242490472795907e-05,
+      "all_finite": true
+    },
+    {
+      "image": "openimagesv7_test_104585a6522ac572.jpg",
+      "max_abs_error": 0.001251220703125,
+      "mean_abs_error": 1.174787939817179e-05,
+      "all_finite": true
+    },
+    {
+      "image": "openimagesv7_test_11051240239ce83f.jpg",
+      "max_abs_error": 0.000762939453125,
+      "mean_abs_error": 7.142236881918507e-06,
+      "all_finite": true
+    },
+    {
+      "image": "openimagesv7_test_12d8c0e031b0a447.jpg",
+      "max_abs_error": 0.001007080078125,
+      "mean_abs_error": 9.101026080315933e-06,
+      "all_finite": true
+    },
+    {
+      "image": "openimagesv7_test_14fe08f87965e8a0.jpg",
+      "max_abs_error": 0.0013275146484375,
+      "mean_abs_error": 1.2549251550808549e-05,
+      "all_finite": true
+    },
+    {
+      "image": "openimagesv7_test_1524b0919466c2f1.jpg",
+      "max_abs_error": 0.00128173828125,
+      "mean_abs_error": 1.158391751232557e-05,
+      "all_finite": true
+    },
+    {
+      "image": "openimagesv7_test_1554f6fd493281ec.jpg",
+      "max_abs_error": 0.000946044921875,
+      "mean_abs_error": 1.0815973837452475e-05,
+      "all_finite": true
+    }
+  ]
+}

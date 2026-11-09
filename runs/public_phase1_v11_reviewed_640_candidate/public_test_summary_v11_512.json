@@ -1,0 +1,63 @@
+{
+  "model": "public_phase1_v11_reviewed_640_candidate",
+  "weights": "runs\\public_phase1_v11_reviewed_640_candidate\\yolov8n\\weights\\best.pt",
+  "test_split": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v11_reviewed_640_candidate\\images\\test",
+  "warning": "Provisional public split; known v1 exposure and incomplete manual semantic review prevent independent accuracy claims",
+  "overall": {
+    "metrics/precision(B)": 0.7940128269108178,
+    "metrics/recall(B)": 0.6928026880744524,
+    "metrics/mAP50(B)": 0.7715830247340406,
+    "metrics/mAP50-95(B)": 0.5538310219456509,
+    "fitness": 0.5756062222244899
+  },
+  "per_class": {
+    "person": {
+      "precision": 0.8916870467510228,
+      "recall": 0.34509803921568627,
+      "map50": 0.6153389773829665,
+      "map50_95": 0.3805952600924218
+    },
+    "chair": {
+      "precision": 0.8412613780488765,
+      "recall": 0.7023809523809523,
+      "map50": 0.7714262707440691,
+      "map50_95": 0.5775159635986656
+    },
+    "stairs": {
+      "precision": 0.8979245533380739,
+      "recall": 0.793156585972266,
+      "map50": 0.8643186919392389,
+      "map50_95": 0.6522789710589654
+    },
+    "car": {
+      "precision": 0.8362635781739047,
+      "recall": 0.6863711487858217,
+      "map50": 0.7803468263677682,
+      "map50_95": 0.5123846936329061
+    },
+    "bicycle": {
+      "precision": 0.7698654551367541,
+      "recall": 0.7052631578947368,
+      "map50": 0.7556247123851633,
+      "map50_95": 0.5589417319662295
+    },
+    "electrical_pole": {
+      "precision": 0.66910016820946,
+      "recall": 1.0,
+      "map50": 0.995,
+      "map50_95": 0.7576163180569431
+    },
+    "plant_pot": {
+      "precision": 0.7726780303707271,
+      "recall": 0.875,
+      "map50": 0.8745297125591116,
+      "map50_95": 0.6795347393459996
+    },
+    "motorcycle": {
+      "precision": 0.6733224052577232,
+      "recall": 0.43515162034615723,
+      "map50": 0.5160790064940075,
+      "map50_95": 0.311780497813076
+    }
+  }
+}

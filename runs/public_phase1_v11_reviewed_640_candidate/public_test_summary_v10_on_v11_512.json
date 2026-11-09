@@ -1,0 +1,63 @@
+{
+  "model": "public_phase1_v11_reviewed_640_candidate",
+  "weights": "runs\\public_phase1_v10_oi_vehicle_candidate\\yolov8n\\weights\\best.pt",
+  "test_split": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v11_reviewed_640_candidate\\images\\test",
+  "warning": "Provisional public split; known v1 exposure and incomplete manual semantic review prevent independent accuracy claims",
+  "overall": {
+    "metrics/precision(B)": 0.7814247357020154,
+    "metrics/recall(B)": 0.6687213512170334,
+    "metrics/mAP50(B)": 0.7699828985330641,
+    "metrics/mAP50-95(B)": 0.5480832378243505,
+    "fitness": 0.5702732038952218
+  },
+  "per_class": {
+    "person": {
+      "precision": 0.9185151213699462,
+      "recall": 0.24312630046030775,
+      "map50": 0.6058598419257339,
+      "map50_95": 0.3550587821504433
+    },
+    "chair": {
+      "precision": 0.7331438598595968,
+      "recall": 0.7261904761904762,
+      "map50": 0.7495282079177076,
+      "map50_95": 0.5667954508693069
+    },
+    "stairs": {
+      "precision": 0.9792938227866668,
+      "recall": 0.775344581104266,
+      "map50": 0.8717398263349599,
+      "map50_95": 0.6439718957782901
+    },
+    "car": {
+      "precision": 0.8521376524619761,
+      "recall": 0.6758893280632411,
+      "map50": 0.7840971355637814,
+      "map50_95": 0.5151950830792542
+    },
+    "bicycle": {
+      "precision": 0.8791537680610181,
+      "recall": 0.631578947368421,
+      "map50": 0.7458738397472917,
+      "map50_95": 0.5353585419999651
+    },
+    "electrical_pole": {
+      "precision": 0.35553604366897334,
+      "recall": 1.0,
+      "map50": 0.995,
+      "map50_95": 0.8289634186666669
+    },
+    "plant_pot": {
+      "precision": 0.8269259174744529,
+      "recall": 0.8960512593468692,
+      "map50": 0.8947202135120775,
+      "map50_95": 0.5919306370412112
+    },
+    "motorcycle": {
+      "precision": 0.7066916999334938,
+      "recall": 0.40158991720268544,
+      "map50": 0.5130441232629602,
+      "map50_95": 0.34739209300966695
+    }
+  }
+}

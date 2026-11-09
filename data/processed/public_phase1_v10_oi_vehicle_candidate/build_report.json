@@ -1,0 +1,17 @@
+{
+  "source": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v9_coco_train_candidate",
+  "target": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v10_oi_vehicle_candidate",
+  "counts": {
+    "v9_test": 556,
+    "v9_val": 251,
+    "v9_train": 3012,
+    "train_small_bicycle": 157,
+    "train_quarantined": 3,
+    "train_motorcycle": 140,
+    "test_small_bicycle": 29,
+    "test_quarantined": 16,
+    "test_motorcycle": 35
+  },
+  "test_policy": "new Open Images test IDs, no model inference before review exclusions; source annotations still incomplete",
+  "review_ledger_sha256": "d250084c35766c742b433ae8890dc808be7865d83b45a4b2309a1ff3ddb69739"
+}

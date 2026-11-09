@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thesis Design to Build"
+  short_description: "Build the thesis app from Figma and research evidence"
+  default_prompt: "Use $thesis-design-to-build to inspect the thesis sources and implement the next scoped Flutter app feature."

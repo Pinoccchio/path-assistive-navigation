@@ -1,0 +1,1037 @@
+{
+  "seed": 20261002,
+  "source_split": "COCO val2017",
+  "selection": "random images containing only one of bicycle/motorcycle among those two categories",
+  "excluded_selection": [
+    "selection.json",
+    "selection_holdout.json"
+  ],
+  "selected_before_inference": [
+    {
+      "group": "bicycle_only",
+      "image_id": 135670,
+      "file_name": "000000135670.jpg",
+      "sha256": "8f3eea478483e5b94935fe4e20da629a3631b28895899bccb5acc0fba5286060",
+      "annotations": [
+        [
+          196.77,
+          199.69,
+          105.06,
+          173.58
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 130386,
+      "file_name": "000000130386.jpg",
+      "sha256": "58af591bc5cf9e53188f43724cdfc91ce8ea3a13eefa984608ffd86d6d6b3936",
+      "annotations": [
+        [
+          270.68,
+          455.59,
+          25.83,
+          42.05
+        ],
+        [
+          263.37,
+          458.27,
+          22.2,
+          38.97
+        ],
+        [
+          339.93,
+          461.73,
+          28.54,
+          38.27
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 426166,
+      "file_name": "000000426166.jpg",
+      "sha256": "898e8d59cef547eb784066bd529f6a2f22c05ee0beddba310b7cd7c7531f7e6b",
+      "annotations": [
+        [
+          105.67,
+          172.78,
+          149.93,
+          123.52
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 301376,
+      "file_name": "000000301376.jpg",
+      "sha256": "57ead4a94a6df986a161c014c0719b6c37b52ea2aa2246c297ec44db06eb7a2e",
+      "annotations": [
+        [
+          306.73,
+          398.14,
+          22.88,
+          52.67
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 306437,
+      "file_name": "000000306437.jpg",
+      "sha256": "22527e13322b44ff7a1605a44f5f7426e6d19b96ef0043678deaea17bac371bc",
+      "annotations": [
+        [
+          88.62,
+          375.55,
+          68.75,
+          40.46
+        ],
+        [
+          149.82,
+          376.89,
+          25.64,
+          37.02
+        ],
+        [
+          409.02,
+          389.68,
+          16.98,
+          25.82
+        ],
+        [
+          383.53,
+          375.37,
+          36.9,
+          42.66
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 281929,
+      "file_name": "000000281929.jpg",
+      "sha256": "b300f819b43b6f41bda197dde44a7a715b77623398a60030fca7fc2231451b9f",
+      "annotations": [
+        [
+          115.97,
+          203.44,
+          401.04,
+          274.22
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 82821,
+      "file_name": "000000082821.jpg",
+      "sha256": "1b37954bebee5b6bf285d5bb47e47f7bf99fa7ef9e7c57d70638bc3332b9eb99",
+      "annotations": [
+        [
+          272.94,
+          175.36,
+          26.77,
+          20.68
+        ],
+        [
+          304.65,
+          174.84,
+          10.46,
+          20.31
+        ],
+        [
+          314.23,
+          179.28,
+          8.14,
+          14.36
+        ],
+        [
+          330.51,
+          178.01,
+          22.8,
+          14.45
+        ],
+        [
+          312.74,
+          177.01,
+          14.72,
+          16.91
+        ],
+        [
+          564.8,
+          144.05,
+          15.47,
+          15.54
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 388258,
+      "file_name": "000000388258.jpg",
+      "sha256": "faaaa534a67576d0fd1a8dee3341856a9cf1fcf75778ab870780fef111d39573",
+      "annotations": [
+        [
+          29.81,
+          132.61,
+          398.85,
+          321.75
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 228436,
+      "file_name": "000000228436.jpg",
+      "sha256": "6d819938ee8cee9e1db68e26d24d668aa8f4b1365b1ad2c7d072a7435cfa9778",
+      "annotations": [
+        [
+          112.3,
+          170.65,
+          444.07,
+          310.98
+        ],
+        [
+          51.18,
+          181.8,
+          6.52,
+          14.31
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 210273,
+      "file_name": "000000210273.jpg",
+      "sha256": "3ec23de63592c1eef86740fd46fed2cb66170fca02b695d37e6ae379dcee4355",
+      "annotations": [
+        [
+          467.67,
+          178.52,
+          34.79,
+          17.27
+        ],
+        [
+          489.55,
+          176.3,
+          17.18,
+          17.18
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 378139,
+      "file_name": "000000378139.jpg",
+      "sha256": "b96db615cd9c52b7eefc387d5e0575bde7af39b9117d3dcea0a7831a25ce74cc",
+      "annotations": [
+        [
+          62.28,
+          226.54,
+          51.36,
+          20.24
+        ],
+        [
+          3.57,
+          229.43,
+          62.03,
+          19.15
+        ],
+        [
+          115.02,
+          229.63,
+          33.13,
+          14.84
+        ],
+        [
+          230.08,
+          220.87,
+          16.54,
+          17.93
+        ],
+        [
+          153.33,
+          225.51,
+          18.75,
+          18.37
+        ],
+        [
+          184.27,
+          228.06,
+          18.02,
+          14.69
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 413689,
+      "file_name": "000000413689.jpg",
+      "sha256": "c7953700dc8004aacbff68cb8b2c33e88a29b0ee21110bc66b06bcefae8ca636",
+      "annotations": [
+        [
+          126.91,
+          156.09,
+          18.31,
+          19.28
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 10363,
+      "file_name": "000000010363.jpg",
+      "sha256": "2fd23c4c491520182a703d0df9c604f6b7ee8a592ad8743897870cf0260f47b2",
+      "annotations": [
+        [
+          492.55,
+          0.0,
+          143.35,
+          52.9
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 351530,
+      "file_name": "000000351530.jpg",
+      "sha256": "c0dd4c7912f49996c6db70407078f13642da6239661294dc27bf190b2e1669f7",
+      "annotations": [
+        [
+          0.17,
+          146.88,
+          132.15,
+          101.72
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 370208,
+      "file_name": "000000370208.jpg",
+      "sha256": "074ac425cb005165a87fdcea693f1a229ffb1020c6e8b363acfc9a25c02bcb9b",
+      "annotations": [
+        [
+          62.9,
+          107.26,
+          380.65,
+          228.22
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 261888,
+      "file_name": "000000261888.jpg",
+      "sha256": "02df0f1cd1c0997aacb71636e96f06a033cb2c1adee465744802e7cd691ac4de",
+      "annotations": [
+        [
+          339.15,
+          252.42,
+          189.24,
+          145.35
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 184324,
+      "file_name": "000000184324.jpg",
+      "sha256": "5bfec85c40197744fc7fa8262a0a0e14ad1a6fc0e11cee4b7b0c5df97a146107",
+      "annotations": [
+        [
+          460.65,
+          338.17,
+          87.74,
+          55.75
+        ],
+        [
+          455.17,
+          303.56,
+          78.01,
+          55.34
+        ],
+        [
+          458.24,
+          271.89,
+          23.22,
+          40.41
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 463522,
+      "file_name": "000000463522.jpg",
+      "sha256": "0a438982195807a57f6989644982e3974b00fa52101c99f99a31e3dfe578937c",
+      "annotations": [
+        [
+          396.99,
+          247.23,
+          15.74,
+          10.59
+        ],
+        [
+          421.35,
+          243.86,
+          11.53,
+          11.85
+        ],
+        [
+          492.29,
+          253.5,
+          6.39,
+          13.09
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 93717,
+      "file_name": "000000093717.jpg",
+      "sha256": "5c6e3bbeea91c10e9fb55288c2b60305bf407aa5b74a9c49989d25a4d867604f",
+      "annotations": [
+        [
+          508.3,
+          295.05,
+          33.78,
+          36.01
+        ],
+        [
+          485.09,
+          290.91,
+          153.72,
+          46.0
+        ],
+        [
+          83.14,
+          364.79,
+          29.14,
+          20.78
+        ],
+        [
+          238.41,
+          298.35,
+          27.22,
+          15.8
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 558213,
+      "file_name": "000000558213.jpg",
+      "sha256": "53aa2bfa90585084e8838f03fa2bf51a273c1bb5e5340612121752fdf448025c",
+      "annotations": [
+        [
+          126.08,
+          288.98,
+          45.65,
+          28.06
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 162858,
+      "file_name": "000000162858.jpg",
+      "sha256": "3850ddaa772d9b9532537097527759d3ce05c0583f05e5b77561f654f8631193",
+      "annotations": [
+        [
+          20.7,
+          369.14,
+          16.12,
+          30.86
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 185472,
+      "file_name": "000000185472.jpg",
+      "sha256": "e17847a363da57f8346143dcd64f63541d1b60e4540830bc18d7da904302b5db",
+      "annotations": [
+        [
+          426.01,
+          241.06,
+          62.8,
+          127.31
+        ],
+        [
+          619.41,
+          313.74,
+          20.59,
+          29.29
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 61108,
+      "file_name": "000000061108.jpg",
+      "sha256": "9b12f04a265e842ed75e9eb2c2de1c537cd3543baaf1d7e4f6f26f8b31624f4f",
+      "annotations": [
+        [
+          117.68,
+          132.13,
+          515.09,
+          346.84
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 319607,
+      "file_name": "000000319607.jpg",
+      "sha256": "9bbdfbb3c432c6557b251b5befd064ca2f7136af0a83954c86b7deb6511eb354",
+      "annotations": [
+        [
+          202.18,
+          489.74,
+          66.7,
+          59.54
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 67616,
+      "file_name": "000000067616.jpg",
+      "sha256": "824b722f5251918066fa4e2689167145918aa77cb8094a9fb2f2d70fd85d1ca1",
+      "annotations": [
+        [
+          309.94,
+          382.95,
+          26.85,
+          59.23
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 403565,
+      "file_name": "000000403565.jpg",
+      "sha256": "7728a697d1e46e038de2baebdd0c18bb8aa8646ff67ded3ea2c5621654c88e62",
+      "annotations": [
+        [
+          39.1,
+          318.71,
+          318.69,
+          213.48
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 306136,
+      "file_name": "000000306136.jpg",
+      "sha256": "4409dddd7ba4c58cd3c8f37f170075677db1284d34e75bd312b9cb84f528268d",
+      "annotations": [
+        [
+          35.94,
+          443.46,
+          49.76,
+          120.26
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 210299,
+      "file_name": "000000210299.jpg",
+      "sha256": "dbdcbb432c918d11747928a3eb0d80498b9cc52087b5fe515e17b3cffb7e8240",
+      "annotations": [
+        [
+          136.44,
+          183.92,
+          124.45,
+          216.89
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 169996,
+      "file_name": "000000169996.jpg",
+      "sha256": "611bac47a27ce814dffb589dd2ed663f447b22aed5365b95fce142dbc6ddcc08",
+      "annotations": [
+        [
+          151.74,
+          343.74,
+          108.39,
+          96.0
+        ],
+        [
+          399.89,
+          329.15,
+          81.47,
+          98.39
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 448365,
+      "file_name": "000000448365.jpg",
+      "sha256": "71c913c9531c6b3bb12dfefd9f9084817c0c062f3277af63f8090b0a3e670079",
+      "annotations": [
+        [
+          445.74,
+          228.71,
+          20.05,
+          29.32
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 492937,
+      "file_name": "000000492937.jpg",
+      "sha256": "2c1dbb9427ecfcbb98eab03ba9c65a51ae9d3d72ba6df04ec83a07a15b8d937e",
+      "annotations": [
+        [
+          20.61,
+          16.04,
+          474.06,
+          585.05
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 447917,
+      "file_name": "000000447917.jpg",
+      "sha256": "dbaa52b9ecc59b899500db9200ce65b17aa8b87172c8c70de585fa27c80e7ad1",
+      "annotations": [
+        [
+          0.84,
+          194.97,
+          81.39,
+          39.85
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 59635,
+      "file_name": "000000059635.jpg",
+      "sha256": "8d5bb0880f202267b97c5da77409f541acad3943ecfe8647c7d612d6f6bb27b8",
+      "annotations": [
+        [
+          257.42,
+          69.94,
+          20.54,
+          27.99
+        ],
+        [
+          257.55,
+          382.78,
+          23.57,
+          29.77
+        ],
+        [
+          242.9,
+          73.98,
+          26.18,
+          18.66
+        ],
+        [
+          328.9,
+          383.35,
+          24.65,
+          25.52
+        ],
+        [
+          323.07,
+          74.92,
+          14.55,
+          15.41
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 439854,
+      "file_name": "000000439854.jpg",
+      "sha256": "d6e7d64034450928727ac679856ac954dd617129144f713e29beb0cf619b5e16",
+      "annotations": [
+        [
+          230.85,
+          246.44,
+          54.09,
+          75.73
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 309391,
+      "file_name": "000000309391.jpg",
+      "sha256": "8ed212a0ffcf1b3d5f1fb307839030fb41aed1ff7488845a3bed02e386474082",
+      "annotations": [
+        [
+          423.92,
+          198.7,
+          28.75,
+          20.4
+        ],
+        [
+          134.39,
+          252.87,
+          16.53,
+          36.98
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 101762,
+      "file_name": "000000101762.jpg",
+      "sha256": "8150aec4794933e1d30b565f6511a870e5721e58c72a919735eff71575fb098b",
+      "annotations": [
+        [
+          41.51,
+          0.0,
+          472.89,
+          344.8
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 184611,
+      "file_name": "000000184611.jpg",
+      "sha256": "641165f214240ca23cb4b8ef4df24b6e9d325131f5c2ea51d2a7ee0112d217d0",
+      "annotations": [
+        [
+          70.34,
+          150.52,
+          362.07,
+          324.82
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 107226,
+      "file_name": "000000107226.jpg",
+      "sha256": "285a3dfd666d35fb60eb63b9dd46b7b49aae4fcafe194f51d7e4b446abdab725",
+      "annotations": [
+        [
+          386.55,
+          253.65,
+          93.22,
+          236.89
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 157756,
+      "file_name": "000000157756.jpg",
+      "sha256": "d46a285172f857e1bbce63263da95a0e0d632f8f118c158ecbf233f83012f913",
+      "annotations": [
+        [
+          231.98,
+          467.31,
+          50.8,
+          40.88
+        ]
+      ]
+    },
+    {
+      "group": "bicycle_only",
+      "image_id": 224051,
+      "file_name": "000000224051.jpg",
+      "sha256": "ad01e4704883ecaaa25321efcc24d2ada74a725fe70cc0578890dca7a4745c60",
+      "annotations": [
+        [
+          348.76,
+          74.82,
+          155.76,
+          287.88
+        ]
+      ]
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 426372,
+      "file_name": "000000426372.jpg",
+      "sha256": "2008ffc31ea397b00e132ab370a273a61ac65d00d7ad76789fb43ef404f88ca5",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 551794,
+      "file_name": "000000551794.jpg",
+      "sha256": "4742da4db578ed6cdcb557661c7cff1e53e974d6c43762b324d904ba64e05a5d",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 181542,
+      "file_name": "000000181542.jpg",
+      "sha256": "c0fdc24e1516a871e5dd195ff34a0da7b2227ef6486492545fb2548743ba4bf5",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 376625,
+      "file_name": "000000376625.jpg",
+      "sha256": "81267617f13de3900abfe82e0e48f5b66ca43b2092cac9b3c15e8606ebf81b72",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 488385,
+      "file_name": "000000488385.jpg",
+      "sha256": "3e710ac2f09c96f1cb1011ea17988d2e0b50c8fc62387490c239f6fa99c575cf",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 299887,
+      "file_name": "000000299887.jpg",
+      "sha256": "7e6ec14aa7087b90379cb009ea2d203d523b5ca70ab567b6196e6d26a76c1945",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 513580,
+      "file_name": "000000513580.jpg",
+      "sha256": "11759a17fd060f1675ed4924e06ca75c8d536ab2b4167238cfcb5d1911d1f47b",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 141671,
+      "file_name": "000000141671.jpg",
+      "sha256": "cbb9153c6333136a1266a93f407d90b60ece11b3dcd7be82550b8c2889b6dbec",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 293245,
+      "file_name": "000000293245.jpg",
+      "sha256": "faea4409b1d598acc6038fbdc712595c44798f5d778cd063bfc67f7b68a158ab",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 481567,
+      "file_name": "000000481567.jpg",
+      "sha256": "aed504ef84b51bc402d4f33a5853fd04f4b9da1f17e5def24c3bc52da313a375",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 147740,
+      "file_name": "000000147740.jpg",
+      "sha256": "0384b4bff79f53a0f2bcc54c99c0f7dc24660dd33f37c9b6dfa6adaa1e4a88ce",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 54593,
+      "file_name": "000000054593.jpg",
+      "sha256": "2927085bfe4c7b09fc4cea90216f71beedcaed0ec501cdb06630bf40b126ec25",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 578871,
+      "file_name": "000000578871.jpg",
+      "sha256": "a565cac22fe2472459d238c036ca9a76c5c2a26fd6bd63d8a8ca2f56920b0577",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 179765,
+      "file_name": "000000179765.jpg",
+      "sha256": "03708f543f492182ad122010746e2a99845d42c35abd0dc04801bd554fb5ff48",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 363875,
+      "file_name": "000000363875.jpg",
+      "sha256": "2fa0ce12df50ef1149d6c56830276384dfa5e79a248d20087365856a079b9758",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 273551,
+      "file_name": "000000273551.jpg",
+      "sha256": "0a7de22f78ca7ea4b5e44e5e28d3eef23840b1429aa76f31dc9d3b8bd516734d",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 7816,
+      "file_name": "000000007816.jpg",
+      "sha256": "00132e042709fc7a66797374a42ff72d493a945d01afe2a48e5a526116a2aabe",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 192699,
+      "file_name": "000000192699.jpg",
+      "sha256": "cb45c60d48a145e58d1bc071c3a89a0778d0e7150e51f470cd4c7b34eee185be",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 114770,
+      "file_name": "000000114770.jpg",
+      "sha256": "6c03190b20a3245cf365ba0ebf5703da632fe95a91dc8fbeed157cd59a74ee67",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 499622,
+      "file_name": "000000499622.jpg",
+      "sha256": "b863e07e2ae99859bd5d3713fa30cbd580a24fa6f01e8e6a65394e9967819ee8",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 48924,
+      "file_name": "000000048924.jpg",
+      "sha256": "7e4db164281de37dafa6d3a4e861f6777d0202661e92d11fb2b739e39fa8c391",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 462756,
+      "file_name": "000000462756.jpg",
+      "sha256": "fd587baec12e47e21fbf4ac5375b5b41c92a26fe1326b7772ee53511c352fb61",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 226802,
+      "file_name": "000000226802.jpg",
+      "sha256": "1be10574bd4a77358d6d778a5f1badf4ea2f081ebe59ce07db7e9105d07c4e0c",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 312421,
+      "file_name": "000000312421.jpg",
+      "sha256": "9ee3cfd727144aa212dcc5826f4f721600c65223ac47af1c4107613913c359ba",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 206487,
+      "file_name": "000000206487.jpg",
+      "sha256": "3df6eaf2b80be894a9909549b5177958ab932776d4e8a5843c51464710284b5f",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 85376,
+      "file_name": "000000085376.jpg",
+      "sha256": "0c61f0ddf5a17a348a194e16232f78d62391008b3e0aa4a204ce77c4ef6182c8",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 33854,
+      "file_name": "000000033854.jpg",
+      "sha256": "b86eeebe566cee1e853f153675db94ba23d6642956f29ea473804c7852cb6b37",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 102331,
+      "file_name": "000000102331.jpg",
+      "sha256": "d78f844dbba53d132a97a9a9f7ccf3ce68d509e5ba5420c123a0aa13e67a7884",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 102411,
+      "file_name": "000000102411.jpg",
+      "sha256": "83e2901c3cebc353618ce7a7410e0ab80876eb592896f531fed76957aef34883",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 140420,
+      "file_name": "000000140420.jpg",
+      "sha256": "6129582d906698ca9785642983c58adc22b8e4d32a5be24396d6c4f8369dea5f",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 343934,
+      "file_name": "000000343934.jpg",
+      "sha256": "98a658b99162f68d6c427253b4564914dc1e62e458ff4dae03cd7d29d1e9d245",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 230450,
+      "file_name": "000000230450.jpg",
+      "sha256": "7249268a3bf15548057b51f1901762705017beddeceb909902f08c4f28c89074",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 396338,
+      "file_name": "000000396338.jpg",
+      "sha256": "d316e263395e5724b7627cec7df7045df058c746e7180bf93b87d10976c662c6",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 165681,
+      "file_name": "000000165681.jpg",
+      "sha256": "7b23b958379742bd1fb13ade9a86b3e134a0493edf45039d3786e126b20cc9b2",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 457848,
+      "file_name": "000000457848.jpg",
+      "sha256": "6e9469b8a812fdf9a74827d59f13d008887af615e6fe27cd2f4418333f4d2caa",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 81394,
+      "file_name": "000000081394.jpg",
+      "sha256": "0ece3434b584ed5deb58f902633b449bd79bf464ce5fd9859d74dbe908e78325",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 230008,
+      "file_name": "000000230008.jpg",
+      "sha256": "71685782cd06160eb22c6b1bf4da9149374e41f878767c7bb1f5e41183c2d120",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 571264,
+      "file_name": "000000571264.jpg",
+      "sha256": "a310373f200737f37ab6e24eaca6f9cf54045e801eb112194506472901c97fe2",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 306893,
+      "file_name": "000000306893.jpg",
+      "sha256": "3314e549507b84baf5d46ee1d042f32865b45e4b382f600445408bb00b7bda7d",
+      "annotations": []
+    },
+    {
+      "group": "motorcycle_only",
+      "image_id": 394199,
+      "file_name": "000000394199.jpg",
+      "sha256": "6d7145c1fb4e03c61f12e2420bbef527597109619fa87ae75912b6ac1c41a9ac",
+      "annotations": []
+    }
+  ]
+}

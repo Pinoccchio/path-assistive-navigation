@@ -1,0 +1,16 @@
+{
+  "source": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v8_motorcycle_candidate",
+  "target": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v9_coco_train_candidate",
+  "new_train_images": 300,
+  "new_train_by_group": {
+    "bicycle_only": 150,
+    "motorcycle_only": 150
+  },
+  "kept_by_split": {
+    "test": 556,
+    "val": 251,
+    "train": 3012
+  },
+  "status": "candidate_requires_audited_holdout_evaluation",
+  "selection": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\source\\coco_external\\train_selection.json"
+}

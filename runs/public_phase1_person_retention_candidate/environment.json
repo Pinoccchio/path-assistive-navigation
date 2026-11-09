@@ -1,0 +1,16 @@
+{
+  "purpose": "Controlled public-data person-retention diagnostic; no app promotion",
+  "python": "3.10.0",
+  "torch": "2.0.1+cu118",
+  "ultralytics": "8.3.0",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "seed": 42,
+  "epochs": 12,
+  "batch": 4,
+  "imgsz": 640,
+  "initial_weights_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "dataset_manifest_sha256": "918796178771ce560cc0279d8d20516d3113f0575bbfca8fba84fa73c07014ee",
+  "dataset_build_report_sha256": "019818459bdeeb76e9467764c9e5ee0a783a655e05f674982a9927712842ac0a",
+  "comparison": "Same initial weights and training recipe as v11; removes the 290 new OI images, quarantines four ambiguous stair images, and applies four stair-label corrections. Effects cannot be attributed to one factor.",
+  "optional_external_loggers": "disabled in this process only; no global Ultralytics settings persisted"
+}

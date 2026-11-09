@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-03T18:04:43.082820+08:00",
+  "python": "3.10.0",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.0.1+cu118",
+  "ultralytics": "8.3.0",
+  "cuda_available": true,
+  "cuda_runtime": "11.8",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "seed": 42,
+  "status": "PRELIMINARY PILOT \u2014 NOT FINAL THESIS RESULT",
+  "train_images": 2000,
+  "validation_images": 400,
+  "classes": [
+    "person",
+    "chair",
+    "stairs",
+    "car",
+    "bicycle",
+    "electrical_pole",
+    "plant_pot"
+  ],
+  "epochs": 5,
+  "image_size": 512,
+  "batch_size": 4,
+  "precision": 0.7754790449496525,
+  "recall": 0.6269420069011371,
+  "mAP50": 0.7188990434278973,
+  "mAP50_95": 0.505958151637777,
+  "best_weights": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\runs\\yolov8n_pilot\\finetune_7class_5epoch\\weights\\best.pt"
+}

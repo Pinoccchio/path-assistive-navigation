@@ -1,0 +1,17 @@
+{
+  "source": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v11_reviewed_640_candidate",
+  "target": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v12_two_box_pilot",
+  "ledger_sha256": "7bbe9b55aa18ee9e43541b962cd7dd3af883521d34e3d8cf9ca31340f5e882a7",
+  "corrected_train_ids": [
+    "b8de9ce8cb2f4d94",
+    "fc39516ed15ec5ba"
+  ],
+  "added_boxes": 2,
+  "kept_by_split": {
+    "test": 620,
+    "val": 251,
+    "train": 3302
+  },
+  "val_test_unchanged": true,
+  "status": "Annotation pilot only; do not train or promote until remaining label audit is complete."
+}

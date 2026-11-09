@@ -1,0 +1,538 @@
+{
+  "scope": "59 Open Images training images with existing person labels and unmatched 960px person proposals.",
+  "review_method": "All 15 whole-image sheets visually inspected; many missing people and some false model proposals visible. Individual image completeness is not approved.",
+  "decisions": {
+    "c3c0fc0926266be3": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "8d6f1461b25da2a54ab3fdd31e9764d0318bc66227744dddcef9a68cc8cf1076",
+      "label_sha256": "c50af53dd8a5422af511645efac8bfa80d7878aa8f9caa6778bd2720127b261a",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_01.jpg",
+      "sheet_slot": 1
+    },
+    "5b9f6a438728322e": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "894056960bfca54052dab12bc8cbbbc4be6dfa859f7b61022a90706fcb87a6cf",
+      "label_sha256": "d2dd8fd983a74b7f4c4ec47c1020330b36cbb656167069731d64261db4b6e1de",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 7,
+      "review_sheet": "sheet_01.jpg",
+      "sheet_slot": 2
+    },
+    "9a7ee7d76740cfc8": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "80f94278cf91741145df6ca23bdd6ff572ea4171295f3a66b3bd2d00f9cb9ce9",
+      "label_sha256": "e2d36c89164c11a0200360b3a890e085bf7cc8a06a97c01b1e5cd6d1d334f4ad",
+      "source_person_boxes": 3,
+      "unmatched_model_proposals": 18,
+      "review_sheet": "sheet_01.jpg",
+      "sheet_slot": 3
+    },
+    "359d50b866bf0cf3": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "8fe8112b13bd14e4d6e8982597040888a37dc77c9334924075aa1978dc629f3b",
+      "label_sha256": "16c63eb8a08c33ff171e2d89113bbfae38cc4bd6e76347d14f8ea718879693e3",
+      "source_person_boxes": 4,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_01.jpg",
+      "sheet_slot": 4
+    },
+    "b8928f641c44cfd3": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "17e8a62b2eb11242a9e2dfdd17490e3817482db86ebf64c8e6fe8023f5050392",
+      "label_sha256": "2b5350e769090d71d66edbe4ce72c8cdde26e5d2bf76f9e9fb10d40cc1b80916",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 28,
+      "review_sheet": "sheet_02.jpg",
+      "sheet_slot": 1
+    },
+    "215ca5ba83631bd6": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "ab9f97aeb00c1ba121d0ca59535ce0451f124b0a40ac9a65b1f0a777c275ef9d",
+      "label_sha256": "9edacd38e515f354c54bf43472323b72afe3d1945689bdeb88c039e92067c8c0",
+      "source_person_boxes": 5,
+      "unmatched_model_proposals": 2,
+      "review_sheet": "sheet_02.jpg",
+      "sheet_slot": 2
+    },
+    "8e974f70e72dbdf0": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "ab63995e8d7e71c16e74f87fad7eb2a5bea17733faf8a1008fb022574f102b4b",
+      "label_sha256": "f86be076d7dc5620e130c2d2dfa83bd96510b29edfb10832399d159dd3dd3a2c",
+      "source_person_boxes": 13,
+      "unmatched_model_proposals": 2,
+      "review_sheet": "sheet_02.jpg",
+      "sheet_slot": 3
+    },
+    "d691f019f2848736": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "87c72d81046cd39eec5d3c9db128c50c5e6360e4de5b301b1e9ec33bb2b30937",
+      "label_sha256": "8db905edf20906aee88ee2eb8b0147c71aef854b44c2783b419f6a7454592227",
+      "source_person_boxes": 7,
+      "unmatched_model_proposals": 7,
+      "review_sheet": "sheet_02.jpg",
+      "sheet_slot": 4
+    },
+    "b8de9ce8cb2f4d94": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "d45c54d0c8337671d773d2fea5062cfb5f1a1d5e17793fcbac92fc633cab9dfc",
+      "label_sha256": "e2cf4bff48fe3cc5ed3eff8191e8bf06ac9b7dfba8120b415af32e87e1ccc970",
+      "source_person_boxes": 19,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_03.jpg",
+      "sheet_slot": 1
+    },
+    "41ebc750be97c7d4": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "944a014eb3f75e7fd9b48c6552e92ded552a370edb332fb2be1e4c66c8fe00f6",
+      "label_sha256": "aaa1294e28be92bbda6405ff0d5f01b6ef2f56275e80731b7362e4e0582246d7",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 2,
+      "review_sheet": "sheet_03.jpg",
+      "sheet_slot": 2
+    },
+    "762cb1883df84f0a": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "781e53a651b7d2105596deb47f191333a337960ba803a0a729feb81a9d144d70",
+      "label_sha256": "6462c2fd906edd2a1b49058088e9fb71a7e16b06333942298e9bbab299fcc59a",
+      "source_person_boxes": 6,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_03.jpg",
+      "sheet_slot": 3
+    },
+    "5cd6bffe045ae5b5": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "b556bc85762a036bfaef7444b345b91a2d66c38d05fba0783d074a13055be7d0",
+      "label_sha256": "1b4b410d0e3376b32cb713e8038a86d5a347831acc382a450aed4478381f49d4",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 16,
+      "review_sheet": "sheet_03.jpg",
+      "sheet_slot": 4
+    },
+    "275c01423cd11ca4": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "82fb7430ae882457b0597486a8c163b5e73cb783bfd3acbfd4201aed34ae5145",
+      "label_sha256": "651cdd971372c63255358edc067a227b1b13f00375e8930dc58072d947af38a5",
+      "source_person_boxes": 3,
+      "unmatched_model_proposals": 3,
+      "review_sheet": "sheet_04.jpg",
+      "sheet_slot": 1
+    },
+    "2bbd423a87b0f37c": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "9572b1ce352b1c44d0c61f2e7a72c4bf08a153457445910da8f137268200847e",
+      "label_sha256": "01c3272fa3328fce495b5e80e582b32b5bc7fdd12da793bc51d6baf384079782",
+      "source_person_boxes": 11,
+      "unmatched_model_proposals": 3,
+      "review_sheet": "sheet_04.jpg",
+      "sheet_slot": 2
+    },
+    "fccccb9091f0dede": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "40e2439950ac51197cfbaf6c44bb077f510afdb1a4d3994c0d44d2808b4f6725",
+      "label_sha256": "14902bce9caf7339e3b0b01e78455a67e53e75af58cf9f14bf212660cfb63432",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 10,
+      "review_sheet": "sheet_04.jpg",
+      "sheet_slot": 3
+    },
+    "a4f81765594e7bf6": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "727c6e87d528a9fefd3f8d3898c28b749874a66d21ff1244c080669957f50731",
+      "label_sha256": "891e9dd0e1607dfdf18c97d7a60ee5383d9d94962fe80a58f8cc36474efd1221",
+      "source_person_boxes": 10,
+      "unmatched_model_proposals": 8,
+      "review_sheet": "sheet_04.jpg",
+      "sheet_slot": 4
+    },
+    "85190be9811fc56c": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "bd0c0267626282f62d5ae4a8435f293284bc37f60ad38c8c9a6f08cef228698b",
+      "label_sha256": "ef0b0bdab423aceb7f385af5990c934f9adff30fbc281322925d3a370c1eced5",
+      "source_person_boxes": 20,
+      "unmatched_model_proposals": 19,
+      "review_sheet": "sheet_05.jpg",
+      "sheet_slot": 1
+    },
+    "7674cc48a33629ff": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "95962699ca04eb37e78343e9c4120ddec47c390cceac870041f24cf98a8de091",
+      "label_sha256": "036fc9b2381ba5c5c191f2df456816d4f33d1f0b784eb437fdd71b9699a8c7c1",
+      "source_person_boxes": 3,
+      "unmatched_model_proposals": 5,
+      "review_sheet": "sheet_05.jpg",
+      "sheet_slot": 2
+    },
+    "53cd2796b1ceedc8": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "ff629a938ca81df507d5e9278447277d2db06a8907100f61bc9549c0953866a2",
+      "label_sha256": "e9f2a362b91ad3ee3cce073ba84d7241577b8bd40a485f277f3b6c45d3d69693",
+      "source_person_boxes": 3,
+      "unmatched_model_proposals": 8,
+      "review_sheet": "sheet_05.jpg",
+      "sheet_slot": 3
+    },
+    "627931ae6e6b7e3c": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "601c6c099fc6219f422bbd251f948e117a9d32adf717559ec4c2b04fdf40a928",
+      "label_sha256": "bd3eb1286d7169150cffd5e9506f21a7d0634043c9ae7bb50a06c7bb559ad634",
+      "source_person_boxes": 4,
+      "unmatched_model_proposals": 13,
+      "review_sheet": "sheet_05.jpg",
+      "sheet_slot": 4
+    },
+    "4aa77709a5cdbca8": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "c7d7c1acacaef1000669e6baf09acaa4979d48208533164b8e51433b0f5c08d6",
+      "label_sha256": "e5fa2ab08fb34b8039012903fe0b458001fce72eb3195ac0070c4d0f765c4ad4",
+      "source_person_boxes": 3,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_06.jpg",
+      "sheet_slot": 1
+    },
+    "69f610c0e834021b": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "246d315f8d56206f61e2337b7e10d8019cab7fa86f00a1992d79ca12a74bc762",
+      "label_sha256": "5690d0fa6a7ad04859d9f879398cbef7d2c1fa7e655a06c84cc51a37c0613b70",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_06.jpg",
+      "sheet_slot": 2
+    },
+    "213f30bdc975a318": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "a464056b386ad36c78858b27ad02a911c10ac8ed2f58f36d4ef3d9569f26d6ec",
+      "label_sha256": "1cd5edf45a33b8788b19f4d9224af21eebb01d3be0f4a983e9e61036e87f1fd3",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 4,
+      "review_sheet": "sheet_06.jpg",
+      "sheet_slot": 3
+    },
+    "928320bd4245ee4d": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "b182fe9ff8af9bbcdf421759530f0caddba8f80c5b0522f087112126022293e1",
+      "label_sha256": "bcbad5af306e6b5520c9226aa43b3c1c9c2f3d2fd5d1cae28a8a444d99aabcff",
+      "source_person_boxes": 3,
+      "unmatched_model_proposals": 4,
+      "review_sheet": "sheet_06.jpg",
+      "sheet_slot": 4
+    },
+    "5d9a76c617be9980": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "2c96faab75e5fed6a6e219b8c9f2be88ed8eb3484e0cb2aeff3d638bb5fefdfd",
+      "label_sha256": "a111b540275261e5a4c63cd244fa0cc05b075463d85db8135aa707cdc2eb308e",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 2,
+      "review_sheet": "sheet_07.jpg",
+      "sheet_slot": 1
+    },
+    "5585a5b5e5743380": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "bf7a8203d55518dba447af32483206049d20adf1bc5cb33e76e2ff4a8f8944ff",
+      "label_sha256": "cecb64c61b4a0859fc182efa5ab7aef6fe8077020cb3247c97e247f928c3f508",
+      "source_person_boxes": 10,
+      "unmatched_model_proposals": 11,
+      "review_sheet": "sheet_07.jpg",
+      "sheet_slot": 2
+    },
+    "5de167c5d41936a7": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "d88083f718bc210233c911f1c608fe47a065a810958c229376c28b941ea84874",
+      "label_sha256": "0219dae49db6fae09462ad56b3f63d4ec4577f17c7a59d8cded7eaec52a47275",
+      "source_person_boxes": 10,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_07.jpg",
+      "sheet_slot": 3
+    },
+    "fd8034052118b6e1": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "9c604dd855f599a65ccb684709fd9e976c8711c9e6200ea7d07cf88fb1768934",
+      "label_sha256": "9836deb225d63a96eebd3f70a73158c4a79da99ce194a7717f078126804996cd",
+      "source_person_boxes": 3,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_07.jpg",
+      "sheet_slot": 4
+    },
+    "9bb533d4743b3e9c": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "6e27c0aadf6ed9cfce9953373dbe26a1d343a52f6138807793718b06d1b43be1",
+      "label_sha256": "a7f482d308af76d7eed6a3b7807f8f91526ef60ebf699da8fd01d7f597c69f12",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 22,
+      "review_sheet": "sheet_08.jpg",
+      "sheet_slot": 1
+    },
+    "cc5212bdf6acd3f3": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "7f392800e8d0146608e24129c0b6d8536798f0b7f0ff358246acf720b4030c22",
+      "label_sha256": "14ebb1c48d96a63c0a5c57fd52521b5e8c303d376be0bfaf766f2d10e8e7e15b",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 2,
+      "review_sheet": "sheet_08.jpg",
+      "sheet_slot": 2
+    },
+    "7e506c5707a44f37": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "a78a4da31a35628ae50d70fb03afe1a62a31c5e36a8ee0ed7373a35e30cae324",
+      "label_sha256": "9414ca531cabad7b0a375ee57cd4a7fc6635d0d90517547a85ce33ebaab756e5",
+      "source_person_boxes": 3,
+      "unmatched_model_proposals": 3,
+      "review_sheet": "sheet_08.jpg",
+      "sheet_slot": 3
+    },
+    "a9b6096030f5af06": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "6d4cad3e9a87fd93d5fdf10a9e30b4bf6767f75176bd90eae54db42c243d12c6",
+      "label_sha256": "1da452ad67a6fe5647542ec75c139a59cc6291c3c84ee7dab1ec5a3788e7b72b",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 3,
+      "review_sheet": "sheet_08.jpg",
+      "sheet_slot": 4
+    },
+    "0de456131fab9471": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "4e6adde472c2f0ea9a80f3970a9cd5a85e6e967f3afb1c9db02cd5366ea3d23b",
+      "label_sha256": "5e99e2a2e6a1610fbf1feae092c1c0f97fcaf6207a3f533276739332e143af84",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 2,
+      "review_sheet": "sheet_09.jpg",
+      "sheet_slot": 1
+    },
+    "94eb0fc36b1788b3": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "ff4f508df3cf0054cf59d5ceebf83e453da939ca45cff46a4adeb7a3b496730b",
+      "label_sha256": "94fecfad1b4bd5e8d76cb284936cd7c60ca77f8bf67b8ef83cd6eba4f5b0ecf3",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 6,
+      "review_sheet": "sheet_09.jpg",
+      "sheet_slot": 2
+    },
+    "88abf550b5b12c79": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "5433b0cc0143deb121436bce757d80328c5c368039e91c2c0fab253b3a8cbcd0",
+      "label_sha256": "b2462c4e55d9a2855e49e0b2d9e17fd9c84065460ecc5aed8383d578d49b6e23",
+      "source_person_boxes": 9,
+      "unmatched_model_proposals": 6,
+      "review_sheet": "sheet_09.jpg",
+      "sheet_slot": 3
+    },
+    "dd2a6eb99aaeafc9": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "41d764c5ed7ffaee812e7102e4a9fcb4e7fe626ee893f599f23b49f151ade6d7",
+      "label_sha256": "9a5f92c5b5c67aef12a9e421cf3b5c7fef485b482ea7413d4a9041eee378c38c",
+      "source_person_boxes": 12,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_09.jpg",
+      "sheet_slot": 4
+    },
+    "6ec8d69b1d2b8b58": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "4e596881dd19af204099822a0264f22c3e65b4ef380645139b1ede71362e2dbe",
+      "label_sha256": "d5f382ece38b5337bb165d7c1f0b2217b122554d6c8783e04b21737b297abb91",
+      "source_person_boxes": 5,
+      "unmatched_model_proposals": 3,
+      "review_sheet": "sheet_10.jpg",
+      "sheet_slot": 1
+    },
+    "8ebf9069c135f50c": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "df0d3b41a3ff2569da686cd41c698a030820972171e44fcb90514611338cddb6",
+      "label_sha256": "f565aa6e0b532ae37ad199fd686ec26eb29b3b02dbd1774ede3f906337e1086e",
+      "source_person_boxes": 5,
+      "unmatched_model_proposals": 16,
+      "review_sheet": "sheet_10.jpg",
+      "sheet_slot": 2
+    },
+    "5ff66ef695263c37": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "b230f691aaaff3ca0558f762e15027499c0ac2e988fe837f41ff226a68942425",
+      "label_sha256": "d4c01e7cb27b498a52daf4f735ccb88ee1da002a78b5322cbee9cdeb233cbb43",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 18,
+      "review_sheet": "sheet_10.jpg",
+      "sheet_slot": 3
+    },
+    "533b9c0700db7776": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "2b83f92146f21af496b0c138d09486867324deb6eb6ebbf8e53675bdbdffebab",
+      "label_sha256": "1ff6f99702d10d6fa545b733977d52f0cb31176df493413e922a673bdc16998a",
+      "source_person_boxes": 6,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_10.jpg",
+      "sheet_slot": 4
+    },
+    "6b34422a9aeb3bc3": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "7fbde600c39eca0dc9a5e0da80ae2e790d0adb63bc6889cb586c96da7f0a6bf4",
+      "label_sha256": "20d8fc1f4adc788361b332e3780d66800399d5c0da332a39b7adca4eecefaaa2",
+      "source_person_boxes": 26,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_11.jpg",
+      "sheet_slot": 1
+    },
+    "e333f1aa5fc82763": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "79f163d3c7368e2a7ec80023f64e4155020e50721c60df278e8d0050ea5bb0c9",
+      "label_sha256": "f01796ee5f806ff54b43968f24ce7bc48170b985a1b0f81c9eeadeb0edb50bfc",
+      "source_person_boxes": 5,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_11.jpg",
+      "sheet_slot": 2
+    },
+    "8a36433468b46629": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "48d2ba6fd633a0867418110ba68111f5584a0f5875f1ada1035be62a4a3505bc",
+      "label_sha256": "45d3956b1f35ebbe2ed95c07b13de6cb8a9b574f3d453b440d43c7c61f841b54",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 7,
+      "review_sheet": "sheet_11.jpg",
+      "sheet_slot": 3
+    },
+    "3b80ec4db6e27d72": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "ea71d316876ce0771fc68d07929c804aec1b95c90b4ee4e5679c926056963fa4",
+      "label_sha256": "c5919e0b5cdb711326a6c805b4a5a0965b8db6de8eec466409d8a02c785897f2",
+      "source_person_boxes": 3,
+      "unmatched_model_proposals": 3,
+      "review_sheet": "sheet_11.jpg",
+      "sheet_slot": 4
+    },
+    "290436c9c6e1d4de": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "4de13e3da0e1cc25087150ff168978ee3866cbf2ab92d033d239706cb4128eef",
+      "label_sha256": "413b9bdbac98b1084224ad2a2ff7c994fde99c393f3b0d81f54ad105ab0b2204",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 2,
+      "review_sheet": "sheet_12.jpg",
+      "sheet_slot": 1
+    },
+    "9f7c5ba084170e33": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "ae571cd6f249de1a89195884e774588a723f2b1550baca81fd94c5dafa1ea0ec",
+      "label_sha256": "ae5505f5a64714e46825b58a20752872bf96e178edb677355c7b16675fb8cbd8",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 10,
+      "review_sheet": "sheet_12.jpg",
+      "sheet_slot": 2
+    },
+    "0d1c77602a26a4a5": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "b73a18a6c213fd8809c2e228a7a491862c133c878fbd6aa4386e0be261161de4",
+      "label_sha256": "a79528a50897fc75d541c223b02dbb3622afb665f573d5f490120cdf22cf0640",
+      "source_person_boxes": 5,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_12.jpg",
+      "sheet_slot": 3
+    },
+    "b773844f3c081091": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "811d424c7549b4320b912f3adc1beadef267af196acedfc6b7c92801cde59a32",
+      "label_sha256": "05593158eead87656b60090253dc36d9be14c07e419ff88888be1e1c9b86c299",
+      "source_person_boxes": 17,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_12.jpg",
+      "sheet_slot": 4
+    },
+    "fcd2173e996fee72": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "9cda783e309871216eb97edcbf8312e3a8cb7d0b19c61b281ad0f26cee6c00bf",
+      "label_sha256": "0a68ed0d003e551e1c287cd9bf5634e6313bc1f0fc36d6f064da0c70c83a4f39",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_13.jpg",
+      "sheet_slot": 1
+    },
+    "52b7e6224c457990": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "535485a0fbd8394235f20109211fd83e1428a5cc45b1bb67388d61bbcb3cdf93",
+      "label_sha256": "de7c152a041eeb3f746193ef660b4cf45737cb533a118c6ab46bd9fc0fb33758",
+      "source_person_boxes": 3,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_13.jpg",
+      "sheet_slot": 2
+    },
+    "a1efa25e6d8f909b": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "d9f757ec16d9dadd5f13783de75a7f0ecdd6d2a6b90bc3a8204c3ea88ce834da",
+      "label_sha256": "f45077e8282257aca4f72e91a058e9dc3239fbd89990f4ede00486171f0ae806",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 2,
+      "review_sheet": "sheet_13.jpg",
+      "sheet_slot": 3
+    },
+    "099e0e2cb62e623b": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "421182f43b8d813f14d9d715ababee71f9d837b393d05b1bdb2b62f6286041d0",
+      "label_sha256": "7c3bff4ee85f5c22431485ee99dc7c758cf6ee844c08db3c0ee6fe19cbb98cf3",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_13.jpg",
+      "sheet_slot": 4
+    },
+    "d5c75161e020ce88": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "2589b287b70c1a0b29bf94c3826e7211fb2837a2ff54af1eea8bb045882a1507",
+      "label_sha256": "579d93eb53de62c020f348c6054d1369036d7c2d127c88bdba0b545ae65b6dea",
+      "source_person_boxes": 13,
+      "unmatched_model_proposals": 2,
+      "review_sheet": "sheet_14.jpg",
+      "sheet_slot": 1
+    },
+    "bab3ad87e9f4f000": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "916b7f9bddd075c4f151120a702021bbe8d44f0de01565482078fc401e6bceea",
+      "label_sha256": "54ffe134d3f065180990a3e00fdb745c2ec6f1b0c4146090246bc3273d95ecb1",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_14.jpg",
+      "sheet_slot": 2
+    },
+    "0453627f53b876f1": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "5f3739357f611be8a90e396c69197ac0c4633f6eefa91bb4df77b1a320f39adf",
+      "label_sha256": "9228c57096dd2ae79a09d017c3bf9f3343c684ee266cfa8d3f71e2cc381f8386",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_14.jpg",
+      "sheet_slot": 3
+    },
+    "43c9669cccc8ee8d": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "88b0dda9ce005fa6cc7859e83e467b8ccbfe86e0680e074eb9dd0c9f6e8142d6",
+      "label_sha256": "dcdff984c8dbf4efd58b0cc3dcaa2edb5c03f7495c14cf65eb2179623cecc2d2",
+      "source_person_boxes": 9,
+      "unmatched_model_proposals": 2,
+      "review_sheet": "sheet_14.jpg",
+      "sheet_slot": 4
+    },
+    "39ac73c50f1cbbd0": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "364539c3821cc53d3624362718766fe15e12fd641b68d2c28da4ad5e76697bb3",
+      "label_sha256": "43b6ae804aac019ef6ab851ebd4d6e70ea76989669e68bf64eaaefc9a5577693",
+      "source_person_boxes": 8,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_15.jpg",
+      "sheet_slot": 1
+    },
+    "0575022c63caed59": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "b8c5c3c8863bdaa17193108dbd1574d2b6ab043f0091e225eb055694e0d6ac7e",
+      "label_sha256": "fe50f297fb359e6433eeb046e26f6cf591d0475bb264455f090bfe9e8602ac4b",
+      "source_person_boxes": 1,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_15.jpg",
+      "sheet_slot": 2
+    },
+    "ace3f0c119da99b6": {
+      "review_category": "existing_person_candidate_needs_instance_review",
+      "image_sha256": "78bdc6452dc19ecfcb7bbc4f51e90fe8b2842e02c3d1d04614d7ee84e9a21d20",
+      "label_sha256": "dd8827dbe2a9b1d4061562a1d387d637e1081cc19da1d7b5971edac7cdefe199",
+      "source_person_boxes": 2,
+      "unmatched_model_proposals": 1,
+      "review_sheet": "sheet_15.jpg",
+      "sheet_slot": 3
+    }
+  },
+  "policy": "Preserve source person boxes as editable starting boxes. No model proposal is ground truth."
+}

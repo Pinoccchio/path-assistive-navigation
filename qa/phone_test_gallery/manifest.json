@@ -1,0 +1,50 @@
+[
+  {
+    "label": "person",
+    "image": "01_person.jpg",
+    "source_id": "rod_test_IMG_20533",
+    "labeled_boxes": 4
+  },
+  {
+    "label": "chair",
+    "image": "02_chair.jpg",
+    "source_id": "rod_test_IMG_19419",
+    "labeled_boxes": 1
+  },
+  {
+    "label": "stairs",
+    "image": "03_stairs.jpg",
+    "source_id": "rod_test_IMG_20721",
+    "labeled_boxes": 1
+  },
+  {
+    "label": "car",
+    "image": "04_car.jpg",
+    "source_id": "openimagesv7_test_b44d8f176b21c088",
+    "labeled_boxes": 5
+  },
+  {
+    "label": "bicycle",
+    "image": "05_bicycle.jpg",
+    "source_id": "oi_v10_test_21d7d2d92f813eb4",
+    "labeled_boxes": 1
+  },
+  {
+    "label": "electrical_pole",
+    "image": "06_electrical_pole.jpg",
+    "source_id": "rod_test_IMG_20093",
+    "labeled_boxes": 1
+  },
+  {
+    "label": "plant_pot",
+    "image": "07_plant_pot.jpg",
+    "source_id": "rod_test_IMG_19955",
+    "labeled_boxes": 1
+  },
+  {
+    "label": "motorcycle",
+    "image": "08_motorcycle.jpg",
+    "source_id": "oi_v10_test_10644f516604217c",
+    "labeled_boxes": 3
+  }
+]

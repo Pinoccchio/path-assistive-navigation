@@ -1,0 +1,18 @@
+{
+  "source": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v7_vehicle_labels_candidate",
+  "target": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v8_motorcycle_candidate",
+  "status": "candidate_eight_class_requires_new_untouched_test",
+  "added_motorcycle_boxes": 100,
+  "added_motorcycle_boxes_by_split": {
+    "test": 16,
+    "val": 8,
+    "train": 76
+  },
+  "quarantined_stair_image": "openimagesv7_train_b11a9ac6faa28d32",
+  "image_storage": "hardlinks_to_immutable_v7_images; labels_are_separate_files",
+  "kept_by_split": {
+    "test": 556,
+    "val": 251,
+    "train": 2712
+  }
+}

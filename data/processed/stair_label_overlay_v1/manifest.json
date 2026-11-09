@@ -1,0 +1,74 @@
+{
+  "source_dataset": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v11_reviewed_640_candidate",
+  "status": "candidate_overlay_not_trained",
+  "corrected_train_labels": [
+    {
+      "id": "pilot_train_IMG_09074",
+      "source_image_sha256": "40aed320f9795342e7a4114b46d89bd307fa0a279c3dffe434ca0ddc358bbb6e",
+      "source_label_sha256": "9f1f187fe6a0418a9576b5b6e33741146c19ecb5ce91e4196f07ec3cf91faa33",
+      "overlay_label_sha256": "49348ba28b35ee3e122f5759952462a6abd09dd6790da3672fbdf79daa474150",
+      "removed_line": "2 0.50000000 0.50195312 1.00000000 0.99609375",
+      "retained_line": "2 0.50000000 0.39355469 1.00000000 0.56152344",
+      "reason": "Remove near-full-image duplicate box; retain upper/visible flight box."
+    },
+    {
+      "id": "pilot_train_IMG_09199",
+      "source_image_sha256": "92e602d652a9e388f5489f821b5062ec700cc05fd2a8c0c6fb3c93bfa29ab3e6",
+      "source_label_sha256": "efff62157410323fce095d27be1abee60aaf71cff44870b60591abfd189dbd2f",
+      "overlay_label_sha256": "ae5041743cb85fec1b0d21e76cf4bdf8d0897f28ac9c52be3cde48d3bda1faff",
+      "removed_line": "2 0.52187500 0.48437500 0.41250000 0.18906250",
+      "retained_line": "2 0.50703125 0.67031250 0.86015625 0.24531250",
+      "reason": "Remove landing-only box; retain the visible descending-flight box."
+    },
+    {
+      "id": "pilot_train_IMG_09245",
+      "source_image_sha256": "c41d5d1b18401f1f5a1bbbfafc81cf13070a143db13f80bd96ffdf9dc6085007",
+      "source_label_sha256": "e088ad9f85e2b9b89302823fe0a6040ac114148f7a71c75a97dc6161a23e0a90",
+      "overlay_label_sha256": "126ce59771a3df5462d65de3316533e360f8029067dab269ec2b421ca2b03478",
+      "removed_line": "2 0.47734375 0.41562500 0.41718750 0.22421875",
+      "retained_line": "2 0.40781250 0.67109375 0.81562500 0.32968750",
+      "reason": "Remove landing-only box; retain the visible descending-flight box."
+    },
+    {
+      "id": "pilot_train_IMG_09282",
+      "source_image_sha256": "4c2c0023655c4f86a9b45caf55106dfbaae68966d5716753791a894875004e9d",
+      "source_label_sha256": "598048afa94279519b65f7304264ada354c4e71156f6f47cdfc7a1becd267748",
+      "overlay_label_sha256": "163dd26abbbf06707907c1336cac60e92da6899d951861e3dd000da0dcc198bb",
+      "removed_line": "2 0.58515625 0.48906250 0.54609375 0.33906250",
+      "retained_line": "2 0.54296875 0.72109375 0.91406250 0.24843750",
+      "reason": "Remove landing-only box; retain the near descending-flight box."
+    }
+  ],
+  "quarantine_train_images": [
+    {
+      "id": "openimagesv7_train_5a08b0bfc03b87a9",
+      "image_sha256": "2c6f02c4e95ff7ede1b74a6728bb7792f2b9a8e155aac09f3991d6ac2ee88b3b",
+      "label_sha256": "55745ef1167c2174af5d54ec0e7d5ecbe262ee2279072ba8e7a3c1dd3315598e",
+      "reason": "Fountain ledges boxed as stairs while true side stairs are not boxed."
+    },
+    {
+      "id": "rod_train_IMG_18372",
+      "image_sha256": "402f049132fc307c7725cb89e75662ce08b1f8496558afb9f27c64e0d23831d5",
+      "label_sha256": "f95170360e187f61473b217cc69ad32f291fcb2ba4a4fb76d8eddd637770c642",
+      "reason": "Low exterior steps/curb identity remains ambiguous."
+    },
+    {
+      "id": "pilot_train_IMG_09075",
+      "image_sha256": "3c9a22816d1f812b8980ad13a21f660bb7ee0d6ad4a40e677e9b257ad719a08a",
+      "label_sha256": "b9df51cea96477de3fc13554ec550b22fb985e5a720d48aaaf1840a913dadd06",
+      "reason": "Overlapping boxes span one descending flight and foreground; needs reboxing."
+    },
+    {
+      "id": "pilot_train_IMG_09338",
+      "image_sha256": "b6603a22c19a571092b98bcbb4bbc23bc4e8f5c0238bd1b4fa8bc807d391f6eb",
+      "label_sha256": "927959da5001913369344d2a6e91f7691b7f9aeea0f3ff435dbf43d7b6933b0b",
+      "reason": "Overlapping boxes cover stairs and landing; needs reboxing."
+    }
+  ],
+  "validation_or_test_edits": 0,
+  "remaining_gates": [
+    "second visual review of corrections",
+    "complete person and vehicle instance review",
+    "independent-source evaluation before model selection"
+  ]
+}

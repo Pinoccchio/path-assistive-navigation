@@ -1,0 +1,26 @@
+{
+  "scope": "Two additional full-resolution verified Open Images training bicycle boxes on top of the v12 pilot.",
+  "review_method": "Visual review of original full-resolution images, existing v12 labels, and v11 proposal overlays. Accepted boxes are one per distinct bicycle and do not duplicate an existing same-class source box.",
+  "add_boxes": {
+    "8dfef66be8e71bd6": {
+      "image_sha256": "36ba7d1cecac74a814c760d276ee2cdaf1c5c80183aa44572b3e6599c47e0d53",
+      "image_size": [1024, 768],
+      "boxes_xyxy": [[4, 0.3, 367.3, 76.5, 460.8]],
+      "reason": "Distinct clipped pedal bicycle at the left image edge; the two existing bicycle boxes cover different objects."
+    },
+    "627931ae6e6b7e3c": {
+      "image_sha256": "601c6c099fc6219f422bbd251f948e117a9d32adf717559ec4c2b04fdf40a928",
+      "image_size": [938, 1024],
+      "boxes_xyxy": [[4, 307.5, 176.9, 397.9, 259.4]],
+      "reason": "Distinct background cyclist's pedal bicycle; the existing bicycle boxes cover the neighboring cyclists and a separate object at the right edge."
+    }
+  },
+  "reviewed_without_label_addition": {
+    "5d9a76c617be9980": "Motorcycle prediction is on a pedal bicycle; do not add as motorcycle.",
+    "017482da6cb1d140": "Huge bicycle prediction spans several vintage motorcycles; do not add as bicycle.",
+    "96358b85fed657db": "Bicycle prediction is on a motorcycle cluster; do not add as bicycle.",
+    "0180abbd8512db11": "Bicycle predictions cover parts of a vintage motorcycle; do not add as bicycle.",
+    "3b255ed49fe19fa2": "Bicycle prediction is on a vintage motorcycle wheel; do not add as bicycle."
+  },
+  "remaining_work": "Most of the 40 flagged images and the remaining new Open Images training images still need instance-level review. This is not sufficient for a retrain or app promotion."
+}

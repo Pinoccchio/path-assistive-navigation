@@ -1,0 +1,558 @@
+{
+  "scope": "Exclude 109 visually reviewed Open Images training images with visible people and zero person labels; retain source and all val/test files.",
+  "review_evidence": "All 28 person_zero_gt_sheets reviewed visually at image level; individual detector proposals were not accepted as labels.",
+  "review_sheets": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\runs\\public_phase1_v15_oi_quarantine\\person_zero_gt_sheets",
+  "excluded": {
+    "00213f3e0eb0ba42": {
+      "image_sha256": "e80ff491d39090e0d95b7532969ea355a8b5f32a5646aa2857978782b96869e8",
+      "label_sha256": "bbdb24f7667e3e1a076a05a82586116c061445cbd544b9877bd978088cdb9e27",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "002bf2fbe7a55727": {
+      "image_sha256": "a6775f1d42f0afb933f5b4b916a7dc0c7e77b32341bf10af88d9e290d7a99244",
+      "label_sha256": "537ff961f650e5afb3478093e193fed9041319ee000578e8f863dc6e50f23ec8",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "012ab80f0b591832": {
+      "image_sha256": "a821e4928ea7f09233c18e5502a15bde5199468781c7275b1a777952dce49c33",
+      "label_sha256": "8713ce122b53a3bbdce4790927b9f8d846bc618d84da19f0f5f1480d10ec9a8d",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "0180abbd8512db11": {
+      "image_sha256": "759ce4696d3e5ea39f7243a8ab85f1d6ec0bef6011e3d857b5b1a3ee0a108b20",
+      "label_sha256": "7a64baf84ba0d807472ee860b2ab1aab451e98d5551cf49a391d2b54cb0bd159",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "0240038c74c392b5": {
+      "image_sha256": "b32043c853bf6a8dd6d573ea4d77948607255f26d85547ceb3fd34efd398cb05",
+      "label_sha256": "046b7d899a0244d380de325e35b0ad893ca2dd8200e9b4b14ea429a8f0517f8c",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "034bfc58141b6162": {
+      "image_sha256": "628357151b37d94b2e66fc9b7fd4871af76b73de3b898913c2c019b39526b8c1",
+      "label_sha256": "49cd2bd971f1d9bc40610e501f946c4f0d2dfe63cf57209a9db45b8c53c95b78",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "04d5183143a206c9": {
+      "image_sha256": "9eb8ddaa15950ee6aa99973dbc0438161a3af7b3d92bdd2fffadab84b222dce4",
+      "label_sha256": "a217b66aa846cac59b407b2fdbe2b194e90bbc6e9e417670c7f17d637754b0c4",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "06a3b105a18f0b62": {
+      "image_sha256": "f337cf51eb724e3e822a38e99bd59a8a18fd9c39f3673e94797d2cc603fb57ee",
+      "label_sha256": "e66afd571c2111afb4d9e666011abf6ab97f6ad05116d9aefe4eaa602a36005b",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "06e734bf775ba157": {
+      "image_sha256": "36d00cea46eb1fe615aa361a9fc69726b50bafb6c27c6f0506690ab4e71f2dad",
+      "label_sha256": "5e47663b4cb4d96853d44b1f2425c88af1b94d513bc9566aedaf5d08da7cd48f",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "083456a2fb7159e8": {
+      "image_sha256": "1c4ccaaf1b007d0df9860a625e156b0b088e59f7f614b4e74f7382158f59e9a8",
+      "label_sha256": "cba0176dc2e1964030d6ce64480ced055ec620f2c205d41323095bde06a58c39",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "097ced99d24af978": {
+      "image_sha256": "bb0b52746c8295f1b443a8548a38c6eb5e5df720946941d815346d1c558ca403",
+      "label_sha256": "7936ce55e3b5a0df83c9e03e00b5c068ac1cc774d4a99dd5928b2aea715164fd",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "0ee9e3e88f6ce2fc": {
+      "image_sha256": "1c5ca5378f7c7563f9b3dd8864cf00e1285747533a018a0c14f54b79660fd245",
+      "label_sha256": "caee3be09a6be9e3f6d4ce4fedfe423e70b2562474ddac88977a079f73223282",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "0f46a5892c9f3374": {
+      "image_sha256": "a31a06f4fc82a3fbdb3d9ba3827eced4de4f76e5d08dd60917c260ad9e6fea50",
+      "label_sha256": "a61ac7f57c6856f472df737ebb6f079b73e3b2f53c7d28b175c70c41b57cc00b",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "0f751705fce498ce": {
+      "image_sha256": "ee9966186ed3d0ed181f8ecbd23706c8c22ab89b071f47dcb2f8715690c57f47",
+      "label_sha256": "9bcb389711e901573aaae37cb07714b37dc7715e1fa8897df50d0a45da8304cc",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "10d96a8df6159a88": {
+      "image_sha256": "ead6bd1b795a0b714799a6880af5371f3f772f09d4502a9ca952e6dfabec821f",
+      "label_sha256": "508ca8967b03322c978f992dcbd4e39ab8074b5ccf21b2537100bb9d6522e3e1",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "1271622877a21c47": {
+      "image_sha256": "cfdd18e3f4e93979ef9658c911657b51797acd4db3a5a7ca8985f290f652e642",
+      "label_sha256": "f9b09063a9d342964d2d31fcf04ffbe5242b0bf703800490001f7db686ad2158",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "145c9bdfb50e34aa": {
+      "image_sha256": "b2f929bc976d0b395cf4aa1de13601f582992c54a328e697c8ae618ec75fc116",
+      "label_sha256": "858f4cca4e5cce42dfd7ab9fb864eed8685a0c4f36d21b400fa68089281e8abe",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "15a00d37dfa25486": {
+      "image_sha256": "22b085d2471efa3a7a34c6e32630476ead038b63a59dccfa53a8ed2c4407c067",
+      "label_sha256": "f2641156f16afb289b71b23ccf67517d888b45e121fa6bd2907c0157b3dceae1",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "15a0f1b56275b936": {
+      "image_sha256": "bb4169f29f165b15104fb7886e6b9cbe31e7560aadd55775881abbdf2836c2bd",
+      "label_sha256": "18eb25be82286c35346b3754303bdf1f9769d74b5ad5d0b4444db7354f14948b",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "16f6efed25b69f35": {
+      "image_sha256": "944ca10b11e173c4c36931328e5577797b2c3bb4f7fd4765183e0b58d0426dc9",
+      "label_sha256": "7e6f9f0a8f682b078aefa9f80e1ce9a86f8b0fbd0e45048018d36f02f4b68725",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "17d51251e2ce55f0": {
+      "image_sha256": "9032bd3a562d74a25add9dd8efaf354d9e380d660b6aa0f41c7a26683d8e4eaf",
+      "label_sha256": "37c5a9e99d950026ffab4b2a4a22d8cc1bb7fd02031c0b7cbd1bc6b91e7c3223",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "1b86a1ddf34bb54e": {
+      "image_sha256": "d8cd84f394402c95e117534353133b61032a7755047b42b515ad1acd75f4f7d6",
+      "label_sha256": "3fdac2d83e27581a4c8f6dab207dc06dcb4ef8086525b4239232838149b256db",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "1f5b289e7fdb820b": {
+      "image_sha256": "03b482ad3c9924f61deeffecfbb25236ec07a2f716907b532fcea368dd58ec6a",
+      "label_sha256": "fff862dfdeb8f4c41088d5b2ca0aa2f9352c42a57f6aba310b69ff29e39ba051",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "1fc07a9fa0a3440c": {
+      "image_sha256": "d50c446c946a22072d41fe55a6ef82f351531e3dbb95b14302ae39a0080ef54d",
+      "label_sha256": "616d7149b8c3ef3160ccd4f7f0f022b09d6881bf1c363a70b319797013e1b362",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "1fc8d9de5ce1509d": {
+      "image_sha256": "ce4fb09a870e6a9c65e0f328816b217ec706e3be274f4819392eab3c1910f689",
+      "label_sha256": "361515c6e663a6d251ccb509950f1654afe8c8339efb77e37a692e3be5a8eaf4",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "22502af39e25fe90": {
+      "image_sha256": "fa95f72ee4611af7fe8215785cf47a0d727ecf55580c102720768b13de00400a",
+      "label_sha256": "b12502b912756537a4fd486dccbf153393e93382d84a773e64d009ab13c58f5c",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "2826ee95423eb083": {
+      "image_sha256": "e0f1ee213367a10102e097e2a783619d61f2dbab5fd775b08596bb2bbe89f423",
+      "label_sha256": "cb79b0fcf0722f556e0b0dd959a9f726e832c9c8a2797db264d8e92c7444177d",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "2adae5821912197a": {
+      "image_sha256": "a3070e1fb6139788f00fafc7817f126c687bd5c41ceed646313b6edd369a9be1",
+      "label_sha256": "5a60b6e9bb6eb788f4e0a0fcc51a777ba0a176e155b1dee5dd9ba2b2c457417f",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "2d5ff50eb401168a": {
+      "image_sha256": "cb48e11e72dbb64471e5268f05ec02488a71f1f06c15d1e6317104615fcd86ac",
+      "label_sha256": "6243798f2f1ddc91bdf9c128fc2a33f6b274f915a6557c8b41422a81b6a7ad30",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "2f61cdf7ac2c57f6": {
+      "image_sha256": "ad20fe2bf150dfe9100f849e69de7d55f61b6a0c82ea8b28b847935792bf1582",
+      "label_sha256": "92f81399dc4d58c2a6390c94a91fedcdcaa200ffc1fb9960eca6f5699375494b",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "3527bac8e600842a": {
+      "image_sha256": "7b0a0329ae37beba4b1d025c0aa48b1c774057c9359341d9a7eb4a712330a0b2",
+      "label_sha256": "6215f3817f92f502fecc6ec715edd7b07c0f19b4f31dc4334bd2db94833afe17",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "3b255ed49fe19fa2": {
+      "image_sha256": "7cd85b2cb5ed35b92e1a56d9dca40ff11ae42aa3e4f91a9304daafc7bb8e66ae",
+      "label_sha256": "642059402ccb6b2d7c62cadb610748871fc26db8127023fb1225d359a6409ef1",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "3b891b82c38295d0": {
+      "image_sha256": "f8a7ac4d3544c0bb7b042fa50cca9d41c621a110f6b759bd358989b3fb38c8fc",
+      "label_sha256": "707c5fe09b4169899e38d3595be59d17620092b76288b77cb98852a401162627",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "4100c0a03477c5dd": {
+      "image_sha256": "36ba27d7ddf7ab82070722d32b234431517cb5d67ab4a2e5c9b27de55f7dce11",
+      "label_sha256": "7d687817b3868d7449c6625861af44c1b02d7dbe89e04e3da4839f76241bc6b5",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "42315dcafa1cb471": {
+      "image_sha256": "6cf9a80b899d76f479830af361afe3042ccedaf4e01e60f35edd67aaf0f1c6e6",
+      "label_sha256": "fa2e724f85ff7f817ccbeb4b66895638d9bfba16c80001c6ed64b5d31705805a",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "44e317baba133158": {
+      "image_sha256": "6972aace4f84645e82821de5d41feaed72030fc2ced3e9ed09dd6f46b79ff18b",
+      "label_sha256": "c7b71a327d20d7761c75e11a61b8e3623e1e75ab3cbb2718092fd8600ff891ea",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "537ceb467def28c0": {
+      "image_sha256": "d075665b9654535d879d9f08db6862eee4949f7919144fa163f8c9519fe5c1ad",
+      "label_sha256": "2a370a00a75bee56122fca882296f4d7db768c708f575ecb111f61a228ff2c2d",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "540cd0675c6d8ec2": {
+      "image_sha256": "96607c0c60a88de04e28def5dfa98cc3233470972f51b600a44ce47685a36d6a",
+      "label_sha256": "1f956c34998b521498af7e5136c204c940b33e5f9047702751ac34ff6bb9dac5",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "54c0f359fbaf83e6": {
+      "image_sha256": "94edf650b392886beaf1bf610f5c156acd0a091ed8012e58eb7e0bafe039344d",
+      "label_sha256": "adb3b0a990e248c22bf127d6103c3b162d175d7e7231b30d12a026cbb4b29fbb",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "59587dc9ba2740ed": {
+      "image_sha256": "0c3414f74a6077e67431030dc7402ad208d57ce1dd6a1cb353025bd6a39f4ece",
+      "label_sha256": "5cc62b64a2cd740101cd48fc19ec0f5b41d8743fd5cb81863d2c6537665c46a6",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "5da1151716ece103": {
+      "image_sha256": "97b10d89547790677c5e6a43c62144356da86079961267effe3db795a9d48bea",
+      "label_sha256": "a82e263259d2dea3f4b87b96005eb6ac7419cbc1fb738d17fb37aac51b4db5af",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "654c3cb2305ea843": {
+      "image_sha256": "bfb7fcf96e098fe510df274a279d978ccfdcc40a69a95123e13b61f96652acea",
+      "label_sha256": "9af4ba5e4e324ea81215f9feed4101aab6ede70ec5611e38c45aa39367dc1e29",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "655ed38ee8752cd9": {
+      "image_sha256": "eb82c91c4005892fcd326a92ae1cef8960dc9408a158db2a9b5660992d0edb3e",
+      "label_sha256": "9d3453720745daea222d1277cf5e89a789d4ebe2c06e0c290065b31ce894dbd8",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "66da6f93d78d1a49": {
+      "image_sha256": "c8be419eb2c41d9adb99749f882bedeebd9356f3bf3035b391a9c87b22f20e98",
+      "label_sha256": "9f0d1a0f2908fca0d4939b9cf134d3a38d11572f3c57eb5a0ea173cc833d1112",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "697dd22416728e8c": {
+      "image_sha256": "fab7f2d895929fcb474ab6161bf043752e599b8df56f989def22a8bab164ea2d",
+      "label_sha256": "c9700d363d338ef238aed11314957e96ca9f71d067748df63f33d97509edc338",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "69880732bf53c286": {
+      "image_sha256": "08b464331e6e9dfb3c6472c889bf720d2e9e7f8dd3a173c05f3a2b64da40ed4e",
+      "label_sha256": "69705539a5ec54f745f7cb9c76c348ffb39eb1a29489a761272e78c779898c1a",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "6d048a3c49d0eaaf": {
+      "image_sha256": "176571a966e33c36db8c72c675c5f7eeb548ac6cf92092d81449e2dc1f1f0499",
+      "label_sha256": "b508325c9ceb140464275aee3f691471b2137c4049fd8d3bd5794faee35e7907",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "6eda2d4662cffb67": {
+      "image_sha256": "607e73d8b884f64a384a841040d7aa6b70208cef4c3dc7cabca55fb148f0b558",
+      "label_sha256": "35bc4c81481183ba05d102f48ded74a5ef0413ce745ea19b2dc6bb1bd73b0fe0",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "6feab7650ce42606": {
+      "image_sha256": "3bddf6277ceeaaa6df11f34dceca8073cbe98f25a376c38fbaa0bba3999e848d",
+      "label_sha256": "e9e9cfbb3db1065da4c82b05f0f6f530ee8228471ff8c0b8c5669b5e6c63c3ed",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "72b9ec747627b620": {
+      "image_sha256": "dd684fe381c671d639d03640f7c8ae9c7374f3b21ee3a42e83885e0fcf48ad8a",
+      "label_sha256": "1e92ed39578141e0c472f2598d3c9e94ef780122df0ed841ba1a0e80dd1f3e56",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "7449ddf2865ceee5": {
+      "image_sha256": "22498decf5054723770220c95ed9db24b9f3946b61a47d37cadc96f753e16bf8",
+      "label_sha256": "290a6ecb6f51c58bf79bcf9019d810e5bae546334f9247c5863697af854762aa",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "77141a4e440d584f": {
+      "image_sha256": "c832e638b82e94966ba3aefb88a9df9073fcf2dcf85639133b558b45a16bd410",
+      "label_sha256": "94d9af371e18bd97b6a50072aefbb07a1a0bcd842eeb2dbcc0e6ed72c06e7cef",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "77628ee6d5927306": {
+      "image_sha256": "94047c983bfd0d303c657b77096abfa467b656f8333c6e2198b10f8bab2707e2",
+      "label_sha256": "cdf8a5729dea30e7c5e2118bc77ff0266f2d6f4ab48213a9791f202caf0b375f",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "7dc9365ef0688e8d": {
+      "image_sha256": "1a9a37612c4672d153e22f18dc812fd451984c58a5e16d6842ecb851b6a10769",
+      "label_sha256": "e1e49ca95e3e0003c1aaea7e78f9346b8b73de68abd112eccacaaae47f4fabcc",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "841a6596d5c48b1b": {
+      "image_sha256": "3da248adecd5730f21759ad903329ed53e1a3b4f4a6e9b1113b7a4d2d24a576b",
+      "label_sha256": "dc3ec311609f33b02733f480b074bed96962015eaf524d38d847ca4daa069520",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "8450ebf3133b6409": {
+      "image_sha256": "85d06d40ff678253fb87f3994f9bda0f18d36eae84b3f4929f6bf569a9913c6b",
+      "label_sha256": "757f853bf8cb365850a57f2ed4723b9ab6bcb8df0ddc7980795e6633c6425ae4",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "84c9889f00467fa6": {
+      "image_sha256": "fd9ff054f079fae9c2ec970b02d994ccfe7f7f0e10efdbd5de9bcdd9079df46a",
+      "label_sha256": "7df0c5d5477e9cf5f6124c14512746fc6e54b73e569ac86f9c840027e38eae65",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "88e0174a323a990e": {
+      "image_sha256": "497ed48e7d8875be03d4cc7779bc53028999cd20e2cc33fe243f2c29e3626a38",
+      "label_sha256": "0fcdc8aa0409197cde94fa1b91c9768dd33d9c1c95d3488992911949e97eba32",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "8d99c1f041263fc6": {
+      "image_sha256": "82bff7209df61964e270cdad98a38bddf9f6bc32f526f80946335e3bf8622662",
+      "label_sha256": "77e326996684aeb7907ebe8496836515a99b8309fe0302c958587516d7c78669",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "8dfef66be8e71bd6": {
+      "image_sha256": "36ba7d1cecac74a814c760d276ee2cdaf1c5c80183aa44572b3e6599c47e0d53",
+      "label_sha256": "3c175bc7045000f0a9941a63f916243c3817987989a8a816b099f3a4c763fdf6",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "8f6bf97e674d81b8": {
+      "image_sha256": "b2b495eea34cb7441b90495874275c8ee276708e9920085cac58cfd57e3144f1",
+      "label_sha256": "c3ad8494a3ab970d249240c20324314baff6df34689a57c51640ce5de34969b8",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "94815609bf43fd91": {
+      "image_sha256": "f316ceff79e8ba37388df9a7548bbccc41ae7e0e883ddf41cfb39dba8260b380",
+      "label_sha256": "46d4663af1a28db9825cd7e955b3db9d187049f1b4968b82616ebf122b5c3556",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "964e35675160e167": {
+      "image_sha256": "10cceeb11f468318bb06df549e5fbe2eefc2a6ff3d8ef755da3b6c04a7613a5c",
+      "label_sha256": "ad95ab24ad96e70cbbfef619edceb47c822d4c01d6357a470f1183a4b6d86e37",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "96712c56c719c2f0": {
+      "image_sha256": "3a0bb18e178360e1d9b3dc3053435937ae1bf5c791f067935c0e83194108fc14",
+      "label_sha256": "5b6fbd1bf91d4264bc15a90d6e76752350d9f663c8a56ea5eba73dc43d486a6b",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "9a00281e4a4a0c15": {
+      "image_sha256": "6097636d08b26938831784927ad1b691387ba09098e322c03c5bb40272c565e4",
+      "label_sha256": "a2b0175b7b8c779f7f0130e269154cfab773a35f3a6eeedecb6f1de201d79db0",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "9a3ea8179cc4e393": {
+      "image_sha256": "5f35b03adc2393eabb88ee4d64275da575a2b01437f9130857fa96658c1d5c1f",
+      "label_sha256": "8da9cec18a47cdbf155cfdc5a8ca033cab6510c6900d6d01d01279cd7357dc52",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "9bb65f01b5f20872": {
+      "image_sha256": "923b4de87612ca1b580a661503925d20eed3f5fb624ef9e0124fcac0b0b9ed05",
+      "label_sha256": "1bf87009f9f1cca73ed21b20247116d0ca705a7db23adb95c6ef57e783219a1e",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "9cba02773687b298": {
+      "image_sha256": "5230307cc7995f3b109c85c553c14c98a5accdd3d3c902071aee7eca42e5ae36",
+      "label_sha256": "f11cdba45a7156b54525298ced4bfdff53a1a076fa441e3520ae6dc67bf6ad45",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "9f5afc25ba3c0209": {
+      "image_sha256": "1832c94d29ef92815609793c2ecdf9ed823d0eca882d53209cc85bce24270de1",
+      "label_sha256": "b5334d4d88dab0d4c434400f840ed3a3ddec17807faf3548a462743f5c63fef1",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "a0a1bcdbf712b2ba": {
+      "image_sha256": "e8f8a963d6c4d2ff619d429b5fcc1edb9bf5f50537a16d6d991afa9eb76eee5e",
+      "label_sha256": "e0ad1b6761cf8632d735445410d404d6bff62778614e0b84b3776c0df652b2ab",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "a32596bff8763c57": {
+      "image_sha256": "5c5d63fab55e7f22195d2f180d11c0a8e1a4a32df881b364981276fd36a94ab2",
+      "label_sha256": "9c0bc49d261c2ef621603477bd3fe47dbf88a3e1d0a5b4b06501f83fd6593cbe",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "a5210d78d2c12ae7": {
+      "image_sha256": "984b4d24a004ff6a5dc4526536c9986fa4f6a714028f5cedce2ce49f8cceea52",
+      "label_sha256": "a8960cdd43f1042e4892a058a6cd87b8ab876426b1150f295a1644e0fa454d9e",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "a90e7b6f08f282ef": {
+      "image_sha256": "773bb458b5f51c2d50ea63c0ac364d4b03bad7152112abb5201b8d3f6cc670f4",
+      "label_sha256": "c6153ccedddfd1c6e87d01a51c4ff8811bf141146b2249e30ad759176aa56a1d",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "aa53f2bc88f284a0": {
+      "image_sha256": "0f2b247824d341295390848ff55fbbc0ade9e5f7a532f72a6e24ce9c8f06dfdd",
+      "label_sha256": "51f23c0dda7972d96f27864839a72fd0c27f4f43fe52496900970185309c146d",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "add0507b1353551d": {
+      "image_sha256": "1a1453a0712517960a774a95d904f940612c822ab0c0938f5ab78917a8940328",
+      "label_sha256": "97befb3adbe53809fd0d626fb00835695eff7a67005e53bc4139f159c33940b6",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "afc9829620aaade8": {
+      "image_sha256": "7b3f82184d4a9a8dbbf41fe65b3ee6d703345317d90c8ace42ab58c3115b0a4e",
+      "label_sha256": "af8338b6559a04cec8b087843b93876110228acd2573d6ba83d2909a62c521e1",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "b2514613795b227b": {
+      "image_sha256": "e0be4082f3e014f64ac802602c53e21f7a73e7b10f29eaa38a713004c08c6f72",
+      "label_sha256": "76955cd5c3bd6cea757639d8cdf737c67a778abe018acf83bfd4c1ec13ee86b8",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "b574031cc5a7fe29": {
+      "image_sha256": "2d36f547028d87bd76f7169856f7b1bdbe0b657ec122231ac52197dc902de1f5",
+      "label_sha256": "6eaf594ef0cacf16439cc563e9efd206721193f4c0a24ddedf1a37a2b215fca3",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "b61567953bdc0103": {
+      "image_sha256": "636c77faa5d644aecae99aca36b24495b16f871670a333af345a1bb9b91e86b7",
+      "label_sha256": "3d28c1cf7fd07e4dfab12363623d235ed6e362030f06275f395ac56f654ea98f",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "b76654e825bf025b": {
+      "image_sha256": "10ed782ab7250bf91c7ecfd3e19dd9508239ba269319df6e4e849df28e95f4a1",
+      "label_sha256": "1bc9185f802e09f25899ea15e6ed1c46a128d9c7c96d6776226963fc56660087",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "bc6e9a30aaab4642": {
+      "image_sha256": "e9e5d8ab1c0e3240473252518074fce75571285a652814f0db1594e2a3a5e4c9",
+      "label_sha256": "ec55bf6c345e1223e0f288b247d301dd8823b85a3fc599569d7b2f5579eec007",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "be29d4a24567573d": {
+      "image_sha256": "5e424d2e8a6a0ad910335aa620e0fa09ae26b9ce8d93a0fd58f4c0fd340ddcb2",
+      "label_sha256": "b307579039822676af680b879ab48a0e891561a8f7ca6352cf3e5f8f480ed80b",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "c45626c443077b7f": {
+      "image_sha256": "48714c4253dd7e6a37566a8d7da21d603c3d629f3be8493eca65c2436ce0cdab",
+      "label_sha256": "da41341e67226ee71d555e68d69053708f6aec37f80f1d54ad83d8edee31a82f",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "c59ff0bc1ab90738": {
+      "image_sha256": "580c06356d0520ee82cb613b7c5d4625c8b710d60da823132c5c286cc66fb425",
+      "label_sha256": "406c08ebf638453f3247ee454e55f28fae52c9908678bb826b02be3e37f958c0",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "c5d5603a04c8c4ed": {
+      "image_sha256": "ce1ae4f3a5b83ac2386920babbe8275f8bec3eb9ee7d24bcff47b9cacf624c79",
+      "label_sha256": "880db49d9018532829ee09161ce3bd761c42f393942057ae2b3073c7a5d685ba",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "cb10699ea7f75c6c": {
+      "image_sha256": "d145d6c7c392d72e0b01bc97b2dcfe757ff10fcf787e65ef05e868010dd49a1b",
+      "label_sha256": "e939181a604a04d8a50811bf6f523e96fd6da1df86838e68f4c9fea813d62138",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "cb212e381dd2ff17": {
+      "image_sha256": "3906d9023687dc407d4eebdaa1e4e2442eab4bcfc532ec8306d5c328b091a3ff",
+      "label_sha256": "90a18e4376ad608f06a6e842839c1e8b507661d78664401b3a447dc07472eddd",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "cc0a638fb32e0d75": {
+      "image_sha256": "e3dcb606d2e0cf688ae40ca9632bc85f9375911063844f4646c2a14e4d50931e",
+      "label_sha256": "6a4220fdfc372c0081d1c2610d79fe121bed72bbf429e8baebf5196417e6891a",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "ce8082c414567cb8": {
+      "image_sha256": "a7af3185da7a28b4e96ae5033a61a55422bdf1d8e7091118d0801701705082c1",
+      "label_sha256": "86f5ee1abebb190def1442296314fe35c5de234492187f48bc4338ebfc76980c",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "ceae2c5084042e3e": {
+      "image_sha256": "3cf43e7bbbdde062a4dd258ab50defc61d0a06b0379ef5f26b783b495ec55f14",
+      "label_sha256": "42a021f718e9f4577dd01e0e5a978db0db606281e96c2b7e61357a9253b50961",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "d0a32eae5f435dc4": {
+      "image_sha256": "c6a67e3d045d0774255377e45ac958abcdecd529852e63686e4fa42e89f59d85",
+      "label_sha256": "b2f9cec363a3150561b80c231f8981df6cdfdedb3ca2946af5a81c6e49d4a311",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "d0de49b545616685": {
+      "image_sha256": "b83d21938b2f6f7388081c7a0baded535ae918995abb36cc08203a26c50e76fc",
+      "label_sha256": "7c43c477d7f0a90379b4809497e050ba5da230247f54fd9750aec2f6427e8ed6",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "d66ba14802a6675f": {
+      "image_sha256": "468d5404d3d0b9739bcb01ecd3cb43e3754eb7c02e0f79ac9a37c42615b4f442",
+      "label_sha256": "ff6a604c8aa5619b6fe3ba6c313c75400102ecb153b3870590acc8afafb0f96e",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "d77f11ff929295f7": {
+      "image_sha256": "ed5dfc94e705ffd99775f2f74e15d9d3faf886748ea8e8b832dad84265b031a1",
+      "label_sha256": "3903fdd61a08672b75eff74719aa34b051a2a6c20dde356255044cf3267bf8cd",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "d86b5bba8769f3d6": {
+      "image_sha256": "61442ebf9f5d6c5135bc65ca97f682357008a4c9f5b074591b1903ad0b1b73e0",
+      "label_sha256": "8ba734e82e706a61c44eeaa1e87051916e8eab05603ad1bf2244da111ab9ba46",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "d88c8fa1e3da9ce0": {
+      "image_sha256": "3a46de41436dff23a752337074418fa5a58c82281dbde29310e3c79b3eeee27f",
+      "label_sha256": "dab3be9d42460c10c8347734607ecb4fcc948e1b2ce54da555b24c51cc0b9736",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "dae861b2f9008b5c": {
+      "image_sha256": "3a47940ae2e9930b8f0f1b3313c36d0ab0034b25e6068f5aad2b77da0f5f62c0",
+      "label_sha256": "0cd8394d23b0da387458a773307e5ae06eb48f17ee5347027dafe71b1e39332f",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "e4edf282501879c5": {
+      "image_sha256": "4e7418636db5344b33a679a5b4b85a7e1a161618b4d0a5308446e771752f1855",
+      "label_sha256": "82b61b86111bf556904601d16aaebc7a3b74b1488ff962d3fcd1753996424cf7",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "e5949910c8c417b6": {
+      "image_sha256": "511f659dacea2198e6baf672f0d4dc41ea0bb7ba8446dfe1b19a635c3c6504da",
+      "label_sha256": "b32936b50e28054ca769361887e893c717238b56d5b34b39e1cbac50bc9b0a57",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "e64d91306863b392": {
+      "image_sha256": "c2ab6cf6bf357e74e9d4cbdcce2b09f416f94e31e36ca0a8969809bb78b542c6",
+      "label_sha256": "28881ad7286687f861b7e915daa063b739df4867a6e8c38f6dba820ec798079a",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "e8ae57ef9e388166": {
+      "image_sha256": "8278895bed391e2744b2a3f485a05d548acb6f81a5613822d1ff8285dbb0c1f7",
+      "label_sha256": "f187eac688bfe2dcf17d4b28b678ddf82bfa5ec8e691e7658668259c8df99641",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "ecc5602b9208f01e": {
+      "image_sha256": "02db11a8d42c29e405393436319e41d2cd1cb0eaa069cab0bcf9d5597bf4db6b",
+      "label_sha256": "b9e5ca1d2a3408a49f3f638dca965439eab74eb6a95ddb3491574e436150bf66",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "eee875fdfd5f3f52": {
+      "image_sha256": "5269032d9ba09b8bae2c7d5cea203023a6b775bfd2a8227c4a4bb620373e256e",
+      "label_sha256": "3494bf611c92f72b1689fb0fd360fe51ef43d5b8e2542016ee92f17130bd1f48",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "f12dfccafda5f9bf": {
+      "image_sha256": "07644ee9311f5e6806d33509b5fb45cf12c8f3df54127e1cfe85dd59cdcc300b",
+      "label_sha256": "003d5cb07a74ef376967dfe24903abd38aee4693a3f9774cee8bb23261dccfa8",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "f1e2f5f393e25326": {
+      "image_sha256": "5a884310f7f9df6446a9b8d90ea1c3a05b7a806639d3236c874090c8f5f0abd0",
+      "label_sha256": "00c2f0c611ee264f6dd9ac19a87909dacad17e066c08c831ea49452e874745fd",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "f4aa0d4221c92818": {
+      "image_sha256": "ed60c02fd1edc4eb23f56b4c2de1ceb3c0eec79ada7acadb24117bf873e40b5d",
+      "label_sha256": "30da1f9b3a0507cebf963f39317dafb0979df9eb227a8cdf3b1a57eda9df18d0",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "f734e90785d54649": {
+      "image_sha256": "4bc1ba34e38b441c01f3b09c62e23010ccf8d58280bd5ce8d076ea68c8c8f249",
+      "label_sha256": "d6404483080a876dd5369e4d520f66adf60920ed0e02283029945729d82bb14e",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "f74d0dd2c20c8d60": {
+      "image_sha256": "4fd51c8767bff374306eb920909146c7d90470e7f2cd03c3431b3a667feb9408",
+      "label_sha256": "aef30c8c2a1c5b5d18aa8d3a70ac0292f83f3d948d99e146db019091b721577e",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    },
+    "fc39516ed15ec5ba": {
+      "image_sha256": "1aeeda9a95a05dd644d8666b1392f5825b2ff2e4b5f34c67b45455d9dcf4a7fd",
+      "label_sha256": "c0c552d26b885ff4d3dfa91dfb626b8b33cd8be38161d11104a917f25b7f77e3",
+      "reason": "Visible person(s) in reviewed whole-image sheet; source has zero person boxes."
+    }
+  },
+  "lost_labeled_boxes": {
+    "bicycle": 282,
+    "car": 12,
+    "motorcycle": 126
+  },
+  "caveat": "This is not an exhaustive instance-level audit of all retained images."
+}

@@ -1,0 +1,34 @@
+{
+  "source_url": "https://huggingface.co/datasets/hotosm/streetlevel-poles",
+  "license_listed": "CC-BY-SA-4.0",
+  "shard": "val-00000-of-00002.parquet",
+  "shard_sha256": "2a52dffefbe5d8fb9ee676eaac57b58a21a75e9db64d9d32a3db21912814b0f9",
+  "rows": 498,
+  "pole_positive_rows": 20,
+  "positive_source_counts": {
+    "roboflow": 20
+  },
+  "sample_ids": [
+    "1040991636915211_jpg.rf.XnmiAehN2y2fRPI76QHb",
+    "1142701396300544_jpg.rf.RXDdufJm0mQ6OEylOfCP",
+    "1379197592492586_jpg.rf.VTI0nq9JU3AIregzYIgc",
+    "1494603597598420_jpg.rf.ywvRV2faZGTpCa33JLnJ",
+    "1506808420531199_jpg.rf.qprupQqu9Y2B1fV659ei",
+    "153966653376422_jpg.rf.O4vQiDKVRkgL2cGxcCdN",
+    "1668795853311846_jpg.rf.nwIBwQjMj4D5KvXYoYar",
+    "2157927771016510_jpg.rf.Z8zEC1cpzaKO4SpDEdxZ",
+    "218968213024268_jpg.rf.O1c4NaP1CjsxqP7GwiVQ",
+    "2749868285176696_jpg.rf.CogHxDUdI1lTNmqmsDy0",
+    "349624270182440_jpg.rf.IQgwkUbCg1HyGruvXqLN",
+    "3514137255354002_jpg.rf.sBu6Yq2fcnE7Ci4u4HPf",
+    "4303874572982792_jpg.rf.PLMAFSKKznE4ota2sBkv",
+    "473333278901397_jpg.rf.HVpYhJ2iyHPuAftbAA3c",
+    "483745929642372_jpg.rf.UcArHKhhonJEbjh39j9b",
+    "566923437605116_jpg.rf.jYg4Fmb0RKbcvg2vTw01",
+    "790628606484356_jpg.rf.GEum2KdBAz3Bojf59ZDH",
+    "814154924764358_jpg.rf.HYWfvAuRJDHTtOPeI0H8",
+    "875310579693172_jpg.rf.2PC3VrNcQ5Dp6kHA73zt",
+    "900044575280104_jpg.rf.NwU8ocmSRdP211Th95aL"
+  ],
+  "status": "candidate_not_integrated_into_seven_class_training"
+}

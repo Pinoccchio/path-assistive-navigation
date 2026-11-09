@@ -1,0 +1,85 @@
+{
+  "accepted": {
+    "test": 588,
+    "val": 290,
+    "train": 1540
+  },
+  "rejected": {
+    "duplicate_or_near_duplicate": 894
+  },
+  "pilot_copied_to_train": 1535,
+  "final_split_counts": {
+    "test": 588,
+    "val": 290,
+    "train": 3075
+  },
+  "source_counts": {
+    "OpenImagesV7": 600,
+    "ROD": 1818,
+    "ROD_pilot": 1535
+  },
+  "class_image_counts": {
+    "train": {
+      "person": 731,
+      "chair": 521,
+      "stairs": 442,
+      "car": 779,
+      "bicycle": 324,
+      "electrical_pole": 165,
+      "plant_pot": 197
+    },
+    "val": {
+      "person": 70,
+      "chair": 51,
+      "stairs": 54,
+      "car": 64,
+      "bicycle": 54,
+      "electrical_pole": 17,
+      "plant_pot": 9
+    },
+    "test": {
+      "person": 124,
+      "chair": 112,
+      "stairs": 128,
+      "car": 132,
+      "bicycle": 60,
+      "electrical_pole": 33,
+      "plant_pot": 24
+    }
+  },
+  "near_duplicate_hash_distance": 4,
+  "rights_status": "ROD source provenance and Open Images original-image licenses require review before redistribution",
+  "post_build_audit": {
+    "problems": 0,
+    "removed_empty_images": 0
+  },
+  "class_group_counts": {
+    "train": {
+      "person": 665,
+      "chair": 468,
+      "stairs": 375,
+      "car": 680,
+      "bicycle": 285,
+      "electrical_pole": 149,
+      "plant_pot": 169
+    },
+    "val": {
+      "person": 70,
+      "chair": 51,
+      "stairs": 54,
+      "car": 64,
+      "bicycle": 54,
+      "electrical_pole": 17,
+      "plant_pot": 9
+    },
+    "test": {
+      "person": 89,
+      "chair": 67,
+      "stairs": 61,
+      "car": 67,
+      "bicycle": 45,
+      "electrical_pole": 12,
+      "plant_pot": 9
+    }
+  }
+}

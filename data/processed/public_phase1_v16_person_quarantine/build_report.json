@@ -1,0 +1,17 @@
+{
+  "source": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v15_oi_quarantine",
+  "target": "C:\\Users\\User\\Documents\\first_year_files\\THIRD_YEAR\\THESIS\\data\\processed\\public_phase1_v16_person_quarantine",
+  "excluded_train_images": 109,
+  "kept_by_split": {
+    "test": 620,
+    "val": 251,
+    "train": 3186
+  },
+  "lost_labeled_boxes": {
+    "bicycle": 282,
+    "car": 12,
+    "motorcycle": 126
+  },
+  "ledger_sha256": "dead253a029201c1bf712414032499c05dabde68db622a5097381e1ce97872c5",
+  "val_test_unchanged": true
+}
