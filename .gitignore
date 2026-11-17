@@ -39,6 +39,11 @@ Thumbs.db
 desktop.ini
 *.log
 .tmp/
+/tmp/
+
+# Superseded lab drafts stay local; final reports and QA evidence are versioned
+/output/lab4/*DRAFT.pdf
+/output/lab4/Lab_4_PATH_Editable_Draft.txt
 
 # Claude's local skill junctions duplicate the real .agents/skills source
 /.claude/skills/

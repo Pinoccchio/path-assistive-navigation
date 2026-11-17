@@ -1,0 +1,628 @@
+{
+  "model_sha256": "6baef465b1366efbf9d5470679205bc26d939d18dde50fb9e58782df069c6dfe",
+  "model_path": "apps/mobile/assets/model/best_float32.tflite",
+  "input_shape": [
+    1,
+    512,
+    512,
+    3
+  ],
+  "output_shape": [
+    1,
+    12,
+    5376
+  ],
+  "confidence_threshold_exclusive": 0.25,
+  "same_class_nms_iou": 0.5,
+  "maximum_detections": 12,
+  "matching_iou_min": 0.5,
+  "gallery_count": 8,
+  "target_present_images": 8,
+  "target_localized_images": 8,
+  "expected_target_boxes": 17,
+  "matched_target_boxes": 11,
+  "synthetic_negatives_passed": 3,
+  "samples": [
+    {
+      "label": "person",
+      "image": "01_person.jpg",
+      "source_id": "rod_test_IMG_20533",
+      "labeled_boxes": 4,
+      "sha256": "9d21bc6d6ff3fe2e325b49f60425988fb03710492ec8a2a05528a8ebcbf34a83",
+      "dimensions": [
+        640,
+        640
+      ],
+      "expected_target_boxes": 4,
+      "detected_target_boxes": 3,
+      "matched_target_boxes_iou_0_5": 3,
+      "missed_target_boxes": 1,
+      "extra_target_predictions": 0,
+      "target_present": true,
+      "target_localized": true,
+      "inference_ms_desktop": 53.71089999971446,
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.7447676658630371,
+          "model_box": [
+            2.2931976318359375,
+            117.91375732421875,
+            120.36923217773438,
+            506.0631103515625
+          ],
+          "box_normalized": [
+            0.004478901624679565,
+            0.23030030727386475,
+            0.23509615659713745,
+            0.9884045124053955
+          ],
+          "direction": "left"
+        },
+        {
+          "label": "person",
+          "confidence": 0.5233705043792725,
+          "model_box": [
+            364.281005859375,
+            1.05731201171875,
+            512.0446166992188,
+            513.1891479492188
+          ],
+          "box_normalized": [
+            0.7114863395690918,
+            0.0020650625228881836,
+            1.0,
+            1.0
+          ],
+          "direction": "right"
+        },
+        {
+          "label": "person",
+          "confidence": 0.35171863436698914,
+          "model_box": [
+            248.9620819091797,
+            138.67034912109375,
+            340.6845245361328,
+            300.91815185546875
+          ],
+          "box_normalized": [
+            0.4862540662288666,
+            0.27084052562713623,
+            0.6653994619846344,
+            0.5877307653427124
+          ],
+          "direction": "ahead"
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "person",
+          "box_normalized": [
+            0.0,
+            0.22812500000000002,
+            0.25,
+            0.975
+          ]
+        },
+        {
+          "label": "person",
+          "box_normalized": [
+            0.22500005,
+            0.25976560000000004,
+            0.50468755,
+            0.7746094
+          ]
+        },
+        {
+          "label": "person",
+          "box_normalized": [
+            0.49062500000000003,
+            0.27539060000000004,
+            0.6687500000000001,
+            0.5996094
+          ]
+        },
+        {
+          "label": "person",
+          "box_normalized": [
+            0.778125,
+            0.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "chair",
+      "image": "02_chair.jpg",
+      "source_id": "rod_test_IMG_19419",
+      "labeled_boxes": 1,
+      "sha256": "a87ab6ab832bbd7a068e8da4f9211b07802835a051cb9b43d604e7016f42af6d",
+      "dimensions": [
+        640,
+        640
+      ],
+      "expected_target_boxes": 1,
+      "detected_target_boxes": 2,
+      "matched_target_boxes_iou_0_5": 1,
+      "missed_target_boxes": 0,
+      "extra_target_predictions": 1,
+      "target_present": true,
+      "target_localized": true,
+      "inference_ms_desktop": 25.58850000059465,
+      "detections": [
+        {
+          "label": "chair",
+          "confidence": 0.8930937647819519,
+          "model_box": [
+            177.81714630126953,
+            32.54835510253906,
+            316.50304412841797,
+            486.72337341308594
+          ],
+          "box_normalized": [
+            0.34729911386966705,
+            0.0635710060596466,
+            0.6181700080633163,
+            0.9506315886974335
+          ],
+          "direction": "ahead"
+        },
+        {
+          "label": "chair",
+          "confidence": 0.41852253675460815,
+          "model_box": [
+            181.10749053955078,
+            58.8193359375,
+            313.76683807373047,
+            211.421875
+          ],
+          "box_normalized": [
+            0.3537255674600601,
+            0.11488151550292969,
+            0.6128258556127548,
+            0.412933349609375
+          ],
+          "direction": "ahead"
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "chair",
+          "box_normalized": [
+            0.34375,
+            0.11406250000000001,
+            0.609375,
+            0.9359375000000001
+          ]
+        }
+      ]
+    },
+    {
+      "label": "stairs",
+      "image": "03_stairs.jpg",
+      "source_id": "rod_test_IMG_20721",
+      "labeled_boxes": 1,
+      "sha256": "ace4ed6d13bbf98b9a4589b1cbe5007a96b211e36c73568ea507de13c9a0e25a",
+      "dimensions": [
+        640,
+        640
+      ],
+      "expected_target_boxes": 1,
+      "detected_target_boxes": 1,
+      "matched_target_boxes_iou_0_5": 1,
+      "missed_target_boxes": 0,
+      "extra_target_predictions": 0,
+      "target_present": true,
+      "target_localized": true,
+      "inference_ms_desktop": 39.53680000267923,
+      "detections": [
+        {
+          "label": "stairs",
+          "confidence": 0.8782958984375,
+          "model_box": [
+            112.07168579101562,
+            192.9038543701172,
+            507.0235290527344,
+            394.4157257080078
+          ],
+          "box_normalized": [
+            0.2188900113105774,
+            0.37676534056663513,
+            0.9902803301811218,
+            0.7703432142734528
+          ],
+          "direction": "ahead"
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "stairs",
+          "box_normalized": [
+            0.2988281,
+            0.38671875000000006,
+            0.9980469000000001,
+            0.6976562500000001
+          ]
+        }
+      ]
+    },
+    {
+      "label": "car",
+      "image": "04_car.jpg",
+      "source_id": "openimagesv7_test_b44d8f176b21c088",
+      "labeled_boxes": 5,
+      "sha256": "7ca873dce6fd9b07cb875b87dd4e1a157bef360f6ea949a5c27c5c65137c42b3",
+      "dimensions": [
+        1024,
+        543
+      ],
+      "expected_target_boxes": 5,
+      "detected_target_boxes": 3,
+      "matched_target_boxes_iou_0_5": 2,
+      "missed_target_boxes": 3,
+      "extra_target_predictions": 1,
+      "target_present": true,
+      "target_localized": true,
+      "inference_ms_desktop": 53.67730000580195,
+      "detections": [
+        {
+          "label": "car",
+          "confidence": 0.9334453344345093,
+          "model_box": [
+            0.43487548828125,
+            118.57794189453125,
+            512.7888793945312,
+            391.42510986328125
+          ],
+          "box_normalized": [
+            0.0008493661880493164,
+            0.0,
+            1.0,
+            0.9988033512459714
+          ],
+          "direction": "ahead"
+        },
+        {
+          "label": "car",
+          "confidence": 0.5949264764785767,
+          "model_box": [
+            22.918106079101562,
+            138.98141479492188,
+            101.85875701904297,
+            170.59539794921875
+          ],
+          "box_normalized": [
+            0.04476192593574524,
+            0.06899231968663674,
+            0.1989428848028183,
+            0.1854342465901243
+          ],
+          "direction": "left"
+        },
+        {
+          "label": "car",
+          "confidence": 0.49557924270629883,
+          "model_box": [
+            79.92324829101562,
+            126.58567810058594,
+            137.84146118164062,
+            164.07496643066406
+          ],
+          "box_normalized": [
+            0.1561000943183899,
+            0.02333583094138467,
+            0.26922160387039185,
+            0.16141792423817333
+          ],
+          "direction": "left"
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "car",
+          "box_normalized": [
+            0.03810775000000001,
+            0.06699755,
+            0.22733245000000002,
+            0.17617865
+          ]
+        },
+        {
+          "label": "car",
+          "box_normalized": [
+            0.16425755,
+            0.019851099999999997,
+            0.27069645,
+            0.1563275
+          ]
+        },
+        {
+          "label": "car",
+          "box_normalized": [
+            0.16688565,
+            0.06203469999999999,
+            0.24704335,
+            0.1513647
+          ]
+        },
+        {
+          "label": "car",
+          "box_normalized": [
+            0.21156369999999997,
+            0.0024813999999999947,
+            0.8685939,
+            0.337469
+          ]
+        },
+        {
+          "label": "car",
+          "box_normalized": [
+            0.5413929,
+            0.0024814000000000086,
+            0.8318003,
+            0.1935484
+          ]
+        }
+      ]
+    },
+    {
+      "label": "bicycle",
+      "image": "05_bicycle.jpg",
+      "source_id": "oi_v10_test_21d7d2d92f813eb4",
+      "labeled_boxes": 1,
+      "sha256": "98d8d32fce44c32e3625bce0b3c85346bcb574336ef3b91b4a528314700771f8",
+      "dimensions": [
+        862,
+        1024
+      ],
+      "expected_target_boxes": 1,
+      "detected_target_boxes": 1,
+      "matched_target_boxes_iou_0_5": 1,
+      "missed_target_boxes": 0,
+      "extra_target_predictions": 0,
+      "target_present": true,
+      "target_localized": true,
+      "inference_ms_desktop": 61.07719999999972,
+      "detections": [
+        {
+          "label": "bicycle",
+          "confidence": 0.9399547576904297,
+          "model_box": [
+            79.14276123046875,
+            252.5693130493164,
+            336.3199462890625,
+            440.4002914428711
+          ],
+          "box_normalized": [
+            0.0896583787249855,
+            0.4932994395494461,
+            0.6863571839653422,
+            0.8601568192243576
+          ],
+          "direction": "ahead"
+        },
+        {
+          "label": "person",
+          "confidence": 0.6856611967086792,
+          "model_box": [
+            116.08023071289062,
+            140.79148864746094,
+            271.2846984863281,
+            412.14051818847656
+          ],
+          "box_normalized": [
+            0.17536016406703162,
+            0.27498337626457214,
+            0.5354633375552856,
+            0.8049619495868683
+          ],
+          "direction": "ahead"
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "bicycle",
+          "box_normalized": [
+            0.09055118000000001,
+            0.498344365,
+            0.6830708400000001,
+            0.855960255
+          ]
+        }
+      ]
+    },
+    {
+      "label": "electrical_pole",
+      "image": "06_electrical_pole.jpg",
+      "source_id": "rod_test_IMG_20093",
+      "labeled_boxes": 1,
+      "sha256": "302b7bfaefc65c33e19ce29b3ea0fe2fc012b9a32c0c9d3c407ace1bc1d43dd5",
+      "dimensions": [
+        640,
+        640
+      ],
+      "expected_target_boxes": 1,
+      "detected_target_boxes": 1,
+      "matched_target_boxes_iou_0_5": 1,
+      "missed_target_boxes": 0,
+      "extra_target_predictions": 0,
+      "target_present": true,
+      "target_localized": true,
+      "inference_ms_desktop": 38.4697999979835,
+      "detections": [
+        {
+          "label": "electrical_pole",
+          "confidence": 0.9999927282333374,
+          "model_box": [
+            160.0975112915039,
+            -8.46881103515625,
+            338.5649642944336,
+            513.3021240234375
+          ],
+          "box_normalized": [
+            0.31269045174121857,
+            0.0,
+            0.6612596958875656,
+            1.0
+          ],
+          "direction": "ahead"
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "electrical_pole",
+          "box_normalized": [
+            0.32304685,
+            0.0,
+            0.66445315,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "plant_pot",
+      "image": "07_plant_pot.jpg",
+      "source_id": "rod_test_IMG_19955",
+      "labeled_boxes": 1,
+      "sha256": "3b11e1bfcd7c3350ba655a2bfb961666a049607fb74cb4da8675cadf437051cb",
+      "dimensions": [
+        512,
+        512
+      ],
+      "expected_target_boxes": 1,
+      "detected_target_boxes": 1,
+      "matched_target_boxes_iou_0_5": 1,
+      "missed_target_boxes": 0,
+      "extra_target_predictions": 0,
+      "target_present": true,
+      "target_localized": true,
+      "inference_ms_desktop": 49.21699999977136,
+      "detections": [
+        {
+          "label": "plant_pot",
+          "confidence": 0.9978394508361816,
+          "model_box": [
+            110.79437255859375,
+            192.55703735351562,
+            384.14794921875,
+            410.8465270996094
+          ],
+          "box_normalized": [
+            0.21639525890350342,
+            0.3760879635810852,
+            0.7502889633178711,
+            0.8024346232414246
+          ],
+          "direction": "ahead"
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "plant_pot",
+          "box_normalized": [
+            0.2109375,
+            0.38281255000000003,
+            0.7480469,
+            0.80664065
+          ]
+        }
+      ]
+    },
+    {
+      "label": "motorcycle",
+      "image": "08_motorcycle.jpg",
+      "source_id": "oi_v10_test_10644f516604217c",
+      "labeled_boxes": 3,
+      "sha256": "06dbd9973748467d8cb66c5ec535f68e20dc996c60479e6060f9f8e6c195215d",
+      "dimensions": [
+        1024,
+        683
+      ],
+      "expected_target_boxes": 3,
+      "detected_target_boxes": 1,
+      "matched_target_boxes_iou_0_5": 1,
+      "missed_target_boxes": 2,
+      "extra_target_predictions": 0,
+      "target_present": true,
+      "target_localized": true,
+      "inference_ms_desktop": 47.76320000382839,
+      "detections": [
+        {
+          "label": "motorcycle",
+          "confidence": 0.35334885120391846,
+          "model_box": [
+            92.40406036376953,
+            184.40081024169922,
+            297.01940155029297,
+            379.6858596801758
+          ],
+          "box_normalized": [
+            0.18047668039798737,
+            0.2903391222304516,
+            0.580116018652916,
+            0.8621840693416567
+          ],
+          "direction": "ahead"
+        }
+      ],
+      "ground_truth": [
+        {
+          "label": "motorcycle",
+          "box_normalized": [
+            0.17994099500000002,
+            0.340707965,
+            0.581120965,
+            0.845132775
+          ]
+        },
+        {
+          "label": "motorcycle",
+          "box_normalized": [
+            0.34660766,
+            0.26548671999999995,
+            0.6563422,
+            0.670354
+          ]
+        },
+        {
+          "label": "motorcycle",
+          "box_normalized": [
+            0.47640118,
+            0.24115044000000002,
+            0.7979351,
+            0.6061947000000001
+          ]
+        }
+      ]
+    }
+  ],
+  "negative_controls": [
+    {
+      "input": "synthetic_black",
+      "detections": [],
+      "pass_no_objects": true,
+      "inference_ms_desktop": 63.47680000180844
+    },
+    {
+      "input": "synthetic_gray",
+      "detections": [],
+      "pass_no_objects": true,
+      "inference_ms_desktop": 49.61990000447258
+    },
+    {
+      "input": "synthetic_white",
+      "detections": [],
+      "pass_no_objects": true,
+      "inference_ms_desktop": 50.25980000209529
+    }
+  ],
+  "limitations": [
+    "Selected demo gallery: gallery generator favors historical successful matches for several classes; not an independent accuracy sample.",
+    "JPEG RGB preprocessing uses app floor sampling and letterbox; bypasses camera YUV conversion and sensor rotation.",
+    "Desktop interpreter timings are not phone latency. Ground truth reused from frozen public-data labels and not independently reannotated.",
+    "No phone camera, audio, haptic or navigation-safety claim follows from this gallery inference run."
+  ]
+}

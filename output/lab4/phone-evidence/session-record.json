@@ -1,0 +1,41 @@
+{
+  "device": "Infinix Note 40 X6853",
+  "android": "16",
+  "app": "PATH 1.0.0 versionCode 1 debug build launched by user",
+  "date": "17 November 2026",
+  "original_font_scale": 0.85,
+  "original_settings": "Voice & Haptic; 3-Zone Direction; speech rate 1.5x; cooldown 1.0s; Stairs, Vehicles and Pedestrians ON; haptics ON",
+  "observations": [
+    "Camera Start changed IDLE to LIVE; Stop restored Camera is off and disabled Repeat/Stop.",
+    "Dark/empty scene on Describe returned No stable objects detected. Path condition is unknown.",
+    "Chair photo displayed on laptop screen was detected as chair ahead, with an aligned yellow box. Snapshot semantics reported 92 percent confidence; this is not an accuracy measure.",
+    "Voice Only, speech rate 1.0x and Stairs OFF remained selected after leaving and reopening Settings. Values were restored to their original state afterward. Process restart not yet checked.",
+    "Android font scale was temporarily set to 2.0. Settings reflowed vertically and lower category controls could be reached by scrolling. Font scale restored and read back as 0.85.",
+    "Hazard Log showed PREVIEW, sample San Francisco location and 3 events. Clear changed count to 0. First Undo attempt missed its short action window; no product defect inferred. Timely Undo retest still required.",
+    "User confirmed perceptible vibration during detection, but initially reported no voice.",
+    "Android media stream was not muted and routed to remote_submix. Host scrcpy 3.3.4 was running with no audio options. Official docs and installed help confirm default forwarding disables device playback.",
+    "Restarted existing scrcpy with --no-audio. Android media output read back as speaker. Replayed previous chair alert; user replied yes its working.",
+    "First requested left-position capture still showed the chair centered and correctly labeled ahead. User was asked to pan so the box center reaches the left image third. Direction result remains pending.",
+    "Timely Clear/Undo retest restored 3 preview entries. CAMERA denial remained IDLE; message evidence incomplete. CAMERA restored to granted, app left IDLE. Original font and preferences verified."
+  ],
+  "test_status_update": {
+    "case": "TC-10",
+    "result": "Pass",
+    "basis": "User-confirmed manual test; not independently observed over USB",
+    "user_text": "pasado na lahat yan"
+  },
+  "user_confirmations": [
+    {
+      "observation": "Vibration perceptible, voice initially silent",
+      "user_text": "gumana ang vinration pero ang void hindi"
+    },
+    {
+      "observation": "Voice heard after scrcpy no-audio and Repeat",
+      "user_text": "yes its working"
+    },
+    {
+      "observation": "Voice and vibration both working",
+      "user_text": "guamgana and vibration and voice. so we dont have a problem for that"
+    }
+  ]
+}

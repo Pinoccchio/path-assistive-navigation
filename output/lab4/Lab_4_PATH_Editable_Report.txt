@@ -1,0 +1,122 @@
+Lab 4 Writing and Executing Unit Tests
+
+PATH Assistive Navigation Prototype | Group 8Software Engineering Fundamental and Practices17 November 2026
+
+Members: Franz Sanchez, John Mark Limsan, Jan Miko Guevarra
+
+1 Introduction
+
+Testing examined PATH camera controls, object detection, saved accessibility settings, voice feedback, haptic feedback, and the work-in-progress Hazard Log. The phone checks used an Infinix Note 40 X6853 running Android 16, with PATH version 1.0.0, versionCode 1, launched by the operator through flutter run. Screenshots and Android UI observations document the interface; the operator confirmed hearing voice and feeling vibration.
+
+The session found working camera control, empty-scene uncertainty messaging, settings reflow, and a reversible sample log. An initial silent-voice observation was traced to scrcpy audio forwarding; after forwarding was disabled, the operator confirmed voice output. A separate desktop gallery check detected the target class in eight of eight selected images, but matched only 11 of 17 target annotations at intersection over union (IoU) of at least 0.50. This is a demonstration diagnostic, not an independent accuracy or navigation-safety result.
+
+2 Team Role Assignment Table
+
+The rotation below separates designers from executors for group review and independent retesting. It is an assignment plan: this session used USB-assisted device operations with operator confirmation. It does not certify that every named member independently performed the cases.
+
+Feature and implementation status | Cases | Designer | Executor
+Camera control - implemented | 01, 02 | Franz Sanchez | John Mark Limsan
+Detection display - implemented | 03, 04 | John Mark Limsan | Jan Miko Guevarra
+Saved accessibility settings - implemented | 05, 06 | Jan Miko Guevarra | Franz Sanchez
+Voice feedback - implemented, wider evaluation WIP | 07, 08 | Franz Sanchez | Jan Miko Guevarra
+Haptic feedback - implemented, wider evaluation WIP | 09, 10 | John Mark Limsan | Franz Sanchez
+Hazard Log - preview; live integration WIP | 11, 12 | Jan Miko Guevarra | John Mark Limsan
+
+3 Method and Evidence Limits
+
+Each case compares its expected behavior with an observed output. Pass applies only to the stated scope; Partial identifies incomplete coverage or WIP behavior, and Pending means a case was not run. Phone evidence is kept in phone-evidence. Gallery results, source-label comparisons and annotated images are in gallery-model-results. Automated tests supplement the phone observations; 117 existing Flutter tests passed.
+
+The chair phone test viewed a gallery image on a laptop screen. Left/right movement was not completed; at the operator's request, remaining visual checks switched to direct desktop inference. The original font scale of 0.85 and app preferences were restored. The mirroring session now uses --no-audio to retain playback on the phone speaker. No model, dataset label, app source or trained weight was changed.
+
+
+--- PAGE BREAK ---
+
+
+4 Test Case Design and Execution Table
+
+IDs below use the prefix TC-. The expected conditions were specified before evaluating each observation. Cases 03 and 04 also have supplementary desktop checks on page 3. Designer/executor assignments appear on page 1.
+
+Case and feature | Scenario, input and expected output | Actual output and remarks | Result
+01 Camera | Grant permission; Start, then Stop. Preview runs and stops. | LIVE camera preview opened. Stop returned IDLE, Camera is off, and disabled Stop/Repeat. | Pass
+02 Camera | Deny camera access. Show a useful error without entering LIVE. | Android denial returned to IDLE without a crash. Error-message evidence was not captured. Permission restored; Start worked again. | Partial
+03 Detection | Show a chair and move it across image thirds. Box, class and direction correspond. | Chair photo produced a box and CHAIR AHEAD. Full left/right phone sweep was not completed. Desktop gallery run is separate evidence. | Partial
+04 Empty scene | Use a scene without targets; do not claim the path is clear. | Dark scene description: No stable objects detected. Path condition is unknown. Three synthetic blank controls also returned no boxes. | Pass
+05 Settings | Change delivery mode, rate and a category; reopen Settings. Selections remain. | Voice Only, 1.0x and Stairs OFF survived route reopening. Original Voice & Haptic, 1.5x and Stairs ON were restored and survived app relaunch. | Pass
+06 Large text | Set Android text scale to 2.0; scroll Settings. Keep controls reachable. | Layout changed to stacked controls; lower Stairs/Vehicles/Pedestrians controls were reachable. Original 0.85 scale restored and read back. | Pass
+07 Voice | Detect/describe a stable chair; hear its class and direction. | Initial phone silence occurred with scrcpy forwarding. After --no-audio and replay, the operator confirmed voice; later confirmed both outputs working. | Pass after retest
+08 Voice controls | Mute during speech; unmute, request description, then Stop. No delayed speech. | Mute/Unmute UI states and disabled actions were observed; Stop restored IDLE. Audible interruption and delayed-output timing were not measured. | Partial
+09 Haptics | Confirm a brief detection cue and no repeated cue for unchanged scenes. | Operator confirmed perceptible vibration in Voice & Haptic. Android recorded completed 120 ms accessibility pulses. Haptic Only and repetition timing remain unverified. | Partial
+10 Haptic toggle | Turn haptics off/on, change scene, then Stop. Respect toggle and cancellation. | User confirmed the complete manual off/on/Stop sequence passed. Evidence basis: user report; this sequence was not independently observed over USB. | Pass
+11 Log preview | Open preview; Clear, then timely Undo. Restore sample entries. | PREVIEW showed 3 samples. Clear changed count to 0. Timely Undo restored all 3. An earlier late Undo attempt was excluded. | Pass
+12 Live history WIP | Detect a real event and find its corresponding timestamp/location in history. | After the chair test the log still showed explicitly labeled sample data. Live recording, real GPS and matching real-event history remain unimplemented. | Partial
+
+Coverage: 7 Pass (including one successful retest and the user-confirmed TC-10), 5 Partial, 0 Pending. Partial does not imply every incomplete check is a software defect. Member execution, audible cancellation, Haptic Only, timing and live-history integration need follow-up.
+
+
+--- PAGE BREAK ---
+
+
+5 Supplementary Gallery Model Testing
+
+The unchanged bundled FP32 TFLite model was run on the eight JPEG files in qa/phone_test_gallery. The model checksum matched its metadata (SHA-256 starts 6baef465b1366efb). Input was 512 x 512 RGB; output was 1 x 12 x 5376. The runner used app-style floor sampling, gray letterboxing, confidence greater than 0.25, same-class NMS at IoU greater than 0.50, and a maximum of 12 detections. JPEG decoding bypasses the phone camera's YUV conversion and sensor rotation.
+
+Gallery target | Labeled boxes | Predicted target boxes | Matched at IoU 0.50 | Unmatched predictions
+person | 4 | 3 | 3 | 0
+chair | 1 | 2 | 1 | 1
+stairs | 1 | 1 | 1 | 0
+car | 5 | 3 | 2 | 1
+bicycle | 1 | 1 | 1 | 0
+electrical pole | 1 | 1 | 1 | 0
+plant pot | 1 | 1 | 1 | 0
+motorcycle | 3 | 1 | 1 | 0
+
+Findings: All eight images contained a prediction localized to at least one expected target. Six target annotations were unmatched: one person, three cars and two motorcycles. Two target predictions did not match an annotation: one chair and one car. Black, gray and white synthetic images produced no detections (3/3 controls). The selected gallery favors historical successful examples, so neither 8/8 image coverage nor 11/17 matched annotations is a general accuracy estimate. Source labels, including the motorcycle fixture's toy ride-ons, also need semantic review before drawing broader conclusions.
+
+6 Defect and Limitation Summary
+
+ID and module | Observed issue | Severity | Suggested action
+D-01 Voice environment | Phone speech was inaudible while default scrcpy forwarding routed media to remote_submix. Resolved and operator-retested after --no-audio. | Medium | Retain phone speaker routing during physical tests; document mirroring options.
+D-02 Detection | Gallery diagnostic missed six target annotations and produced two unmatched target boxes, including an extra chair box. | High, provisional | Review annotations and missed/extra boxes; test broader scenes before tuning or retraining.
+D-03 Hazard Log | Only sample location/events are displayed; no real-event history was demonstrated. Known WIP, not a newly introduced regression. | Medium | Implement and verify real event storage before claiming live history or GPS.
+
+7 Summary and Recommendations
+
+Voice and vibration were physically confirmed by the operator, who also confirmed that the haptic off/on/Stop sequence passed. The tested UI controls and preview log were usable within the observed scope. Detection needs further work: recognizing a class somewhere in an image does not establish that every object is found. Review the missed person/vehicle instances and duplicate boxes, complete the remaining partial checks, and obtain independent member retests. Keep this prototype within supervised research use; no detection means unknown.
+
+Automated evidence: 117 Flutter tests passed using flutter test --reporter expanded. These checks exercise software logic and widgets; desktop inference timings are not phone latency. Model run details are in gallery-model-results/results.json, and the Flutter output is in Lab_4_Automated_Test_Log.txt.
+
+
+--- PAGE BREAK ---
+
+
+8 Screenshot Evidence and Source Records
+
+These are captured phone states from the session. The bottom-right image is a preview containing sample content, not a real location or hazard record.
+
+Reproducible records: phone-evidence contains the corresponding screenshots and Android UI snapshots; gallery-model-results contains annotated images, a contact sheet and all predictions. Yellow boxes are predictions; cyan boxes are source target annotations. The model and gallery source hashes and thresholds are saved in results.json.
+
+Implementation sources: apps/mobile/README.md; apps/mobile/lib/detector.dart; apps/mobile/assets/model/model_metadata.json; gallery manifest and generator; frozen public test labels; existing Flutter tests. The generator's JPEG quality-90 copies were verified against the corresponding source files before comparison.
+
+Environment reference: Genymobile, scrcpy audio documentation. Default output forwarding disables device playback; --no-audio disables forwarding. https://github.com/Genymobile/scrcpy/blob/master/doc/audio.md
+
+Review status: Evidence-based report prepared. Confirm the member role rotation and individual reflection before submission. Remaining test gaps are explicitly recorded on page 2.
+
+
+--- PAGE BREAK ---
+
+
+Individual Reflection
+
+Jan Miko Guevarra | Group 8 | Lab 4
+
+Testing PATH showed me that an application can demonstrate a working feature while still having important reliability limits. The camera detected the chair image and displayed its class and direction. I also confirmed that both voice and vibration worked. However, the gallery run showed why I should not judge reliability from one successful demonstration: the expected class appeared in all eight selected images, but only 11 of 17 target annotations were matched.
+
+The supplementary multi-object gallery test, particularly 01_person.jpg, revealed the most critical limitation because the model matched only three of four labeled people. Across the gallery, one person, three cars and two motorcycles were unmatched against the supplied labels. The model also produced unmatched chair and car boxes. These results need annotation review and broader testing, but they already show a limitation that matters for an assistive-navigation prototype. Finding one object is not the same as finding every relevant object. The app must continue treating a scene without detections as unknown rather than telling the user that the path is clear.
+
+One surprising behavior was the initial lack of audible speech even though the interface displayed a last announcement. The first explanation could have been a broken voice feature. Instead, the test environment was forwarding the phone audio through scrcpy. After audio forwarding was disabled and the announcement was repeated, I could hear the voice. This taught me to record the device setup and check where audio is being played before concluding that the app itself has failed. Vibration and voice were working after the retest; the initial observation and its resolution should both remain in the report.
+
+Testing also helped me think more carefully about accessibility. At the enlarged text size, the settings changed into a longer layout that could be scrolled. This matters because a screen can look good at its default size but become difficult to use when someone increases the text. I would still need feedback from intended users to know whether the wording, controls and spoken information are easy to understand. A layout check alone does not establish that the app is effective for mobility.
+
+The Hazard Log demonstrated another difference between a working interface and a completed feature. Clear and Undo worked on the sample entries, but those entries were explicitly marked as preview data. I should not describe that as working live history or GPS. Clear labels help users and reviewers understand what the prototype can currently do, while giving the team a concrete next step for development.
+
+I would continue using automated tests for settings, transforms, tracking and feedback cancellation because these checks can reveal regressions whenever the app changes. The 117 passing Flutter tests are useful evidence for those behaviors. I would combine them with phone checks for actual voice, vibration and camera interaction, and use a larger independently reviewed image set for detection evaluation. Before submitting the report, I would review the assigned roles with my group and complete the remaining cases instead of changing an incomplete result into a pass.
