@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'detector.dart';
 
 String detectionBoxLabel(Detection detection) =>
-    '${detection.label.toUpperCase()} · ${detection.direction.toUpperCase()}';
+    '${detection.label.toUpperCase()} · ${detection.direction.toUpperCase()}${detection.closer ? ' · CLOSER' : ''}';
 
 /// Fits the entire oriented image and paints labels in display logical pixels,
 /// so fitting a camera image does not shrink its text or misalign its boxes.

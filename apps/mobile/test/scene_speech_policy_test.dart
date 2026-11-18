@@ -62,6 +62,85 @@ void main() {
       expect(output.messages.length, 1);
     },
   );
+  test(
+    'manual comparison follows the current label and clears on tie or missed box',
+    () async {
+      const left = Detection('chair', .9, 'left', [
+        .1,
+        .1,
+        .3,
+        .8,
+      ], closer: true);
+      const right = Detection('chair', .9, 'right', [.7, .1, .9, .8]);
+      const nearRight = Detection('chair', .9, 'right', [
+        .7,
+        .1,
+        .9,
+        .8,
+      ], closer: true);
+      await confirm([left, right]);
+      expect(
+        output.messages.last,
+        contains('The chair on the left appears closer.'),
+      );
+      await speech.describeScene();
+      expect(
+        output.messages.last,
+        'Two chairs. The chair on the left appears closer.',
+      );
+      await frame([chair, nearRight]);
+      await speech.describeScene();
+      expect(
+        output.messages.last,
+        'Two chairs. The chair on the right appears closer.',
+      );
+      await frame([chair]);
+      await speech.describeScene();
+      expect(output.messages.last, isNot(contains('closer')));
+      await frame([chair, right]);
+      await speech.describeScene();
+      expect(output.messages.last, isNot(contains('closer')));
+    },
+  );
+
+  test(
+    'fresh 1.7-second depth frames announce a changed winner automatically once',
+    () async {
+      const nearLeft = Detection('chair', .9, 'left', [
+        .1,
+        .1,
+        .3,
+        .8,
+      ], closer: true);
+      const right = Detection('chair', .9, 'right', [.7, .1, .9, .8]);
+      const nearRight = Detection('chair', .9, 'right', [
+        .7,
+        .1,
+        .9,
+        .8,
+      ], closer: true);
+      Future<void> slow(List<Detection> boxes) async {
+        final received = now;
+        now = now.add(const Duration(milliseconds: 1712));
+        await speech.consider(boxes, observedAt: received);
+      }
+
+      await slow([nearLeft, right]);
+      expect(output.messages.single, contains('on the left appears closer'));
+      for (var i = 0; i < 6; i++) {
+        await slow([nearLeft, right]);
+      }
+      expect(output.messages.length, 1);
+      await slow([chair, nearRight]);
+      expect(output.messages.last, contains('on the right appears closer'));
+      await speech.describeScene();
+      expect(
+        output.messages.last,
+        'Two chairs. The chair on the right appears closer.',
+      );
+    },
+  );
+
   test('confidence or detection order changes do not repeat speech', () async {
     await confirm([person, chair]);
     const lower = Detection('person', .8, 'ahead', [.4, .1, .6, .8]);

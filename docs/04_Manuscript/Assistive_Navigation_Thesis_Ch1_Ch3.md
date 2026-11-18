@@ -186,7 +186,7 @@ Object detection provides labels and bounding boxes, but it does not automatical
 
 Depth-aware systems can use specialized sensors. Li, Han, and Zheng (2025) used RGB-D sensing in a wearable navigation device, showing the value of hardware depth information for obstacle avoidance. However, RGB-D hardware is not available in most smartphones and may increase system cost. A smartphone-only approach requires another method for estimating depth.
 
-Monocular depth estimation offers a software-based alternative. Ranftl et al. (2020) introduced a robust monocular depth estimation approach that mixes datasets for zero-shot transfer, forming the basis for the MiDaS model family. MiDaS estimates relative depth from a single RGB image, making it suitable for camera-only systems. Although monocular depth does not provide perfect absolute distance, it can support zone-based warnings that group obstacles into practical categories such as danger, caution, and safe.
+Monocular depth estimation offers a software-based alternative. Ranftl et al. (2020) introduced a robust monocular depth estimation approach that mixes datasets for zero-shot transfer, forming the basis for the MiDaS model family. MiDaS estimates relative depth from a single RGB image, making it suitable for camera-only systems. Although monocular depth does not provide perfect absolute distance, it can support zone-based warnings that group obstacles into practical categories such as danger, caution, and farther.
 
 The proposed study will use distance zones rather than relying exclusively on exact distance values. This is a pragmatic design decision. Users need actionable warnings, and approximate zones can be more reliable and understandable than precise but unstable measurements. Zone-based alerts also support consistent haptic patterns, where stronger or more frequent vibration indicates greater urgency.
 
@@ -300,7 +300,7 @@ The input layer captures live frames from the smartphone camera and, with permis
 
 The inference layer performs object detection and depth estimation. The object detection model will identify object classes and bounding boxes. The depth estimation model will estimate relative depth from the same or synchronized camera frame. Both models are intended to run locally through TensorFlow Lite if deployment compatibility and device performance allow it.
 
-The post-processing layer maps detections to spatial information. Bounding box positions will be converted into directional labels such as left, center, and right. Depth output will be associated with detected regions and converted into distance zones such as danger, caution, and safe.
+The post-processing layer maps detections to spatial information. Bounding box positions will be converted into directional labels such as left, center, and right. Depth output will be associated with detected regions and converted into distance zones such as danger, caution, and farther.
 
 The priority engine ranks detected obstacles. Each detected object will receive a priority score based on distance zone, direction, and hazard relevance. Objects in the danger zone, objects located near the center path, and objects classified as high-risk will receive higher scores. The highest-ranked object will be selected for feedback.
 

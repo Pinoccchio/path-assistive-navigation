@@ -150,6 +150,8 @@ class DetectionHaptics extends ChangeNotifier {
     }
   }
 
+  Future<void> interruptForPriority() => _cancel();
+
   Future<void> toggle() async {
     if (!canToggle) return;
     preferences.update(hapticsEnabled: !preferences.hapticsEnabled);

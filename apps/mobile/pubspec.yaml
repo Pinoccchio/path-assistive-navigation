@@ -41,6 +41,7 @@ dependencies:
   flutter_tts: 4.2.5
 
 dev_dependencies:
+  shared_preferences_platform_interface: 2.4.1
   flutter_test:
     sdk: flutter
 
@@ -63,6 +64,8 @@ flutter:
   uses-material-design: true
   assets:
     - assets/model/best_float32.tflite
+    - assets/model/MiDaS-LICENSE.txt
+    - assets/model/midas_small.tflite
     - assets/model/model_metadata.json
     - assets/figma/cpu.png
     - assets/figma/volume.png

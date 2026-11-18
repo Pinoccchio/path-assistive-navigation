@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'path_page.dart';
+import 'hazard_history.dart';
 import 'session_view.dart';
 
 enum HazardSeverity { danger, caution, safe }
@@ -505,4 +507,177 @@ class _HazardCard extends StatelessWidget {
       ),
     );
   }
+}
+
+class RecordedHazardLog extends StatefulWidget {
+  const RecordedHazardLog({super.key, required this.history});
+  final HazardHistory history;
+  @override
+  State<RecordedHazardLog> createState() => _RecordedHazardLogState();
+}
+
+class _RecordedHazardLogState extends State<RecordedHazardLog> {
+  late Future<List<HazardEvent>> rows = widget.history.read();
+  bool busy = false;
+  Future<void> _export(List<HazardEvent> events) async {
+    if (busy || events.isEmpty) return;
+    setState(() => busy = true);
+    try {
+      final stamp = DateTime.now().toUtc().toIso8601String().replaceAll(
+        ':',
+        '-',
+      );
+      final saved = await const MethodChannel('path/hazard_export')
+          .invokeMethod<bool>('saveCsv', {
+            'name': 'PATH-hazard-log-$stamp.csv',
+            'csv': hazardHistoryCsv(events),
+          });
+      if (mounted && saved == true) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Exported ${events.length} alerts to CSV.')),
+        );
+      }
+    } on MissingPluginException {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text(
+              'Update the PATH Android build to enable CSV export.',
+            ),
+          ),
+        );
+      }
+    } catch (_) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('Could not export CSV. Try another destination.'),
+          ),
+        );
+      }
+    } finally {
+      if (mounted) setState(() => busy = false);
+    }
+  }
+
+  Future<void> _edit({List<String>? restore}) async {
+    if (busy) return;
+    setState(() => busy = true);
+    try {
+      if (restore != null) {
+        await widget.history.restore(restore);
+      } else {
+        final previous = await widget.history.clear();
+        if (mounted) {
+          ScaffoldMessenger.of(context).clearSnackBars();
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: const Text('Log cleared'),
+              action: SnackBarAction(
+                label: 'Undo',
+                onPressed: () {
+                  if (mounted) _edit(restore: previous);
+                },
+              ),
+            ),
+          );
+        }
+      }
+    } catch (_) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Could not update saved alerts.')),
+        );
+      }
+    } finally {
+      if (mounted) {
+        setState(() {
+          busy = false;
+          rows = widget.history.read();
+        });
+      }
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) => Scaffold(
+    body: SafeArea(
+      child: Column(
+        children: [
+          const Padding(
+            padding: EdgeInsets.all(16),
+            child: PathPageHeader(title: 'Hazard Log'),
+          ),
+          Expanded(
+            child: FutureBuilder<List<HazardEvent>>(
+              future: rows,
+              builder: (context, snapshot) {
+                if (snapshot.hasError) {
+                  return Center(
+                    child: TextButton(
+                      onPressed: () =>
+                          setState(() => rows = widget.history.read()),
+                      child: const Text('Could not read alerts. Retry'),
+                    ),
+                  );
+                }
+                if (!snapshot.hasData) {
+                  return const Center(child: CircularProgressIndicator());
+                }
+                final events = snapshot.data!;
+                if (events.isEmpty) {
+                  return const Center(child: Text('No saved alerts yet.'));
+                }
+                return ListView.builder(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  itemCount: events.length + 1,
+                  itemBuilder: (context, i) {
+                    if (i == 0) {
+                      return Wrap(
+                        alignment: WrapAlignment.spaceBetween,
+                        crossAxisAlignment: WrapCrossAlignment.center,
+                        children: [
+                          Text('${events.length} saved alerts'),
+                          TextButton.icon(
+                            onPressed: busy ? null : () => _export(events),
+                            icon: const Icon(Icons.file_download_outlined),
+                            label: const Text('Export CSV'),
+                          ),
+                          TextButton(
+                            onPressed: busy ? null : () => _edit(),
+                            child: const Text('Clear log'),
+                          ),
+                        ],
+                      );
+                    }
+                    final event = events[i - 1],
+                        at = events[i - 1].at.toLocal();
+                    final locale = MaterialLocalizations.of(context);
+                    final stamp =
+                        '${locale.formatMediumDate(at)}, ${at.year}  ${at.hour.toString().padLeft(2, '0')}:${at.minute.toString().padLeft(2, '0')}:${at.second.toString().padLeft(2, '0')}';
+                    return Card(
+                      child: Padding(
+                        padding: const EdgeInsets.all(16),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              '${event.mode} - ${event.severity}',
+                              style: Theme.of(context).textTheme.titleMedium,
+                            ),
+                            Text('${event.object}, ${event.direction}'),
+                            Text(stamp),
+                          ],
+                        ),
+                      ),
+                    );
+                  },
+                );
+              },
+            ),
+          ),
+        ],
+      ),
+    ),
+  );
 }

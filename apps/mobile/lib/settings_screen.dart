@@ -143,7 +143,37 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         : null,
                   ),
                   SizedBox(height: sectionGap),
-                  const _Heading('Hazard alerts'),
+                  Wrap(
+                    alignment: WrapAlignment.spaceBetween,
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    children: [
+                      const _Heading('Hazard alerts'),
+                      PopupMenuButton<String>(
+                        tooltip: 'Choose live alert mode',
+                        enabled: preferences.ready,
+                        initialValue: preferences.liveRulePreview
+                            ? 'test'
+                            : 'live',
+                        onSelected: (mode) =>
+                            preferences.update(liveRulePreview: mode == 'test'),
+                        itemBuilder: (_) => const [
+                          PopupMenuItem(value: 'live', child: Text('Live')),
+                          PopupMenuItem(value: 'test', child: Text('Test')),
+                        ],
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 8,
+                            vertical: 4,
+                          ),
+                          child: Text(
+                            preferences.liveRulePreview
+                                ? 'Mode: Test'
+                                : 'Mode: Live',
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                   SizedBox(height: sectionGap),
                   _HazardSwitch(
                     label: 'Stairs',

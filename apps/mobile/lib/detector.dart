@@ -1,5 +1,7 @@
 import 'dart:math' as math;
 
+import 'depth_preview.dart';
+
 import 'package:camera/camera.dart';
 import 'package:flutter/foundation.dart';
 import 'package:tflite_flutter/tflite_flutter.dart';
@@ -16,7 +18,14 @@ const classNames = [
 ];
 
 class Detection {
-  const Detection(this.label, this.score, this.direction, this.box);
+  const Detection(
+    this.label,
+    this.score,
+    this.direction,
+    this.box, {
+    this.closer = false,
+  });
+  final bool closer;
   final String label;
   final double score;
   final String direction;
@@ -24,13 +33,23 @@ class Detection {
 }
 
 class DetectionResult {
-  const DetectionResult(this.detections, this.elapsedMs);
+  const DetectionResult(
+    this.detections,
+    this.elapsedMs, {
+    this.depth,
+    this.totalMs,
+    this.frameRgb,
+  });
   final List<Detection> detections;
   final int elapsedMs;
+  final DepthMap? depth;
+  final int? totalMs;
+  final Float32List? frameRgb;
 }
 
 class Detector {
-  Detector._(this._interpreter, this._worker);
+  Detector._(this._interpreter, this._worker, this._depth);
+  final DepthPreviewModel? _depth;
   final Interpreter _interpreter;
   final IsolateInterpreter _worker;
 
@@ -49,7 +68,14 @@ class Detector {
     final worker = await IsolateInterpreter.create(
       address: interpreter.address,
     );
-    return Detector._(interpreter, worker);
+    try {
+      final depth = depthPreviewEnabled ? await DepthPreviewModel.load() : null;
+      return Detector._(interpreter, worker, depth);
+    } catch (_) {
+      await worker.close();
+      interpreter.close();
+      rethrow;
+    }
   }
 
   Future<DetectionResult> detect(CameraImage frame, int sensorRotation) async {
@@ -79,11 +105,37 @@ class Detector {
       frame.height,
       sensorRotation,
     );
-    timer.stop();
-    return DetectionResult(detections, timer.elapsedMilliseconds);
+    final detectorMs = timer.elapsedMilliseconds;
+    final rotated = sensorRotation % 180 != 0;
+    final depth = await _depth?.estimate(
+      input,
+      rotated ? frame.height : frame.width,
+      rotated ? frame.width : frame.height,
+    );
+    final closer = depth?.closerBox([
+      for (final detection in detections) detection.box,
+    ]);
+    if (closer != null) {
+      final d = detections[closer];
+      detections[closer] = Detection(
+        d.label,
+        d.score,
+        d.direction,
+        d.box,
+        closer: true,
+      );
+    }
+    return DetectionResult(
+      detections,
+      detectorMs,
+      depth: depth,
+      frameRgb: depth == null ? null : input,
+      totalMs: timer.elapsedMilliseconds,
+    );
   }
 
   Future<void> close() async {
+    await _depth?.close();
     await _worker.close();
     _interpreter.close();
   }

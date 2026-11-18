@@ -37,12 +37,14 @@ class SessionView extends StatelessWidget {
     required this.phase,
     required this.onToggle,
     this.preview,
+    this.researchPanel,
     this.detections = const [],
     this.processedFrames = 0,
     this.elapsedMs,
     this.error,
     this.onOpenSettings,
     this.onOpenLog,
+    this.onDangerDemo,
     this.voiceStatus,
     this.audioMuted = false,
     this.onToggleAudio,
@@ -57,6 +59,7 @@ class SessionView extends StatelessWidget {
   final SessionPhase phase;
   final VoidCallback onToggle;
   final Widget? preview;
+  final Widget? researchPanel;
   final List<Detection> detections;
   final int processedFrames;
   final int? elapsedMs;
@@ -67,6 +70,7 @@ class SessionView extends StatelessWidget {
   final VoidCallback? onToggleHaptics;
   final VoidCallback? onOpenSettings,
       onOpenLog,
+      onDangerDemo,
       onToggleAudio,
       onRepeat,
       onDescribeScene,
@@ -92,6 +96,7 @@ class SessionView extends StatelessWidget {
             phase: phase,
             onOpenSettings: onOpenSettings,
             onOpenLog: onOpenLog,
+            onDangerDemo: onDangerDemo,
             onDescribeScene: onDescribeScene,
             expandedText: expandedText,
             hapticsOn: hapticsOn,
@@ -133,6 +138,7 @@ class SessionView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   header,
+                  if (researchPanel != null) researchPanel!,
                   const SizedBox(height: 12),
                   SizedBox(
                     height: (constraints.maxHeight * .55).clamp(280.0, 600.0),
@@ -155,6 +161,7 @@ class SessionView extends StatelessWidget {
               children: [
                 header,
                 const SizedBox(height: 8),
+                if (researchPanel != null) researchPanel!,
                 Expanded(child: camera),
                 if (problem != null) ...[
                   const SizedBox(height: 8),
@@ -244,7 +251,10 @@ class _CameraPanel extends StatelessWidget {
               left: 12,
               right: 12,
               bottom: 12,
-              child: _SpokenStrip(text: voiceStatus!),
+              child: _SpokenStrip(
+                text: voiceStatus!,
+                live: phase == SessionPhase.live,
+              ),
             ),
         ],
       ),
@@ -253,7 +263,12 @@ class _CameraPanel extends StatelessWidget {
 }
 
 class _SpokenStrip extends StatelessWidget {
-  const _SpokenStrip({required this.text, this.expanded = false});
+  const _SpokenStrip({
+    required this.text,
+    this.expanded = false,
+    this.live = false,
+  });
+  final bool live;
   final String text;
   final bool expanded;
   @override
@@ -276,7 +291,7 @@ class _SpokenStrip extends StatelessWidget {
                 isMessage ? 'Last spoken' : 'Feedback',
                 style: const TextStyle(fontSize: 12, color: Color(0xFFCCCCCC)),
               ),
-              const SizedBox(height: 2),
+              SizedBox(height: live || expanded ? 8 : 2),
               Text(
                 message,
                 maxLines: expanded ? null : 2,
@@ -469,6 +484,7 @@ class _PathHeader extends StatelessWidget {
     required this.expandedText,
     this.onOpenSettings,
     this.onOpenLog,
+    this.onDangerDemo,
     this.onDescribeScene,
     this.hapticsOn = false,
     this.hapticStatus,
@@ -479,7 +495,7 @@ class _PathHeader extends StatelessWidget {
   final bool hapticsOn;
   final String? hapticStatus;
   final VoidCallback? onToggleHaptics;
-  final VoidCallback? onOpenSettings, onOpenLog, onDescribeScene;
+  final VoidCallback? onOpenSettings, onOpenLog, onDangerDemo, onDescribeScene;
   @override
   Widget build(BuildContext context) {
     final active = phase == SessionPhase.live;
@@ -535,6 +551,7 @@ class _PathHeader extends StatelessWidget {
                 icon: const Icon(Icons.more_vert, color: Colors.white),
                 onSelected: (value) {
                   if (value == 'settings') onOpenSettings?.call();
+                  if (value == 'dangerDemo') onDangerDemo?.call();
                   if (value == 'log') onOpenLog?.call();
                   if (value == 'describe') onDescribeScene?.call();
                   if (value == 'haptics') onToggleHaptics?.call();
@@ -546,11 +563,16 @@ class _PathHeader extends StatelessWidget {
                       value: 'settings',
                       child: Text('Settings & Accessibility'),
                     ),
+                  if (onDangerDemo != null)
+                    const PopupMenuItem(
+                      value: 'dangerDemo',
+                      child: Text('Zone test'),
+                    ),
                   if (onOpenLog != null)
                     const PopupMenuItem(
                       height: 64,
                       value: 'log',
-                      child: Text('Hazard Log & GPS'),
+                      child: Text('Hazard Log'),
                     ),
                   PopupMenuItem(
                     height: 64,

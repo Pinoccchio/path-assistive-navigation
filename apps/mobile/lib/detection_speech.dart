@@ -39,6 +39,8 @@ class DetectionSpeech extends ChangeNotifier {
   String? error, lastMessage;
   DateTime? _lastFinished, _frameTime;
   List<Detection> _stable = const [];
+  List<Detection> _visible = const [];
+  String? _announcedComparison;
   bool _hasUnconfirmed = false;
   Map<SceneKey, int> _announced = {};
   String? _descriptionSignature;
@@ -73,8 +75,37 @@ class DetectionSpeech extends ChangeNotifier {
   /// Callback time before inference, using the same monotonic clock as speech.
   /// This is not the sensor exposure timestamp.
   DateTime markFrameReceived() => _now();
-  List<SceneGroup> get _groups => groupScene(_stable.where(_enabled));
+  List<SceneGroup> get _groups =>
+      groupScene((_closerPhrase == null ? _stable : _visible).where(_enabled));
   String get _signature => sceneSignature(_groups, preferences.direction);
+
+  String? get _closerPhrase {
+    final objects = _visible.where(_enabled).toList();
+    if (objects.length < 2) return null;
+    final winner = objects.where((d) => d.closer).singleOrNull;
+    if (winner == null) return null;
+    final same = objects
+        .where(
+          (d) => d.label == winner.label && d.direction == winner.direction,
+        )
+        .length;
+    final subject = same > 1 ? 'One' : 'The';
+    final location = preferences.direction == DirectionFormat.clockHand
+        ? switch (winner.direction) {
+            'left' => "at 10 o'clock",
+            'right' => "at 2 o'clock",
+            _ => "at 12 o'clock",
+          }
+        : switch (winner.direction) {
+            'left' => 'on the left',
+            'right' => 'on the right',
+            _ => 'ahead',
+          };
+    if (winner.label == 'stairs') {
+      return '$subject set of stairs $location appears closer.';
+    }
+    return '$subject ${winner.label} $location appears closer.';
+  }
 
   Future<void> start() async {
     ++_generation;
@@ -125,6 +156,8 @@ class DetectionSpeech extends ChangeNotifier {
     }
     _frameTime = received;
     if (now.difference(received) > freshness) {
+      _visible = const [];
+      _announcedComparison = null;
       _tracker.reset();
       _stable = const [];
       _announced = {};
@@ -132,6 +165,9 @@ class DetectionSpeech extends ChangeNotifier {
       _notify();
       return;
     }
+    _visible = detections.where(validSceneDetection).toList();
+    final comparison = _closerPhrase;
+    if (comparison == null) _announcedComparison = null;
     _stable = _tracker.update(detections, received);
     _hasUnconfirmed =
         detections.any((d) => validSceneDetection(d) && _enabled(d)) &&
@@ -153,12 +189,25 @@ class DetectionSpeech extends ChangeNotifier {
         .where((g) => _announced[g.key] != g.count)
         .take(2)
         .toList();
-    if (changed.isEmpty) return;
-    final message = changed
+    final newComparison =
+        comparison != null && comparison != _announcedComparison;
+    if (changed.isEmpty && !newComparison) return;
+    final directions = changed
         .map((g) => g.phrase(preferences.direction))
         .join(' ');
     // Handle the whole snapshot rather than queueing omitted groups.
-    await _say(message, scene: signature, onIssued: () => _announced = present);
+    await _say(
+      [
+        if (directions.isNotEmpty) directions,
+        if (newComparison) comparison,
+      ].join(' '),
+      scene: signature,
+      stillCurrent: () => _closerPhrase == comparison,
+      onIssued: () {
+        _announced = present;
+        _announcedComparison = comparison;
+      },
+    );
   }
 
   Future<void> describeScene() async {
@@ -205,15 +254,32 @@ class DetectionSpeech extends ChangeNotifier {
       ),
     );
     final page = groups.skip(_descriptionOffset).take(3).toList();
+    final comparison = _closerPhrase;
+    final includeComparison = _descriptionOffset == 0 && comparison != null;
+    var summary = page.map((g) => g.phrase(preferences.direction)).join(' ');
+    if (includeComparison &&
+        groups.length == 2 &&
+        groups.every(
+          (g) => g.key.label == groups.first.key.label && g.count == 1,
+        )) {
+      final plural = switch (groups.first.key.label) {
+        'person' => 'people',
+        'stairs' => 'sets of stairs',
+        final label => '${label}s',
+      };
+      summary = 'Two $plural.';
+    }
     final next = _descriptionOffset + page.length;
     final remaining = groups.skip(next).fold(0, (count, g) => count + g.count);
     final message =
-        '$prefix${page.map((g) => g.phrase(preferences.direction)).join(' ')}'
+        '$prefix$summary${includeComparison ? ' $comparison' : ''}'
         '${remaining > 0 ? ' $remaining more ${remaining == 1 ? 'object' : 'objects'}. More details available.' : ''}';
     await _say(
       message,
       scene: signature,
+      stillCurrent: () => comparison == _closerPhrase,
       onIssued: () {
+        if (includeComparison) _announcedComparison = comparison;
         _descriptionOffset = next;
         _descriptionTotal = groups.length;
         _descriptionSignature = signature;
@@ -232,6 +298,7 @@ class DetectionSpeech extends ChangeNotifier {
     String message, {
     String? scene,
     VoidCallback? onIssued,
+    bool Function()? stillCurrent,
     bool remember = true,
   }) async {
     final generation = _generation;
@@ -241,6 +308,7 @@ class DetectionSpeech extends ChangeNotifier {
       await _output.setRate(preferences.speechRate);
       if (!_valid(generation) || muted || !voiceEnabled) return;
       if (scene != null && (!_fresh || scene != _signature)) return;
+      if (stillCurrent != null && !stillCurrent()) return;
       if (remember) lastMessage = message;
       error = null;
       onIssued?.call();
@@ -258,6 +326,11 @@ class DetectionSpeech extends ChangeNotifier {
         _notify();
       }
     }
+  }
+
+  Future<void> interruptForPriority() async {
+    _clearScene();
+    await _cancelPlayback();
   }
 
   Future<void> toggleMute() async {
@@ -294,6 +367,8 @@ class DetectionSpeech extends ChangeNotifier {
   void _clearScene() {
     _tracker.reset();
     _stable = const [];
+    _visible = const [];
+    _announcedComparison = null;
     _frameTime = null;
     _announced = {};
     lastMessage = null;

@@ -75,6 +75,10 @@ class TemporalSceneTracker {
             t.detection.score,
             t.direction,
             List.unmodifiable(t.detection.box),
+            closer:
+                t.misses == 0 &&
+                t.direction == t.detection.direction &&
+                t.detection.closer,
           ),
     ];
   }

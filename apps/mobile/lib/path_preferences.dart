@@ -22,6 +22,7 @@ class PathPreferences extends ChangeNotifier {
   bool vehicles = true;
   bool pedestrians = true;
   bool hapticsEnabled = true;
+  bool liveRulePreview = false;
   bool ready = false;
   String? error;
   bool _disposed = false;
@@ -52,6 +53,7 @@ class PathPreferences extends ChangeNotifier {
         pedestrians = data['pedestrians'] is bool
             ? data['pedestrians'] as bool
             : true;
+        liveRulePreview = data['liveRulePreview'] == true;
         hapticsEnabled = data['hapticsEnabled'] is bool
             ? data['hapticsEnabled'] as bool
             : true;
@@ -74,6 +76,7 @@ class PathPreferences extends ChangeNotifier {
     bool? vehicles,
     bool? pedestrians,
     bool? hapticsEnabled,
+    bool? liveRulePreview,
   }) {
     if (!ready) return;
     this.delivery = delivery ?? this.delivery;
@@ -83,6 +86,7 @@ class PathPreferences extends ChangeNotifier {
     this.stairs = stairs ?? this.stairs;
     this.vehicles = vehicles ?? this.vehicles;
     this.pedestrians = pedestrians ?? this.pedestrians;
+    this.liveRulePreview = liveRulePreview ?? this.liveRulePreview;
     this.hapticsEnabled = hapticsEnabled ?? this.hapticsEnabled;
     _notify();
     save();
@@ -90,6 +94,7 @@ class PathPreferences extends ChangeNotifier {
 
   Future<void> save() {
     final snapshot = jsonEncode({
+      'liveRulePreview': liveRulePreview,
       'delivery': delivery.name,
       'direction': direction.name,
       'speechRate': speechRate,
@@ -122,6 +127,7 @@ class PathPreferences extends ChangeNotifier {
       cooldown = 1;
       stairs = vehicles = pedestrians = true;
       hapticsEnabled = true;
+      liveRulePreview = false;
       ready = true;
       _notify();
       await save();

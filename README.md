@@ -1,5 +1,7 @@
 # path-assistive-navigation
 
+[PATH quick guide: Test, Live, calibration, export, and progress](docs/05_Product/PATH_QUICK_GUIDE.md)
+
 **PATH** is the Group 8 assistive-navigation thesis monorepo. It keeps the Flutter Android app, ML tooling, research notebooks, thesis documents, experiment reports, QA evidence, and development skills together in one repository.
 
 The current manuscript title is **Development of a Mobile Assistive Navigation Prototype for Visually Impaired Users**. Start with [TEAM_START_HERE.md](TEAM_START_HERE.md) for the research journey and [apps/mobile/README.md](apps/mobile/README.md) for the app.

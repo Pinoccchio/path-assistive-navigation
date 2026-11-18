@@ -452,7 +452,7 @@ void main() {
     );
     await tester.pumpAndSettle();
     await capture(tester, 'hud-navigation');
-    for (final item in ['Settings & Accessibility', 'Hazard Log & GPS']) {
+    for (final item in ['Settings & Accessibility', 'Hazard Log']) {
       await tester.tap(find.byTooltip('Open navigation menu'));
       await tester.pumpAndSettle();
       await tester.tap(find.text(item));
